@@ -3,9 +3,8 @@
 <div>
 	<?php echo $content; ?>
 </div>
-
 <div>
-<?php
+	<?php
 		$this->beginWidget('zii.widgets.CPortlet', array(
 			'title'=>'Operations',
 		));

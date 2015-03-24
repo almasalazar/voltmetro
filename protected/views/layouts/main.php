@@ -20,16 +20,13 @@
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
-
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <script src="<?php echo Yii::app()->request->baseUrl; ?>/js/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="<?php echo Yii::app()->request->baseUrl; ?>/js/bootstrap.min.js"></script>
-
     <script src="<?php echo Yii::app()->request->baseUrl; ?>/js/docs.min.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="<?php echo Yii::app()->request->baseUrl; ?>/js/ie10-viewport-bug-workaround.js"></script>
-
 
 	<title><?php echo CHtml::encode($this->pageTitle); ?></title>
 </head>	
@@ -60,7 +57,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">Project name</a>
+          <a class="navbar-brand" href="#">VoltmetroWeb Zona Celaya</a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav navbar-right">
@@ -71,7 +68,7 @@
           <?php endif;?>
           </ul>
           <form class="navbar-form navbar-right">
-            <input type="text" class="form-control" placeholder="Search...">
+            <input type="text" class="form-control" placeholder="Buscar por No. de Serie">
           </form>
         </div>
       </div>
@@ -85,6 +82,7 @@
                       <li><a href="?r=persona/admin"><span class="glyphicon glyphicon-user"></span>   Personas </a></li>
                       <li><a href="?r=aparato/admin"><span class="glyphicon glyphicon-phone"></span>   Aparatos</a></li>
                       <li><a href="?r=area/admin"><span class="glyphicon glyphicon-list-alt"></span>   Areas</a></li>
+                      <li><a href=""><span class="glyphicon glyphicon-time"></span>  Proximos a Calibrar</a></li>
                       </ul>         
                   </div>
        <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">

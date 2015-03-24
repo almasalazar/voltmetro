@@ -29,7 +29,6 @@ $('.search-form form').submit(function(){
 <h1>Aparatos</h1>
 
 <div class="row">
-	<div class="col-md-7">
 
 <?php $this->widget('zii.widgets.grid.CGridView', array(
 	'id'=>'aparato-grid',
@@ -54,16 +53,6 @@ $('.search-form form').submit(function(){
 			),
 		),
 )); ?>
-	</div>
 
-<div class="col-md-5">
-	<div class="panel panel-success">
-			<div class="panel panel-heading">
-				<h3 class="panel-title">Nuevo Voltmetro</h3>
-			</div>
-			<div class="panel-body">
-				<?php echo $this->renderPartial('_form', array('model'=>$model)); ?>
-			</div>
-		</div>
-	</div>
+
 </div>

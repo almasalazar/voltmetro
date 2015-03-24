@@ -7,12 +7,20 @@ $this->breadcrumbs=array(
 	'Create',
 );
 
-$this->menu=array(
+/*$this->menu=array(
 	array('label'=>'List Aparato', 'url'=>array('index')),
 	array('label'=>'Manage Aparato', 'url'=>array('admin')),
-);
+);*/
 ?>
 
-<h1>Create Aparato</h1>
+<div class="col-md-9" >
+	<div class="panel panel-success">
+			<div class="panel panel-heading">
+				<h3 class="panel-title">Agregar Aparato</h3>
+			</div>
+			<div class="panel-body">
+		<?php echo $this->renderPartial('_form', array('model'=>$model)); ?>	
 
-<?php echo $this->renderPartial('_form', array('model'=>$model)); ?>
+		</div>
+	</div>
+</div>

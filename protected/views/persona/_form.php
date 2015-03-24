@@ -16,19 +16,19 @@
 	<?php echo $form->errorSummary($model); ?>
 
 	<div class="form-group">
-		<?php echo $form->labelEx($model,'rpe'); ?>
+		<?php echo $form->labelEx($model,'rpe*'); ?>
 		<?php echo $form->textField($model,'rpe',array('size'=>60,'maxlength'=>100,'class'=>'form-control')); ?>
 		<?php echo $form->error($model,'rpe'); ?>
 	</div>
 
 	<div class="form-group">
-		<?php echo $form->labelEx($model,'nombre'); ?>
+		<?php echo $form->labelEx($model,'nombre Completo*'); ?>
 		<?php echo $form->textField($model,'nombre',array('size'=>60,'maxlength'=>150,'class'=>'form-control')); ?>
 		<?php echo $form->error($model,'nombre'); ?>
 	</div>
 
 	<div class="form-group">
-		<?php echo $form->labelEx($model,'correo'); ?>
+		<?php echo $form->labelEx($model,'correo*'); ?>
 		<?php echo $form->textField($model,'correo',array('size'=>60,'maxlength'=>100,'class'=>'form-control')); ?>
 		<?php echo $form->error($model,'correo'); ?>
 	</div>
@@ -40,21 +40,19 @@
 	</div>
 
 	<div class="form-group">
-		<?php echo $form->labelEx($model,'Puesto'); ?>
-		<?php echo $form->dropDownList($model,'es_jefe', array('empty'=>'Selecciona el puesto de la persona', '1'=>'Jefe de Area','2'=>'Trabajador'), array('class'=>'form-control')); ?>
-
-		
+		<?php echo $form->labelEx($model,'Puesto *'); ?>
+		<?php echo $form->dropDownList($model,'es_jefe', array('empty'=>'Selecciona el puesto de la persona', '1'=>'Jefe de Area','2'=>'Trabajador'), array('class'=>'form-control')); ?>	
 		<?php echo $form->error($model,'es_jefe'); ?>
 	</div>
 
 	<div class="form-group">
-		<?php echo $form->labelEx($model,'rpe_jefe'); ?>
+		<?php echo $form->labelEx($model,'Rpe del Jefe *'); ?>
 		<?php echo $form->textField($model,'rpe_jefe',array('size'=>60,'maxlength'=>100,'class'=>'form-control')); ?>
 		<?php echo $form->error($model,'rpe_jefe'); ?>
 	</div>
 
 	<div class="form-group">
-		<?php echo $form->labelEx($model,'id_area'); ?>
+		<?php echo $form->labelEx($model,'Area Asignada *'); ?>
 		<?php echo $form->dropDownList($model,'id_area',
 		CHtml::listData(Area::model()->findAll(),'id_area','tipo','nombre'),
 		array('empty'=>'Selecciona el area',
@@ -62,8 +60,8 @@
 		<?php echo $form->error($model,'id_area'); ?>
 	</div>
 
-	<div class="row buttons">
-		<?php echo CHtml::submitButton($model->isNewRecord ? 'Create' : 'Save',array("class"=>"btn btn-success btn-large" )); ?>
+	<div class="row buttons" align="center">
+		<?php echo CHtml::submitButton($model->isNewRecord ? 'Guardar' : 'Save',array("class"=>"btn btn-success btn-large" )); ?>
 	</div>
 
 <?php $this->endWidget(); ?>
