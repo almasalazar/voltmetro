@@ -9,6 +9,7 @@
 <?php $form=$this->beginWidget('CActiveForm', array(
 	'id'=>'aparato-form',
 	'enableAjaxValidation'=>false,
+	'htmlOptions' => array('enctype' => 'multipart/form-data'),//NO TE OLVIDES DE ASIGNAR ESTO
 )); ?>
 
 	<p class="note">Los Campos con <span class="required">*</span> son requeridos</p>
@@ -51,8 +52,7 @@
 				array('model'=>$model, 
 					'attribute'=>'ultima_calib',
 					'language'=>'es', 
-					#'date_format(YY-MM-DD)',
-					'options'=>array('showAnim'=>'slide'),
+					'options'=>array('showAnim'=>'fold','dateFormat'=>'yy-mm-dd'),
 					'htmlOptions'=>array('class'=>'form-control')),
 				true);
 		?>
@@ -65,7 +65,7 @@
 				array('model'=>$model, 
 					'attribute'=>'prox_calib',
 					'language'=>'es', 
-					'options'=>array('showAnim'=>'fold'),
+					'options'=>array('showAnim'=>'fold','dateFormat'=>'yy-mm-dd'),
 					'htmlOptions'=>array('class'=>'form-control')),
 				true);
 		?>
@@ -79,11 +79,21 @@
 		<?php echo $form->error($model,'observaciones'); ?>
 	</div>
 
-	<div class="form-group">
-		<?php echo $form->labelEx($model,'Subir archivo'); ?>
-		<?php echo CHtml::activeFileField($model,'archivo'); ?>
-		<?php echo $form->error($model,'archivo'); ?>
-	</div>
+	
+
+	<?php //echo $form->textFieldRow($model,'fotoprincipal',array('class'=>'span5','maxlength'=>15)); ?>
+    <?php 
+        echo $form->labelEx($model, 'archivo');
+        echo $form->fileField($model, 'archivo');
+        echo $form->error($model, 'archivo');
+    ?>
+ 
+    <?php if(!$model->isNewRecord){ //mostramos la imagen?>
+    <div class="container">
+            <?php //echo CHtml::image(Yii::app()->params['file_tours'].$model->fotoprincipal,"fotoprincipal",array("width"=>200, 'title'=>$model->fotoprincipal)); ?>
+            <?php echo CHtml::image('../../img/respaldos'.$model->archivo,"archivo",array("width"=>200, 'title'=>$model->archivo)); ?>
+    </div>
+    <?php } ?>
 
 	<div class="form-group">
 		<?php echo $form->labelEx($model,'rpe *'); ?>

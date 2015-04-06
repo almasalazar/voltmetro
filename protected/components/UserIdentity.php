@@ -25,10 +25,9 @@ class UserIdentity extends CUserIdentity
 		elseif(md5($this->password)!==$user->password)
 			$this->errorCode=self::ERROR_PASSWORD_INVALID;
 		else
-		{
-
-			$this->errorCode=self::ERROR_NONE;
-		}
+			{
+				$this->errorCode=self::ERROR_NONE;
+			}
 					
 		return !$this->errorCode;
 	}

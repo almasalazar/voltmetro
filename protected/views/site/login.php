@@ -9,9 +9,9 @@ $this->breadcrumbs=array(
 );
 ?>
 
-<h1>Login</h1>
+<h1>Entrar al voltmetroWeb</h1>
 
-<p>Please fill out the following form with your login credentials:</p>
+<p>Por favor introduce tu rpe y contraseña</p>
 
 <div class="form">
 <?php $form=$this->beginWidget('CActiveForm', array(
@@ -25,7 +25,7 @@ $this->breadcrumbs=array(
 	<p class="note">Campos requeridos<span class="required">*</span></p>
 
 	<div class="form-group">
-		<?php echo $form->labelEx($model,'username'); ?>
+		<?php echo $form->labelEx($model,'rpe*'); ?>
 		<?php echo $form->textField($model,'username'); ?>
 		<?php echo $form->error($model,'username'); ?>
 	</div>
@@ -46,5 +46,10 @@ $this->breadcrumbs=array(
 		<?php echo CHtml::submitButton('Login',array("class"=>"btn btn-success btn-large" )); ?>
 	</div>
 
+	 <a href="<?php echo Yii::app()->createUrl('site/recuperarpassword'); ?> "> 
+ 		Recuperar password
+ 	</a>
+
 <?php $this->endWidget(); ?>
 </div><!-- form -->
+ 

@@ -5667,3 +5667,1105 @@ Stack trace:
 REQUEST_URI=/voltmetro/index.php?r=aparato/delete&id=47130168
 HTTP_REFERER=http://localhost/voltmetro/index.php?r=aparato/admin
 ---
+2015/03/25 19:45:07 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Su solicitud es inválida.' in C:\Yii\framework\web\CController.php:1118
+Stack trace:
+#0 C:\Yii\framework\web\filters\CInlineFilter.php(58): CController->filterPostOnly(Object(CFilterChain))
+#1 C:\Yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#2 C:\Yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 C:\Yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 C:\Yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 C:\Yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 C:\Yii\framework\web\CController.php(291): CFilterChain->run()
+#7 C:\Yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\Yii\framework\web\CWebApplication.php(282): CController->run('delete')
+#9 C:\Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('aparato/delete')
+#10 C:\Yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\voltmetro\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/voltmetro/index.php?r=aparato/delete&id=1
+HTTP_REFERER=http://localhost/voltmetro/index.php?r=aparato/admin
+---
+2015/03/25 19:45:13 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Su solicitud es inválida.' in C:\Yii\framework\web\CController.php:1118
+Stack trace:
+#0 C:\Yii\framework\web\filters\CInlineFilter.php(58): CController->filterPostOnly(Object(CFilterChain))
+#1 C:\Yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#2 C:\Yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 C:\Yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 C:\Yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 C:\Yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 C:\Yii\framework\web\CController.php(291): CFilterChain->run()
+#7 C:\Yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\Yii\framework\web\CWebApplication.php(282): CController->run('delete')
+#9 C:\Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('aparato/delete')
+#10 C:\Yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\voltmetro\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/voltmetro/index.php?r=aparato/delete&id=1
+HTTP_REFERER=http://localhost/voltmetro/index.php?r=aparato/admin
+---
+2015/03/25 19:45:21 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Su solicitud es inválida.' in C:\Yii\framework\web\CController.php:1118
+Stack trace:
+#0 C:\Yii\framework\web\filters\CInlineFilter.php(58): CController->filterPostOnly(Object(CFilterChain))
+#1 C:\Yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#2 C:\Yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 C:\Yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 C:\Yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 C:\Yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 C:\Yii\framework\web\CController.php(291): CFilterChain->run()
+#7 C:\Yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\Yii\framework\web\CWebApplication.php(282): CController->run('delete')
+#9 C:\Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('aparato/delete')
+#10 C:\Yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\voltmetro\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/voltmetro/index.php?r=aparato/delete&id=1
+HTTP_REFERER=http://localhost/voltmetro/index.php?r=aparato/admin
+---
+2015/03/25 19:45:34 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Su solicitud es inválida.' in C:\Yii\framework\web\CController.php:1118
+Stack trace:
+#0 C:\Yii\framework\web\filters\CInlineFilter.php(58): CController->filterPostOnly(Object(CFilterChain))
+#1 C:\Yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#2 C:\Yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 C:\Yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 C:\Yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 C:\Yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 C:\Yii\framework\web\CController.php(291): CFilterChain->run()
+#7 C:\Yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\Yii\framework\web\CWebApplication.php(282): CController->run('delete')
+#9 C:\Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('aparato/delete')
+#10 C:\Yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\voltmetro\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/voltmetro/index.php?r=aparato/delete&id=1
+HTTP_REFERER=http://localhost/voltmetro/index.php?r=aparato/admin
+---
+2015/03/25 19:45:55 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Su solicitud es inválida.' in C:\Yii\framework\web\CController.php:1118
+Stack trace:
+#0 C:\Yii\framework\web\filters\CInlineFilter.php(58): CController->filterPostOnly(Object(CFilterChain))
+#1 C:\Yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#2 C:\Yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 C:\Yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 C:\Yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 C:\Yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 C:\Yii\framework\web\CController.php(291): CFilterChain->run()
+#7 C:\Yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\Yii\framework\web\CWebApplication.php(282): CController->run('delete')
+#9 C:\Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('aparato/delete')
+#10 C:\Yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\voltmetro\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/voltmetro/index.php?r=aparato/delete&id=1
+HTTP_REFERER=http://localhost/voltmetro/index.php?r=aparato/admin
+---
+2015/03/25 19:45:58 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Su solicitud es inválida.' in C:\Yii\framework\web\CController.php:1118
+Stack trace:
+#0 C:\Yii\framework\web\filters\CInlineFilter.php(58): CController->filterPostOnly(Object(CFilterChain))
+#1 C:\Yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#2 C:\Yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 C:\Yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 C:\Yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 C:\Yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 C:\Yii\framework\web\CController.php(291): CFilterChain->run()
+#7 C:\Yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\Yii\framework\web\CWebApplication.php(282): CController->run('delete')
+#9 C:\Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('aparato/delete')
+#10 C:\Yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\voltmetro\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/voltmetro/index.php?r=aparato/delete&id=1
+HTTP_REFERER=http://localhost/voltmetro/index.php?r=aparato/admin
+---
+2015/03/25 19:46:08 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Su solicitud es inválida.' in C:\Yii\framework\web\CController.php:1118
+Stack trace:
+#0 C:\Yii\framework\web\filters\CInlineFilter.php(58): CController->filterPostOnly(Object(CFilterChain))
+#1 C:\Yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#2 C:\Yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 C:\Yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 C:\Yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 C:\Yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 C:\Yii\framework\web\CController.php(291): CFilterChain->run()
+#7 C:\Yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\Yii\framework\web\CWebApplication.php(282): CController->run('delete')
+#9 C:\Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('aparato/delete')
+#10 C:\Yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\voltmetro\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/voltmetro/index.php?r=aparato/delete&id=1
+HTTP_REFERER=http://localhost/voltmetro/index.php?r=aparato/admin
+---
+2015/03/25 19:46:27 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Su solicitud es inválida.' in C:\Yii\framework\web\CController.php:1118
+Stack trace:
+#0 C:\Yii\framework\web\filters\CInlineFilter.php(58): CController->filterPostOnly(Object(CFilterChain))
+#1 C:\Yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#2 C:\Yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 C:\Yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 C:\Yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 C:\Yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 C:\Yii\framework\web\CController.php(291): CFilterChain->run()
+#7 C:\Yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\Yii\framework\web\CWebApplication.php(282): CController->run('delete')
+#9 C:\Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('aparato/delete')
+#10 C:\Yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\voltmetro\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/voltmetro/index.php?r=aparato/delete&id=1
+HTTP_REFERER=http://localhost/voltmetro/index.php?r=aparato/admin
+---
+2015/03/25 20:27:10 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Su solicitud es inválida.' in C:\Yii\framework\web\CController.php:1118
+Stack trace:
+#0 C:\Yii\framework\web\filters\CInlineFilter.php(58): CController->filterPostOnly(Object(CFilterChain))
+#1 C:\Yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#2 C:\Yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 C:\Yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 C:\Yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 C:\Yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 C:\Yii\framework\web\CController.php(291): CFilterChain->run()
+#7 C:\Yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\Yii\framework\web\CWebApplication.php(282): CController->run('delete')
+#9 C:\Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('aparato/delete')
+#10 C:\Yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\voltmetro\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/voltmetro/index.php?r=aparato/delete&id=1
+HTTP_REFERER=http://localhost/voltmetro/index.php?r=site/login
+---
+2015/03/25 20:27:17 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Su solicitud es inválida.' in C:\Yii\framework\web\CController.php:1118
+Stack trace:
+#0 C:\Yii\framework\web\filters\CInlineFilter.php(58): CController->filterPostOnly(Object(CFilterChain))
+#1 C:\Yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#2 C:\Yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 C:\Yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 C:\Yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 C:\Yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 C:\Yii\framework\web\CController.php(291): CFilterChain->run()
+#7 C:\Yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\Yii\framework\web\CWebApplication.php(282): CController->run('delete')
+#9 C:\Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('aparato/delete')
+#10 C:\Yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\voltmetro\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/voltmetro/index.php?r=aparato/delete&id=1
+HTTP_REFERER=http://localhost/voltmetro/index.php?r=aparato/admin
+---
+2015/03/25 20:27:32 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Su solicitud es inválida.' in C:\Yii\framework\web\CController.php:1118
+Stack trace:
+#0 C:\Yii\framework\web\filters\CInlineFilter.php(58): CController->filterPostOnly(Object(CFilterChain))
+#1 C:\Yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#2 C:\Yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 C:\Yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 C:\Yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 C:\Yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 C:\Yii\framework\web\CController.php(291): CFilterChain->run()
+#7 C:\Yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\Yii\framework\web\CWebApplication.php(282): CController->run('delete')
+#9 C:\Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('persona/delete')
+#10 C:\Yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\voltmetro\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/voltmetro/index.php?r=persona/delete&id=9A1EC
+HTTP_REFERER=http://localhost/voltmetro/index.php?r=persona/admin
+---
+2015/03/25 20:28:16 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Su solicitud es inválida.' in C:\Yii\framework\web\CController.php:1118
+Stack trace:
+#0 C:\Yii\framework\web\filters\CInlineFilter.php(58): CController->filterPostOnly(Object(CFilterChain))
+#1 C:\Yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#2 C:\Yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 C:\Yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 C:\Yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 C:\Yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 C:\Yii\framework\web\CController.php(291): CFilterChain->run()
+#7 C:\Yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\Yii\framework\web\CWebApplication.php(282): CController->run('delete')
+#9 C:\Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('aparato/delete')
+#10 C:\Yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\voltmetro\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/voltmetro/index.php?r=aparato/delete&id=1
+HTTP_REFERER=http://localhost/voltmetro/index.php?r=aparato/admin
+---
+2015/03/25 20:29:56 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Su solicitud es inválida.' in C:\Yii\framework\web\CController.php:1118
+Stack trace:
+#0 C:\Yii\framework\web\filters\CInlineFilter.php(58): CController->filterPostOnly(Object(CFilterChain))
+#1 C:\Yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#2 C:\Yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 C:\Yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 C:\Yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 C:\Yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 C:\Yii\framework\web\CController.php(291): CFilterChain->run()
+#7 C:\Yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\Yii\framework\web\CWebApplication.php(282): CController->run('delete')
+#9 C:\Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('persona/delete')
+#10 C:\Yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\voltmetro\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/voltmetro/index.php?r=persona/delete&id=9A1EC
+HTTP_REFERER=http://localhost/voltmetro/index.php?r=persona/admin
+---
+2015/03/25 20:30:02 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Su solicitud es inválida.' in C:\Yii\framework\web\CController.php:1118
+Stack trace:
+#0 C:\Yii\framework\web\filters\CInlineFilter.php(58): CController->filterPostOnly(Object(CFilterChain))
+#1 C:\Yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#2 C:\Yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 C:\Yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 C:\Yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 C:\Yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 C:\Yii\framework\web\CController.php(291): CFilterChain->run()
+#7 C:\Yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\Yii\framework\web\CWebApplication.php(282): CController->run('delete')
+#9 C:\Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('aparato/delete')
+#10 C:\Yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\voltmetro\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/voltmetro/index.php?r=aparato/delete&id=1
+HTTP_REFERER=http://localhost/voltmetro/index.php?r=aparato/admin
+---
+2015/03/25 20:30:55 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Su solicitud es inválida.' in C:\Yii\framework\web\CController.php:1118
+Stack trace:
+#0 C:\Yii\framework\web\filters\CInlineFilter.php(58): CController->filterPostOnly(Object(CFilterChain))
+#1 C:\Yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#2 C:\Yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 C:\Yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 C:\Yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 C:\Yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 C:\Yii\framework\web\CController.php(291): CFilterChain->run()
+#7 C:\Yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\Yii\framework\web\CWebApplication.php(282): CController->run('delete')
+#9 C:\Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('aparato/delete')
+#10 C:\Yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\voltmetro\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/voltmetro/index.php?r=aparato/delete&id=1
+HTTP_REFERER=http://localhost/voltmetro/index.php?r=aparato/admin
+---
+2015/03/25 22:17:28 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Su solicitud es inválida.' in C:\Yii\framework\web\CController.php:1118
+Stack trace:
+#0 C:\Yii\framework\web\filters\CInlineFilter.php(58): CController->filterPostOnly(Object(CFilterChain))
+#1 C:\Yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#2 C:\Yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 C:\Yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 C:\Yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 C:\Yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 C:\Yii\framework\web\CController.php(291): CFilterChain->run()
+#7 C:\Yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\Yii\framework\web\CWebApplication.php(282): CController->run('delete')
+#9 C:\Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('aparato/delete')
+#10 C:\Yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\voltmetro\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/voltmetro/index.php?r=aparato/delete&id=1
+HTTP_REFERER=http://localhost/voltmetro/index.php?r=aparato/admin
+---
+2015/03/25 23:05:24 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Su solicitud es inválida.' in C:\Yii\framework\web\CController.php:1118
+Stack trace:
+#0 C:\Yii\framework\web\filters\CInlineFilter.php(58): CController->filterPostOnly(Object(CFilterChain))
+#1 C:\Yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#2 C:\Yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 C:\Yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 C:\Yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 C:\Yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 C:\Yii\framework\web\CController.php(291): CFilterChain->run()
+#7 C:\Yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\Yii\framework\web\CWebApplication.php(282): CController->run('delete')
+#9 C:\Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('aparato/delete')
+#10 C:\Yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\voltmetro\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/voltmetro/index.php?r=aparato/delete&id=1
+HTTP_REFERER=http://localhost/voltmetro/index.php?r=aparato/admin
+---
+2015/03/27 01:42:04 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Su solicitud es inválida.' in C:\Yii\framework\web\CController.php:1118
+Stack trace:
+#0 C:\Yii\framework\web\filters\CInlineFilter.php(58): CController->filterPostOnly(Object(CFilterChain))
+#1 C:\Yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#2 C:\Yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 C:\Yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 C:\Yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 C:\Yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 C:\Yii\framework\web\CController.php(291): CFilterChain->run()
+#7 C:\Yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\Yii\framework\web\CWebApplication.php(282): CController->run('delete')
+#9 C:\Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('aparato/delete')
+#10 C:\Yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\voltmetro\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/voltmetro/index.php?r=aparato/delete&id=1
+HTTP_REFERER=http://localhost/voltmetro/index.php?r=aparato/admin
+---
+2015/03/27 01:44:07 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Usted no se encuentra autorizado a realizar esta acción.' in C:\Yii\framework\web\auth\CAccessControlFilter.php:179
+Stack trace:
+#0 C:\Yii\framework\web\auth\CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(CWebUser), 'Usted no se enc...')
+#1 C:\Yii\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\Yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\Yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\Yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\Yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\Yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\Yii\framework\web\CWebApplication.php(282): CController->run('create')
+#8 C:\Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('aparato/create')
+#9 C:\Yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\voltmetro\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/voltmetro/index.php?r=aparato/create
+HTTP_REFERER=http://localhost/voltmetro/index.php?r=site/login
+---
+2015/03/27 01:44:11 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Usted no se encuentra autorizado a realizar esta acción.' in C:\Yii\framework\web\auth\CAccessControlFilter.php:179
+Stack trace:
+#0 C:\Yii\framework\web\auth\CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(CWebUser), 'Usted no se enc...')
+#1 C:\Yii\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\Yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\Yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\Yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\Yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\Yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\Yii\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 C:\Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('aparato/admin')
+#9 C:\Yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\voltmetro\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/voltmetro/index.php?r=aparato/admin
+HTTP_REFERER=http://localhost/voltmetro/index.php?r=aparato/create
+---
+2015/03/27 01:44:13 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Usted no se encuentra autorizado a realizar esta acción.' in C:\Yii\framework\web\auth\CAccessControlFilter.php:179
+Stack trace:
+#0 C:\Yii\framework\web\auth\CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(CWebUser), 'Usted no se enc...')
+#1 C:\Yii\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\Yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\Yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\Yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\Yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\Yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\Yii\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 C:\Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('aparato/admin')
+#9 C:\Yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\voltmetro\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/voltmetro/index.php?r=aparato/admin
+HTTP_REFERER=http://localhost/voltmetro/index.php?r=aparato/admin
+---
+2015/03/27 01:44:14 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Usted no se encuentra autorizado a realizar esta acción.' in C:\Yii\framework\web\auth\CAccessControlFilter.php:179
+Stack trace:
+#0 C:\Yii\framework\web\auth\CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(CWebUser), 'Usted no se enc...')
+#1 C:\Yii\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\Yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\Yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\Yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\Yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\Yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\Yii\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 C:\Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('area/admin')
+#9 C:\Yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\voltmetro\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/voltmetro/index.php?r=area/admin
+HTTP_REFERER=http://localhost/voltmetro/index.php?r=aparato/admin
+---
+2015/03/27 01:44:18 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Usted no se encuentra autorizado a realizar esta acción.' in C:\Yii\framework\web\auth\CAccessControlFilter.php:179
+Stack trace:
+#0 C:\Yii\framework\web\auth\CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(CWebUser), 'Usted no se enc...')
+#1 C:\Yii\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\Yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\Yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\Yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\Yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\Yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\Yii\framework\web\CWebApplication.php(282): CController->run('create')
+#8 C:\Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('aparato/create')
+#9 C:\Yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\voltmetro\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/voltmetro/?r=aparato/create
+HTTP_REFERER=http://localhost/voltmetro/
+---
+2015/03/27 01:44:22 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Usted no se encuentra autorizado a realizar esta acción.' in C:\Yii\framework\web\auth\CAccessControlFilter.php:179
+Stack trace:
+#0 C:\Yii\framework\web\auth\CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(CWebUser), 'Usted no se enc...')
+#1 C:\Yii\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\Yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\Yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\Yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\Yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\Yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\Yii\framework\web\CWebApplication.php(282): CController->run('create')
+#8 C:\Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('persona/create')
+#9 C:\Yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\voltmetro\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/voltmetro/?r=persona/create
+HTTP_REFERER=http://localhost/voltmetro/
+---
+2015/03/27 01:44:24 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Usted no se encuentra autorizado a realizar esta acción.' in C:\Yii\framework\web\auth\CAccessControlFilter.php:179
+Stack trace:
+#0 C:\Yii\framework\web\auth\CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(CWebUser), 'Usted no se enc...')
+#1 C:\Yii\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\Yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\Yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\Yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\Yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\Yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\Yii\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 C:\Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('persona/admin')
+#9 C:\Yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\voltmetro\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/voltmetro/?r=persona/admin
+HTTP_REFERER=http://localhost/voltmetro/?r=persona/create
+---
+2015/03/27 01:44:26 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Usted no se encuentra autorizado a realizar esta acción.' in C:\Yii\framework\web\auth\CAccessControlFilter.php:179
+Stack trace:
+#0 C:\Yii\framework\web\auth\CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(CWebUser), 'Usted no se enc...')
+#1 C:\Yii\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\Yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\Yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\Yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\Yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\Yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\Yii\framework\web\CWebApplication.php(282): CController->run('create')
+#8 C:\Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('aparato/create')
+#9 C:\Yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\voltmetro\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/voltmetro/?r=aparato/create
+HTTP_REFERER=http://localhost/voltmetro/?r=persona/admin
+---
+2015/03/27 01:44:30 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Usted no se encuentra autorizado a realizar esta acción.' in C:\Yii\framework\web\auth\CAccessControlFilter.php:179
+Stack trace:
+#0 C:\Yii\framework\web\auth\CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(CWebUser), 'Usted no se enc...')
+#1 C:\Yii\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\Yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\Yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\Yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\Yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\Yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\Yii\framework\web\CWebApplication.php(282): CController->run('create')
+#8 C:\Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('aparato/create')
+#9 C:\Yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\voltmetro\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/voltmetro/?r=aparato/create
+HTTP_REFERER=http://localhost/voltmetro/
+---
+2015/03/27 01:44:32 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Usted no se encuentra autorizado a realizar esta acción.' in C:\Yii\framework\web\auth\CAccessControlFilter.php:179
+Stack trace:
+#0 C:\Yii\framework\web\auth\CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(CWebUser), 'Usted no se enc...')
+#1 C:\Yii\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\Yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\Yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\Yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\Yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\Yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\Yii\framework\web\CWebApplication.php(282): CController->run('create')
+#8 C:\Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('persona/create')
+#9 C:\Yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\voltmetro\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/voltmetro/?r=persona/create
+HTTP_REFERER=http://localhost/voltmetro/?r=aparato/create
+---
+2015/03/27 01:44:39 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Usted no se encuentra autorizado a realizar esta acción.' in C:\Yii\framework\web\auth\CAccessControlFilter.php:179
+Stack trace:
+#0 C:\Yii\framework\web\auth\CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(CWebUser), 'Usted no se enc...')
+#1 C:\Yii\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\Yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\Yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\Yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\Yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\Yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\Yii\framework\web\CWebApplication.php(282): CController->run('create')
+#8 C:\Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('aparato/create')
+#9 C:\Yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\voltmetro\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/voltmetro/?r=aparato/create
+HTTP_REFERER=http://localhost/voltmetro/?r=site/index
+---
+2015/03/27 01:44:41 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Usted no se encuentra autorizado a realizar esta acción.' in C:\Yii\framework\web\auth\CAccessControlFilter.php:179
+Stack trace:
+#0 C:\Yii\framework\web\auth\CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(CWebUser), 'Usted no se enc...')
+#1 C:\Yii\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\Yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\Yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\Yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\Yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\Yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\Yii\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 C:\Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('aparato/admin')
+#9 C:\Yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\voltmetro\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/voltmetro/?r=aparato/admin
+HTTP_REFERER=http://localhost/voltmetro/?r=aparato/create
+---
+2015/03/27 01:44:42 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Usted no se encuentra autorizado a realizar esta acción.' in C:\Yii\framework\web\auth\CAccessControlFilter.php:179
+Stack trace:
+#0 C:\Yii\framework\web\auth\CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(CWebUser), 'Usted no se enc...')
+#1 C:\Yii\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\Yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\Yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\Yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\Yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\Yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\Yii\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 C:\Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('area/admin')
+#9 C:\Yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\voltmetro\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/voltmetro/?r=area/admin
+HTTP_REFERER=http://localhost/voltmetro/?r=aparato/admin
+---
+2015/03/27 01:44:46 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Usted no se encuentra autorizado a realizar esta acción.' in C:\Yii\framework\web\auth\CAccessControlFilter.php:179
+Stack trace:
+#0 C:\Yii\framework\web\auth\CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(CWebUser), 'Usted no se enc...')
+#1 C:\Yii\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\Yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\Yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\Yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\Yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\Yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\Yii\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 C:\Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('area/admin')
+#9 C:\Yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\voltmetro\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/voltmetro/?r=area/admin
+---
+2015/03/27 01:44:46 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Usted no se encuentra autorizado a realizar esta acción.' in C:\Yii\framework\web\auth\CAccessControlFilter.php:179
+Stack trace:
+#0 C:\Yii\framework\web\auth\CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(CWebUser), 'Usted no se enc...')
+#1 C:\Yii\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\Yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\Yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\Yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\Yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\Yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\Yii\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 C:\Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('area/admin')
+#9 C:\Yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\voltmetro\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/voltmetro/?r=area/admin
+---
+2015/03/27 01:49:36 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Su solicitud es inválida.' in C:\Yii\framework\web\CController.php:1118
+Stack trace:
+#0 C:\Yii\framework\web\filters\CInlineFilter.php(58): CController->filterPostOnly(Object(CFilterChain))
+#1 C:\Yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#2 C:\Yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 C:\Yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 C:\Yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 C:\Yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 C:\Yii\framework\web\CController.php(291): CFilterChain->run()
+#7 C:\Yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\Yii\framework\web\CWebApplication.php(282): CController->run('delete')
+#9 C:\Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('persona/delete')
+#10 C:\Yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\voltmetro\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/voltmetro/index.php?r=persona/delete&id=9B77T
+HTTP_REFERER=http://localhost/voltmetro/index.php?r=persona/admin
+---
+2015/03/27 05:11:32 [warning] [application] Error al definir unsafe el atributo "archivo" de "Aparato".
+in C:\xampp\htdocs\voltmetro\protected\controllers\AparatoController.php (72)
+in C:\xampp\htdocs\voltmetro\index.php (13)
+2015/03/27 05:12:00 [warning] [application] Error al definir unsafe el atributo "archivo" de "Aparato".
+in C:\xampp\htdocs\voltmetro\protected\controllers\AparatoController.php (72)
+in C:\xampp\htdocs\voltmetro\index.php (13)
+2015/03/27 05:12:15 [warning] [application] Error al definir unsafe el atributo "archivo" de "Aparato".
+in C:\xampp\htdocs\voltmetro\protected\controllers\AparatoController.php (72)
+in C:\xampp\htdocs\voltmetro\index.php (13)
+2015/03/27 05:13:52 [warning] [application] Error al definir unsafe el atributo "archivo" de "Aparato".
+in C:\xampp\htdocs\voltmetro\protected\controllers\AparatoController.php (72)
+in C:\xampp\htdocs\voltmetro\index.php (13)
+2015/03/27 05:16:20 [warning] [application] Error al definir unsafe el atributo "archivo" de "Aparato".
+in C:\xampp\htdocs\voltmetro\protected\controllers\AparatoController.php (72)
+in C:\xampp\htdocs\voltmetro\index.php (13)
+2015/03/27 05:16:25 [warning] [application] Error al definir unsafe el atributo "archivo" de "Aparato".
+in C:\xampp\htdocs\voltmetro\protected\controllers\AparatoController.php (72)
+in C:\xampp\htdocs\voltmetro\index.php (13)
+2015/03/27 05:16:35 [warning] [application] Error al definir unsafe el atributo "archivo" de "Aparato".
+in C:\xampp\htdocs\voltmetro\protected\controllers\AparatoController.php (72)
+in C:\xampp\htdocs\voltmetro\index.php (13)
+2015/03/27 05:17:12 [error] [exception.CException] exception 'CException' with message 'Propiedad "CFileValidator"."0" no se encuentra definida.' in C:\Yii\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\Yii\framework\validators\CValidator.php(189): CComponent->__set('0', 'safe')
+#1 C:\Yii\framework\base\CModel.php(286): CValidator::createValidator('file', Object(Aparato), 'archivo', Array)
+#2 C:\Yii\framework\base\CModel.php(260): CModel->createValidators()
+#3 C:\Yii\framework\base\CModel.php(546): CModel->getValidators()
+#4 C:\Yii\framework\base\CModel.php(467): CModel->getSafeAttributeNames()
+#5 C:\Yii\framework\base\CComponent.php(152): CModel->setAttributes(Array)
+#6 C:\Yii\framework\db\ar\CActiveRecord.php(159): CComponent->__set('attributes', Array)
+#7 C:\xampp\htdocs\voltmetro\protected\controllers\AparatoController.php(72): CActiveRecord->__set('attributes', Array)
+#8 C:\Yii\framework\web\actions\CInlineAction.php(49): AparatoController->actionCreate()
+#9 C:\Yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#10 C:\Yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#11 C:\Yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#12 C:\Yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#13 C:\Yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#14 C:\Yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#15 C:\Yii\framework\web\CController.php(291): CFilterChain->run()
+#16 C:\Yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 C:\Yii\framework\web\CWebApplication.php(282): CController->run('create')
+#18 C:\Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('aparato/create')
+#19 C:\Yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#20 C:\xampp\htdocs\voltmetro\index.php(13): CApplication->run()
+#21 {main}
+REQUEST_URI=/voltmetro/index.php?r=aparato/create
+HTTP_REFERER=http://localhost/voltmetro/index.php?r=aparato/create
+---
+2015/03/27 05:54:05 [warning] [application] Error al definir unsafe el atributo "archivo" de "Aparato".
+in C:\xampp\htdocs\voltmetro\protected\controllers\AparatoController.php (109)
+in C:\xampp\htdocs\voltmetro\index.php (13)
+2015/03/27 06:06:42 [error] [php] Undefined variable: fileName (C:\xampp\htdocs\voltmetro\protected\controllers\AparatoController.php:71)
+Stack trace:
+#0 C:\Yii\framework\web\filters\CFilterChain.php(133): AparatoController->runAction()
+#1 C:\Yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#2 C:\Yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#3 C:\Yii\framework\web\filters\CInlineFilter.php(58): AparatoController->filterAccessControl()
+#4 C:\Yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#5 C:\Yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\Yii\framework\web\CController.php(265): AparatoController->runActionWithFilters()
+#7 C:\Yii\framework\web\CWebApplication.php(282): AparatoController->run()
+#8 C:\Yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\Yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\voltmetro\index.php(13): CWebApplication->run()
+REQUEST_URI=/voltmetro/index.php?r=aparato/create
+in C:\xampp\htdocs\voltmetro\protected\controllers\AparatoController.php (71)
+in C:\xampp\htdocs\voltmetro\index.php (13)
+2015/03/27 06:12:30 [error] [php] Undefined variable: fileName (C:\xampp\htdocs\voltmetro\protected\controllers\AparatoController.php:71)
+Stack trace:
+#0 C:\Yii\framework\web\filters\CFilterChain.php(133): AparatoController->runAction()
+#1 C:\Yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#2 C:\Yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#3 C:\Yii\framework\web\filters\CInlineFilter.php(58): AparatoController->filterAccessControl()
+#4 C:\Yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#5 C:\Yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\Yii\framework\web\CController.php(265): AparatoController->runActionWithFilters()
+#7 C:\Yii\framework\web\CWebApplication.php(282): AparatoController->run()
+#8 C:\Yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\Yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\voltmetro\index.php(13): CWebApplication->run()
+REQUEST_URI=/voltmetro/index.php?r=aparato/create
+in C:\xampp\htdocs\voltmetro\protected\controllers\AparatoController.php (71)
+in C:\xampp\htdocs\voltmetro\index.php (13)
+2015/03/27 06:12:33 [error] [php] Undefined variable: fileName (C:\xampp\htdocs\voltmetro\protected\controllers\AparatoController.php:71)
+Stack trace:
+#0 C:\Yii\framework\web\filters\CFilterChain.php(133): AparatoController->runAction()
+#1 C:\Yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#2 C:\Yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#3 C:\Yii\framework\web\filters\CInlineFilter.php(58): AparatoController->filterAccessControl()
+#4 C:\Yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#5 C:\Yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\Yii\framework\web\CController.php(265): AparatoController->runActionWithFilters()
+#7 C:\Yii\framework\web\CWebApplication.php(282): AparatoController->run()
+#8 C:\Yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\Yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\voltmetro\index.php(13): CWebApplication->run()
+REQUEST_URI=/voltmetro/index.php?r=aparato/create
+in C:\xampp\htdocs\voltmetro\protected\controllers\AparatoController.php (71)
+in C:\xampp\htdocs\voltmetro\index.php (13)
+2015/03/27 06:51:52 [warning] [application] Error al definir unsafe el atributo "archivo" de "Aparato".
+in C:\xampp\htdocs\voltmetro\protected\controllers\AparatoController.php (71)
+in C:\xampp\htdocs\voltmetro\index.php (13)
+2015/03/27 06:53:33 [warning] [application] Error al definir unsafe el atributo "archivo" de "Aparato".
+in C:\xampp\htdocs\voltmetro\protected\controllers\AparatoController.php (71)
+in C:\xampp\htdocs\voltmetro\index.php (13)
+2015/03/27 06:53:54 [warning] [application] Error al definir unsafe el atributo "archivo" de "Aparato".
+in C:\xampp\htdocs\voltmetro\protected\controllers\AparatoController.php (71)
+in C:\xampp\htdocs\voltmetro\index.php (13)
+2015/03/27 06:53:54 [warning] [application] Error al definir unsafe el atributo "archivo" de "Aparato".
+in C:\xampp\htdocs\voltmetro\protected\controllers\AparatoController.php (71)
+in C:\xampp\htdocs\voltmetro\index.php (13)
+2015/03/27 06:57:49 [warning] [application] Error al definir unsafe el atributo "archivo" de "Aparato".
+in C:\xampp\htdocs\voltmetro\protected\controllers\AparatoController.php (109)
+in C:\xampp\htdocs\voltmetro\index.php (13)
+2015/03/27 06:57:59 [warning] [application] Error al definir unsafe el atributo "archivo" de "Aparato".
+in C:\xampp\htdocs\voltmetro\protected\controllers\AparatoController.php (109)
+in C:\xampp\htdocs\voltmetro\index.php (13)
+2015/03/27 07:05:23 [warning] [application] Error al definir unsafe el atributo "archivo" de "Aparato".
+in C:\xampp\htdocs\voltmetro\protected\controllers\AparatoController.php (71)
+in C:\xampp\htdocs\voltmetro\index.php (13)
+2015/03/27 07:05:38 [warning] [application] Error al definir unsafe el atributo "archivo" de "Aparato".
+in C:\xampp\htdocs\voltmetro\protected\controllers\AparatoController.php (71)
+in C:\xampp\htdocs\voltmetro\index.php (13)
+2015/03/27 07:05:58 [warning] [application] Error al definir unsafe el atributo "archivo" de "Aparato".
+in C:\xampp\htdocs\voltmetro\protected\controllers\AparatoController.php (71)
+in C:\xampp\htdocs\voltmetro\index.php (13)
+2015/03/27 07:05:58 [warning] [application] Error al definir unsafe el atributo "archivo" de "Aparato".
+in C:\xampp\htdocs\voltmetro\protected\controllers\AparatoController.php (71)
+in C:\xampp\htdocs\voltmetro\index.php (13)
+2015/03/27 07:06:20 [warning] [application] Error al definir unsafe el atributo "archivo" de "Aparato".
+in C:\xampp\htdocs\voltmetro\protected\controllers\AparatoController.php (71)
+in C:\xampp\htdocs\voltmetro\index.php (13)
+2015/03/27 07:06:20 [warning] [application] Error al definir unsafe el atributo "archivo" de "Aparato".
+in C:\xampp\htdocs\voltmetro\protected\controllers\AparatoController.php (71)
+in C:\xampp\htdocs\voltmetro\index.php (13)
+2015/03/27 07:06:29 [warning] [application] Error al definir unsafe el atributo "archivo" de "Aparato".
+in C:\xampp\htdocs\voltmetro\protected\controllers\AparatoController.php (71)
+in C:\xampp\htdocs\voltmetro\index.php (13)
+2015/03/27 07:10:38 [error] [exception.CException] exception 'CException' with message 'Propiedad "Aparato"."picture" no se encuentra definida.' in C:\Yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\Yii\framework\db\ar\CActiveRecord.php(143): CComponent->__get('picture')
+#1 C:\Yii\framework\validators\CFileValidator.php(165): CActiveRecord->__get('picture')
+#2 C:\Yii\framework\validators\CValidator.php(213): CFileValidator->validateAttribute(Object(Aparato), 'picture')
+#3 C:\Yii\framework\base\CModel.php(159): CValidator->validate(Object(Aparato), NULL)
+#4 C:\Yii\framework\db\ar\CActiveRecord.php(794): CModel->validate(NULL)
+#5 C:\xampp\htdocs\voltmetro\protected\controllers\AparatoController.php(72): CActiveRecord->save()
+#6 C:\Yii\framework\web\actions\CInlineAction.php(49): AparatoController->actionCreate()
+#7 C:\Yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 C:\Yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#9 C:\Yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#10 C:\Yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#11 C:\Yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#12 C:\Yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#13 C:\Yii\framework\web\CController.php(291): CFilterChain->run()
+#14 C:\Yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 C:\Yii\framework\web\CWebApplication.php(282): CController->run('create')
+#16 C:\Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('aparato/create')
+#17 C:\Yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#18 C:\xampp\htdocs\voltmetro\index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/voltmetro/index.php?r=aparato/create
+HTTP_REFERER=http://localhost/voltmetro/index.php?r=aparato/create
+---
+2015/03/27 07:13:06 [error] [exception.CException] exception 'CException' with message 'Propiedad "Aparato"."picture" no se encuentra definida.' in C:\Yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\Yii\framework\db\ar\CActiveRecord.php(143): CComponent->__get('picture')
+#1 C:\Yii\framework\validators\CFileValidator.php(165): CActiveRecord->__get('picture')
+#2 C:\Yii\framework\validators\CValidator.php(213): CFileValidator->validateAttribute(Object(Aparato), 'picture')
+#3 C:\Yii\framework\base\CModel.php(159): CValidator->validate(Object(Aparato), NULL)
+#4 C:\Yii\framework\db\ar\CActiveRecord.php(794): CModel->validate(NULL)
+#5 C:\xampp\htdocs\voltmetro\protected\controllers\AparatoController.php(72): CActiveRecord->save()
+#6 C:\Yii\framework\web\actions\CInlineAction.php(49): AparatoController->actionCreate()
+#7 C:\Yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 C:\Yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#9 C:\Yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#10 C:\Yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#11 C:\Yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#12 C:\Yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#13 C:\Yii\framework\web\CController.php(291): CFilterChain->run()
+#14 C:\Yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 C:\Yii\framework\web\CWebApplication.php(282): CController->run('create')
+#16 C:\Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('aparato/create')
+#17 C:\Yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#18 C:\xampp\htdocs\voltmetro\index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/voltmetro/index.php?r=aparato/create
+HTTP_REFERER=http://localhost/voltmetro/index.php?r=aparato/create
+---
+2015/03/27 07:14:12 [warning] [application] Error al definir unsafe el atributo "archivo" de "Aparato".
+in C:\xampp\htdocs\voltmetro\protected\controllers\AparatoController.php (71)
+in C:\xampp\htdocs\voltmetro\index.php (13)
+2015/03/27 07:14:22 [warning] [application] Error al definir unsafe el atributo "archivo" de "Aparato".
+in C:\xampp\htdocs\voltmetro\protected\controllers\AparatoController.php (71)
+in C:\xampp\htdocs\voltmetro\index.php (13)
+2015/03/27 07:14:22 [warning] [application] Error al definir unsafe el atributo "archivo" de "Aparato".
+in C:\xampp\htdocs\voltmetro\protected\controllers\AparatoController.php (71)
+in C:\xampp\htdocs\voltmetro\index.php (13)
+2015/03/27 07:14:45 [warning] [application] Error al definir unsafe el atributo "archivo" de "Aparato".
+in C:\xampp\htdocs\voltmetro\protected\controllers\AparatoController.php (71)
+in C:\xampp\htdocs\voltmetro\index.php (13)
+2015/03/27 07:14:58 [warning] [application] Error al definir unsafe el atributo "archivo" de "Aparato".
+in C:\xampp\htdocs\voltmetro\protected\controllers\AparatoController.php (109)
+in C:\xampp\htdocs\voltmetro\index.php (13)
+2015/03/27 07:14:58 [warning] [application] Error al definir unsafe el atributo "archivo" de "Aparato".
+in C:\xampp\htdocs\voltmetro\protected\controllers\AparatoController.php (109)
+in C:\xampp\htdocs\voltmetro\index.php (13)
+2015/03/30 18:02:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "configuraciones/admin"' in C:\Yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('configuraciones...')
+#1 C:\Yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\voltmetro\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/voltmetro/index.php?r=configuraciones/admin
+HTTP_REFERER=http://localhost/voltmetro/index.php?r=persona/create
+---
+2015/03/30 18:13:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "recuperarpassword" solicitada.' in C:\Yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\Yii\framework\web\CController.php(270): CController->missingAction('recuperarpasswo...')
+#1 C:\Yii\framework\web\CWebApplication.php(282): CController->run('recuperarpasswo...')
+#2 C:\Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/recuperarp...')
+#3 C:\Yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\voltmetro\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/voltmetro/index.php?r=site/recuperarpassword
+HTTP_REFERER=http://localhost/voltmetro/index.php?r=site/login
+---
+2015/03/30 18:27:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "configuraciones/admin"' in C:\Yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('configuraciones...')
+#1 C:\Yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\voltmetro\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/voltmetro/index.php?r=configuraciones/admin
+HTTP_REFERER=http://localhost/voltmetro/index.php?r=site/recuperarpassword
+---
+2015/03/30 20:21:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "configuraciones/admin"' in C:\Yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('configuraciones...')
+#1 C:\Yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\voltmetro\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/voltmetro/index.php?r=configuraciones/admin
+HTTP_REFERER=http://localhost/voltmetro/index.php?r=site/recuperarpassword
+---
+2015/03/30 20:23:42 [error] [php] Object of class RecuperarPassword could not be converted to string (C:\xampp\htdocs\voltmetro\protected\views\site\recuperarpassword.php:38)
+Stack trace:
+#0 C:\Yii\framework\web\CController.php(869): SiteController->renderFile()
+#1 C:\Yii\framework\web\CController.php(782): SiteController->renderPartial()
+#2 C:\xampp\htdocs\voltmetro\protected\controllers\SiteController.php(117): SiteController->render()
+#3 C:\Yii\framework\web\actions\CInlineAction.php(49): SiteController->actionRecuperarpassword()
+#4 C:\Yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\Yii\framework\web\CController.php(286): SiteController->runAction()
+#6 C:\Yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#7 C:\Yii\framework\web\CWebApplication.php(282): SiteController->run()
+#8 C:\Yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\Yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\voltmetro\index.php(13): CWebApplication->run()
+REQUEST_URI=/voltmetro/index.php?r=site/recuperarpassword
+in C:\xampp\htdocs\voltmetro\protected\views\site\recuperarpassword.php (38)
+in C:\xampp\htdocs\voltmetro\protected\controllers\SiteController.php (117)
+in C:\xampp\htdocs\voltmetro\index.php (13)
+2015/04/02 03:19:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "configuraciones/admin"' in C:\Yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('configuraciones...')
+#1 C:\Yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\voltmetro\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/voltmetro/index.php?r=configuraciones/admin
+HTTP_REFERER=http://localhost/voltmetro/index.php?r=persona/view&id=10030754
+---
+2015/04/02 03:19:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "configuraciones/admin"' in C:\Yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('configuraciones...')
+#1 C:\Yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\voltmetro\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/voltmetro/index.php?r=configuraciones/admin
+HTTP_REFERER=http://localhost/voltmetro/index.php?r=configuraciones/admin
+---
+2015/04/05 02:58:34 [error] [exception.CException] exception 'CException' with message 'Propiedad "CActiveForm"."enctype" no se encuentra definida.' in C:\Yii\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\Yii\framework\web\CWidgetFactory.php(161): CComponent->__set('enctype', 'multipart/form-...')
+#1 C:\Yii\framework\web\CBaseController.php(146): CWidgetFactory->createWidget(Object(AparatoController), 'CActiveForm', Array)
+#2 C:\Yii\framework\web\CBaseController.php(189): CBaseController->createWidget('CActiveForm', Array)
+#3 C:\xampp\htdocs\voltmetro\protected\views\aparato\_form.php(13): CBaseController->beginWidget('CActiveForm', Array)
+#4 C:\Yii\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#5 C:\Yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#6 C:\Yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#7 C:\xampp\htdocs\voltmetro\protected\views\aparato\create.php(22): CController->renderPartial('_form', Array)
+#8 C:\Yii\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#9 C:\Yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#10 C:\Yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#11 C:\Yii\framework\web\CController.php(782): CController->renderPartial('create', Array, true)
+#12 C:\xampp\htdocs\voltmetro\protected\controllers\AparatoController.php(83): CController->render('create', Array)
+#13 C:\Yii\framework\web\actions\CInlineAction.php(49): AparatoController->actionCreate()
+#14 C:\Yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#15 C:\Yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#16 C:\Yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#17 C:\Yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#18 C:\Yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#19 C:\Yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#20 C:\Yii\framework\web\CController.php(291): CFilterChain->run()
+#21 C:\Yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#22 C:\Yii\framework\web\CWebApplication.php(282): CController->run('create')
+#23 C:\Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('aparato/create')
+#24 C:\Yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#25 C:\xampp\htdocs\voltmetro\index.php(13): CApplication->run()
+#26 {main}
+REQUEST_URI=/voltmetro/index.php?r=aparato/create
+HTTP_REFERER=http://localhost/voltmetro/index.php?r=aparato/admin
+---
+2015/04/05 03:01:28 [error] [system.db.CDbCommand] CDbCommand::execute() falló: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'sdfsdfsd' for key 'PRIMARY'. La sentencia SQL ejecutada fue: INSERT INTO `aparato` (`no_serie`, `descripcion`, `marca`, `modelo`, `tipo`, `ultima_calib`, `prox_calib`, `observaciones`, `archivo`, `rpe`, `id_estatus`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5, :yp6, :yp7, :yp8, :yp9, :yp10).
+in C:\xampp\htdocs\voltmetro\protected\controllers\AparatoController.php (75)
+in C:\xampp\htdocs\voltmetro\index.php (13)
+2015/04/05 03:01:29 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand falló al ejecutar la sentencia SQL: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'sdfsdfsd' for key 'PRIMARY'. The SQL statement executed was: INSERT INTO `aparato` (`no_serie`, `descripcion`, `marca`, `modelo`, `tipo`, `ultima_calib`, `prox_calib`, `observaciones`, `archivo`, `rpe`, `id_estatus`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5, :yp6, :yp7, :yp8, :yp9, :yp10)' in C:\Yii\framework\db\CDbCommand.php:357
+Stack trace:
+#0 C:\Yii\framework\db\ar\CActiveRecord.php(1023): CDbCommand->execute()
+#1 C:\Yii\framework\db\ar\CActiveRecord.php(795): CActiveRecord->insert(NULL)
+#2 C:\xampp\htdocs\voltmetro\protected\controllers\AparatoController.php(75): CActiveRecord->save()
+#3 C:\Yii\framework\web\actions\CInlineAction.php(49): AparatoController->actionCreate()
+#4 C:\Yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\Yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 C:\Yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\Yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 C:\Yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\Yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\Yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\Yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\Yii\framework\web\CWebApplication.php(282): CController->run('create')
+#13 C:\Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('aparato/create')
+#14 C:\Yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\voltmetro\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/voltmetro/index.php?r=aparato/create
+HTTP_REFERER=http://localhost/voltmetro/index.php?r=aparato/create
+---
+2015/04/05 03:03:09 [error] [system.db.CDbCommand] CDbCommand::execute() falló: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '001' for key 'PRIMARY'. La sentencia SQL ejecutada fue: INSERT INTO `aparato` (`no_serie`, `descripcion`, `marca`, `modelo`, `tipo`, `ultima_calib`, `prox_calib`, `observaciones`, `archivo`, `rpe`, `id_estatus`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5, :yp6, :yp7, :yp8, :yp9, :yp10).
+in C:\xampp\htdocs\voltmetro\protected\controllers\AparatoController.php (75)
+in C:\xampp\htdocs\voltmetro\index.php (13)
+2015/04/05 03:03:09 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand falló al ejecutar la sentencia SQL: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '001' for key 'PRIMARY'. The SQL statement executed was: INSERT INTO `aparato` (`no_serie`, `descripcion`, `marca`, `modelo`, `tipo`, `ultima_calib`, `prox_calib`, `observaciones`, `archivo`, `rpe`, `id_estatus`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5, :yp6, :yp7, :yp8, :yp9, :yp10)' in C:\Yii\framework\db\CDbCommand.php:357
+Stack trace:
+#0 C:\Yii\framework\db\ar\CActiveRecord.php(1023): CDbCommand->execute()
+#1 C:\Yii\framework\db\ar\CActiveRecord.php(795): CActiveRecord->insert(NULL)
+#2 C:\xampp\htdocs\voltmetro\protected\controllers\AparatoController.php(75): CActiveRecord->save()
+#3 C:\Yii\framework\web\actions\CInlineAction.php(49): AparatoController->actionCreate()
+#4 C:\Yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\Yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 C:\Yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\Yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 C:\Yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\Yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\Yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\Yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\Yii\framework\web\CWebApplication.php(282): CController->run('create')
+#13 C:\Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('aparato/create')
+#14 C:\Yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\voltmetro\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/voltmetro/index.php?r=aparato/create
+HTTP_REFERER=http://localhost/voltmetro/index.php?r=aparato/create
+---
+2015/04/05 03:03:14 [error] [system.db.CDbCommand] CDbCommand::execute() falló: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '001' for key 'PRIMARY'. La sentencia SQL ejecutada fue: INSERT INTO `aparato` (`no_serie`, `descripcion`, `marca`, `modelo`, `tipo`, `ultima_calib`, `prox_calib`, `observaciones`, `archivo`, `rpe`, `id_estatus`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5, :yp6, :yp7, :yp8, :yp9, :yp10).
+in C:\xampp\htdocs\voltmetro\protected\controllers\AparatoController.php (75)
+in C:\xampp\htdocs\voltmetro\index.php (13)
+2015/04/05 03:03:14 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand falló al ejecutar la sentencia SQL: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '001' for key 'PRIMARY'. The SQL statement executed was: INSERT INTO `aparato` (`no_serie`, `descripcion`, `marca`, `modelo`, `tipo`, `ultima_calib`, `prox_calib`, `observaciones`, `archivo`, `rpe`, `id_estatus`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5, :yp6, :yp7, :yp8, :yp9, :yp10)' in C:\Yii\framework\db\CDbCommand.php:357
+Stack trace:
+#0 C:\Yii\framework\db\ar\CActiveRecord.php(1023): CDbCommand->execute()
+#1 C:\Yii\framework\db\ar\CActiveRecord.php(795): CActiveRecord->insert(NULL)
+#2 C:\xampp\htdocs\voltmetro\protected\controllers\AparatoController.php(75): CActiveRecord->save()
+#3 C:\Yii\framework\web\actions\CInlineAction.php(49): AparatoController->actionCreate()
+#4 C:\Yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\Yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 C:\Yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\Yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 C:\Yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\Yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\Yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\Yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\Yii\framework\web\CWebApplication.php(282): CController->run('create')
+#13 C:\Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('aparato/create')
+#14 C:\Yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\voltmetro\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/voltmetro/index.php?r=aparato/create
+HTTP_REFERER=http://localhost/voltmetro/index.php?r=aparato/create
+---
+2015/04/05 03:13:39 [error] [exception.CException] exception 'CException' with message 'Propiedad "Aparato"."image" no se encuentra definida.' in C:\Yii\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\Yii\framework\db\ar\CActiveRecord.php(159): CComponent->__set('image', '3498-')
+#1 C:\xampp\htdocs\voltmetro\protected\controllers\AparatoController.php(73): CActiveRecord->__set('image', '3498-')
+#2 C:\Yii\framework\web\actions\CInlineAction.php(49): AparatoController->actionCreate()
+#3 C:\Yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\Yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 C:\Yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#6 C:\Yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#7 C:\Yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 C:\Yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#9 C:\Yii\framework\web\CController.php(291): CFilterChain->run()
+#10 C:\Yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\Yii\framework\web\CWebApplication.php(282): CController->run('create')
+#12 C:\Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('aparato/create')
+#13 C:\Yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\voltmetro\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/voltmetro/index.php?r=aparato/create
+HTTP_REFERER=http://localhost/voltmetro/index.php?r=aparato/create
+---
+2015/04/05 03:31:34 [warning] [application] Error al definir unsafe el atributo "archivo" de "Aparato".
+in C:\xampp\htdocs\voltmetro\protected\controllers\AparatoController.php (71)
+in C:\xampp\htdocs\voltmetro\index.php (13)
+2015/04/05 03:31:34 [error] [exception.CException] exception 'CException' with message 'Propiedad "Aparato"."fotoprincipal" no se encuentra definida.' in C:\Yii\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\Yii\framework\db\ar\CActiveRecord.php(159): CComponent->__set('fotoprincipal', '9708-Logo_CFE_O...')
+#1 C:\xampp\htdocs\voltmetro\protected\controllers\AparatoController.php(82): CActiveRecord->__set('fotoprincipal', '9708-Logo_CFE_O...')
+#2 C:\Yii\framework\web\actions\CInlineAction.php(49): AparatoController->actionCreate()
+#3 C:\Yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\Yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 C:\Yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#6 C:\Yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#7 C:\Yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 C:\Yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#9 C:\Yii\framework\web\CController.php(291): CFilterChain->run()
+#10 C:\Yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\Yii\framework\web\CWebApplication.php(282): CController->run('create')
+#12 C:\Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('aparato/create')
+#13 C:\Yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\voltmetro\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/voltmetro/index.php?r=aparato/create
+HTTP_REFERER=http://localhost/voltmetro/index.php?r=aparato/create
+---
+2015/04/05 03:36:31 [warning] [application] Error al definir unsafe el atributo "archivo" de "Aparato".
+in C:\xampp\htdocs\voltmetro\protected\controllers\AparatoController.php (71)
+in C:\xampp\htdocs\voltmetro\index.php (13)
+2015/04/05 03:37:50 [warning] [application] Error al definir unsafe el atributo "archivo" de "Aparato".
+in C:\xampp\htdocs\voltmetro\protected\controllers\AparatoController.php (71)
+in C:\xampp\htdocs\voltmetro\index.php (13)
+2015/04/05 03:38:55 [warning] [application] Error al definir unsafe el atributo "archivo" de "Aparato".
+in C:\xampp\htdocs\voltmetro\protected\controllers\AparatoController.php (71)
+in C:\xampp\htdocs\voltmetro\index.php (13)
+2015/04/05 03:40:41 [error] [exception.CException] exception 'CException' with message 'Propiedad "CFileValidator"."0" no se encuentra definida.' in C:\Yii\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\Yii\framework\validators\CValidator.php(189): CComponent->__set('0', 'safe')
+#1 C:\Yii\framework\base\CModel.php(286): CValidator::createValidator('file', Object(Aparato), 'archivo', Array)
+#2 C:\Yii\framework\base\CModel.php(260): CModel->createValidators()
+#3 C:\Yii\framework\base\CModel.php(303): CModel->getValidators('Numero de Serie...')
+#4 C:\Yii\framework\web\helpers\CHtml.php(1237): CModel->isAttributeRequired('Numero de Serie...')
+#5 C:\Yii\framework\web\widgets\CActiveForm.php(562): CHtml::activeLabelEx(Object(Aparato), 'Numero de Serie...', Array)
+#6 C:\xampp\htdocs\voltmetro\protected\views\aparato\_form.php(20): CActiveForm->labelEx(Object(Aparato), 'Numero de Serie...')
+#7 C:\Yii\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#8 C:\Yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#9 C:\Yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#10 C:\xampp\htdocs\voltmetro\protected\views\aparato\create.php(22): CController->renderPartial('_form', Array)
+#11 C:\Yii\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#12 C:\Yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#13 C:\Yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#14 C:\Yii\framework\web\CController.php(782): CController->renderPartial('create', Array, true)
+#15 C:\xampp\htdocs\voltmetro\protected\controllers\AparatoController.php(94): CController->render('create', Array)
+#16 C:\Yii\framework\web\actions\CInlineAction.php(49): AparatoController->actionCreate()
+#17 C:\Yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#18 C:\Yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#19 C:\Yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#20 C:\Yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#21 C:\Yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#22 C:\Yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#23 C:\Yii\framework\web\CController.php(291): CFilterChain->run()
+#24 C:\Yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#25 C:\Yii\framework\web\CWebApplication.php(282): CController->run('create')
+#26 C:\Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('aparato/create')
+#27 C:\Yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#28 C:\xampp\htdocs\voltmetro\index.php(13): CApplication->run()
+#29 {main}
+REQUEST_URI=/voltmetro/index.php?r=aparato/create
+HTTP_REFERER=http://localhost/voltmetro/index.php?r=aparato/admin
+---
+2015/04/05 03:55:28 [warning] [application] Error al definir unsafe el atributo "archivo" de "Aparato".
+in C:\xampp\htdocs\voltmetro\protected\controllers\AparatoController.php (71)
+in C:\xampp\htdocs\voltmetro\index.php (13)
+2015/04/05 03:57:55 [warning] [application] Error al definir unsafe el atributo "archivo" de "Aparato".
+in C:\xampp\htdocs\voltmetro\protected\controllers\AparatoController.php (71)
+in C:\xampp\htdocs\voltmetro\index.php (13)
+2015/04/06 22:39:16 [error] [php] Undefined variable: content (C:\xampp\htdocs\voltmetro\protected\views\site\index.php:98)
+Stack trace:
+#0 C:\Yii\framework\web\CController.php(869): SiteController->renderFile()
+#1 C:\Yii\framework\web\CController.php(782): SiteController->renderPartial()
+#2 C:\xampp\htdocs\voltmetro\protected\controllers\SiteController.php(35): SiteController->render()
+#3 C:\Yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#4 C:\Yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\Yii\framework\web\CController.php(286): SiteController->runAction()
+#6 C:\Yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#7 C:\Yii\framework\web\CWebApplication.php(282): SiteController->run()
+#8 C:\Yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\Yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\voltmetro\index.php(13): CWebApplication->run()
+REQUEST_URI=/voltmetro/index.php?r=site/index
+in C:\xampp\htdocs\voltmetro\protected\views\site\index.php (98)
+in C:\xampp\htdocs\voltmetro\protected\controllers\SiteController.php (35)
+in C:\xampp\htdocs\voltmetro\index.php (13)
+2015/04/06 22:47:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "configuraciones/admin"' in C:\Yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('configuraciones...')
+#1 C:\Yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\voltmetro\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/voltmetro/index.php?r=configuraciones/admin
+HTTP_REFERER=http://localhost/voltmetro/index.php?r=persona/admin
+---

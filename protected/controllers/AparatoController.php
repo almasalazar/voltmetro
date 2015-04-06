@@ -33,7 +33,7 @@ class AparatoController extends Controller
 			),
 			array('allow', // allow authenticated user to perform 'create' and 'update' actions
 				'actions'=>array('create','update'),
-				'users'=>array('9ERCB', '9L1AM'),
+				'users'=>array('9ERCB'),
 			),
 			array('allow', // allow admin user to perform 'admin' and 'delete' actions
 				'actions'=>array('admin','delete'),
@@ -63,20 +63,35 @@ class AparatoController extends Controller
 	public function actionCreate()
 	{
 		$model=new Aparato;
-
-		// Uncomment the following line if AJAX validation is needed
-		// $this->performAjaxValidation($model);
-
-		if(isset($_POST['Aparato']))
-		{
-			$model->attributes=$_POST['Aparato'];
-			if($model->save())
-				$this->redirect(array('view','id'=>$model->no_serie));
-		}
-
-		$this->render('create',array(
-			'model'=>$model,
-		));
+		$path_picture = realpath( Yii::app( )->getBasePath( )."/../img/respaldos" )."/";//ruta final de la imagen
+ 
+        if(isset($_POST['Aparato']))
+        {
+             
+            $model->attributes=$_POST['Aparato'];
+ 
+        ////////////////////////////////////////////////////////////////////
+            $rnd = rand(0,9999);  // generate random number between 0-9999
+            $uploadedFile=CUploadedFile::getInstance($model,'archivo'); 
+            $fileName = "{$rnd}-{$uploadedFile}";  // random number + file name or puedes usar: $fileName=$uploadedFile->getName();
+             
+            if(!empty($uploadedFile))  // check if uploaded file is set or not
+            {
+                //$uploadedFile->saveAs(Yii::app()->basePath.'/../banner/'.$fileName);  // image will uplode to rootDirectory/banner/
+                $uploadedFile->saveAs($path_picture.$fileName);
+                $model->archivo= $fileName;
+            }
+        ////////////////////////////////////////////////////////////////////
+  
+            if($model->save())
+            {
+                 
+                $this->redirect(array('admin'));
+            }
+        }
+        $this->render('create',array(
+            'model'=>$model,
+        ));
 	}
 
 	/**

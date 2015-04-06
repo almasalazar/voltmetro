@@ -49,6 +49,7 @@ class Aparato extends CActiveRecord
 		// will receive user inputs.
 		return array(
 			array('no_serie, descripcion, marca, modelo, tipo, ultima_calib, prox_calib, rpe, id_estatus', 'required'),
+			array('archivo', 'file','types'=>'jpg, gif, png', 'allowEmpty'=>true),
 			array('id_estatus', 'numerical', 'integerOnly'=>true),
 			array('no_serie', 'length', 'max'=>50),
 			array('rpe', 'length', 'max'=>100),
