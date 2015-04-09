@@ -23,7 +23,7 @@ $this->menu=array(
 	'attributes'=>array(
 		'rpe',
 		'nombre',
-		'correo',
+		'email',
 		'password',
 		'es_jefe',
 		'rpe_jefe',

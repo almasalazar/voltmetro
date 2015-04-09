@@ -80,7 +80,7 @@ class SiteController extends Controller
 	 */
 	public function actionLogin()
 	{
-	
+		$this->layout='//layouts/column1';
 		$model=new LoginForm;
 
 		// if it is ajax validation request
@@ -115,52 +115,54 @@ class SiteController extends Controller
 		$msg = '';
 
 		if (isset($_POST["RecuperarPassword"]))
-		{
-
-			$model->attributes = $_POST['RecuperarPassword'];
-			if(!$model->validate()) 
-				{
-					$msg= "<strong class='text-error'> Error al enviar el formulario </strong>";
-				}
+			{
+				$model->attributes = $_POST['RecuperarPassword'];
+				if(!$model->validate()) 
+					{
+						$msg= "<strong class='text-error'> Error al enviar el formulario </strong>";
+					}
 
 				else {
+					$conexion = Yii::app()->db;
 
 					//se enviara el email si la persona se encuentra en la tabla
-					$consulta = "SELECT rpe, correo FROM persona WHERE ";
-					$consulta .= "rpe='".$model->username."' AND correo='$model->email'";
+					$consulta = "SELECT rpe, email FROM persona WHERE ";
+					$consulta .= "rpe='".$model->rpe."' AND email='$model->email'";
 
 					$resultado = $conexion->createCommand($consulta);
 					$filas = $resultado->query();
-					$existe= false;
+					$existe = false;
 
 					foreach ($filas as $filas) {
 					 	$existe = true; 
 					 } 
 
-
+					 //si el usuario existe
 					 if ($existe === true) {
 					 	//Buscar password del usuario
-					 	$consulta = "SELECT password FROM persona WHERE";
-					 	$consulta .= "rpe='".$model->username."' AND correo='".$model->email."'";
+					 	$consulta = "SELECT password FROM persona WHERE ";
+					 	$consulta .= "rpe='".$model->rpe."' AND email='".$model->email."'";
+					 	
 					 	$resultado = $conexion->createCommand($consulta)->query();
 
-					 	$resultado->brindColumm(1, $password);
+					 	$resultado->bindColumn(1, $password);
+					 	
 					 	while ($resultado->read()!==false) {
 					 		$password = $password;
 					 	}
 
-					 	$email = new Enviar_Email;
+					 	$email = new EnviarEmail;
 					 	$subject = "Has solicitado recuperar tu password en ";
 					 	$subject .= Yii::app()->name;
-					 	$message = "Bienvenid@" .$model->username ." su password es ";
+					 	$message = "Bienvenid@" .$model->rpe ." su password es ";
 					 	$message .= $password;
 					 	$message .= "<br /> <br />";
 					 	$message .= "<a href='http//localhost/voltmetro/'> Regresar al voltmetroWeb </a>";
 
-					 	$email->EnviarEmail
+					 	$email->Enviar_Email
 					 	(
 					 		array(Yii::app()->params['adminEmail'], Yii::app()->name),
-					 		array($model->email, $model->username),
+					 		array($model->email, $model->rpe),
 					 		$subject,
 					 		$message
 					 		);

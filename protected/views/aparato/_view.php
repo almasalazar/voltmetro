@@ -3,18 +3,33 @@
 /* @var $data Aparato */
 ?>
 
-<div class="view">
+<div class="media">
+	<div class="media-body">
+		<div>
+			<h4 class="media-heading">
+				<?php echo CHtml::encode($data->getAttributeLabel('no_serie')); ?>: <?php echo CHtml::link(CHtml::encode($data->no_serie), array('view', 'id'=>$data->no_serie)); ?>
+				<?php echo CHtml::encode($data->getAttributeLabel('rpe')); ?>: <?php echo CHtml::encode($data->rpe); ?>
+				<?php echo CHtml::encode($data->archivo); ?>
+				<small>
+					<?php echo CHtml::encode($data->prox_calib); ?>
+				</small>
+			</h4>
+		</div>
+</div>
+	
 
-	<b><?php echo CHtml::encode($data->getAttributeLabel('no_serie')); ?>:</b>
-	<?php echo CHtml::link(CHtml::encode($data->no_serie), array('view', 'id'=>$data->no_serie)); ?>
-	<br />
 
-	<b><?php echo CHtml::encode($data->getAttributeLabel('descripcion')); ?>:</b>
+	 	<?php
+
+	 /*
+
+
+	 <b><?php echo CHtml::encode($data->getAttributeLabel('descripcion')); ?>:</b>
 	<?php echo CHtml::encode($data->descripcion); ?>
 	<br />
 
 	<b><?php echo CHtml::encode($data->getAttributeLabel('marca')); ?>:</b>
-	<?php echo CHtml::encode($data->marca); ?>
+	<?php echo CHtml::encode($data->marca); ?> 
 	<br />
 
 	<b><?php echo CHtml::encode($data->getAttributeLabel('modelo')); ?>:</b>
@@ -33,7 +48,7 @@
 	<?php echo CHtml::encode($data->prox_calib); ?>
 	<br />
 
-	<?php /*
+
 	<b><?php echo CHtml::encode($data->getAttributeLabel('observaciones')); ?>:</b>
 	<?php echo CHtml::encode($data->observaciones); ?>
 	<br />

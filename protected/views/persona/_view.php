@@ -13,8 +13,8 @@
 	<?php echo CHtml::encode($data->nombre); ?>
 	<br />
 
-	<b><?php echo CHtml::encode($data->getAttributeLabel('correo')); ?>:</b>
-	<?php echo CHtml::encode($data->correo); ?>
+	<b><?php echo CHtml::encode($data->getAttributeLabel('email')); ?>:</b>
+	<?php echo CHtml::encode($data->email); ?>
 	<br />
 
 	<b><?php echo CHtml::encode($data->getAttributeLabel('password')); ?>:</b>

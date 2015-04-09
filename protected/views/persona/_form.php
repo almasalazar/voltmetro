@@ -28,9 +28,9 @@
 	</div>
 
 	<div class="form-group">
-		<?php echo $form->labelEx($model,'correo*'); ?>
-		<?php echo $form->textField($model,'correo',array('size'=>60,'maxlength'=>100,'class'=>'form-control')); ?>
-		<?php echo $form->error($model,'correo'); ?>
+		<?php echo $form->labelEx($model,'email*'); ?>
+		<?php echo $form->textField($model,'email',array('size'=>60,'maxlength'=>100,'class'=>'form-control')); ?>
+		<?php echo $form->error($model,'email'); ?>
 	</div>
 
 	<div class="form-group">

@@ -19,16 +19,13 @@ echo $msg ;
 			))
 	?>
 
-
-
-
 <div class="col-md-4" >
 	<div class="panel panel-success">		
 
 <div class="form-group">
-		<?php echo $form->labelEx($model,'username'); ?>
-		<?php echo $form->textField($model,'username', array('class'=>'form-control')); ?>
-		<?php echo $form->error($model,'username'); ?>
+		<?php echo $form->labelEx($model,'rpe'); ?>
+		<?php echo $form->textField($model,'rpe', array('class'=>'form-control')); ?>
+		<?php echo $form->error($model,'rpe'); ?>
 	</div>
 
 	<div class="form-group">

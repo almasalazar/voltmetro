@@ -6,7 +6,7 @@
  * The followings are the available columns in table 'persona':
  * @property string $rpe
  * @property string $nombre
- * @property string $correo
+ * @property string $email
  * @property string $password
  * @property integer $es_jefe
  * @property string $rpe_jefe
@@ -44,13 +44,13 @@ class Persona extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('rpe, nombre, correo, es_jefe, rpe_jefe, id_area', 'required'),
+			array('rpe, nombre, email, es_jefe, rpe_jefe, id_area', 'required'),
 			array('es_jefe, id_area', 'numerical', 'integerOnly'=>true),
-			array('rpe, correo, password, rpe_jefe', 'length', 'max'=>100),
+			array('rpe, email, password, rpe_jefe', 'length', 'max'=>100),
 			array('nombre', 'length', 'max'=>150),
 			// The following rule is used by search().
 			// Please remove those attributes that should not be searched.
-			array('rpe, nombre, correo, password, es_jefe, rpe_jefe, id_area', 'safe', 'on'=>'search'),
+			array('rpe, nombre, email, password, es_jefe, rpe_jefe, id_area', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -75,7 +75,7 @@ class Persona extends CActiveRecord
 		return array(
 			'rpe' => 'Rpe',
 			'nombre' => 'Nombre',
-			'correo' => 'Correo',
+			'email' => 'email',
 			'password' => 'Password',
 			'es_jefe' => 'Es Jefe',
 			'rpe_jefe' => 'Rpe Jefe',
@@ -96,7 +96,7 @@ class Persona extends CActiveRecord
 
 		$criteria->compare('rpe',$this->rpe,true);
 		$criteria->compare('nombre',$this->nombre,true);
-		$criteria->compare('correo',$this->correo,true);
+		$criteria->compare('email',$this->email,true);
 		$criteria->compare('password',$this->password,true);
 		$criteria->compare('es_jefe',$this->es_jefe);
 		$criteria->compare('rpe_jefe',$this->rpe_jefe,true);

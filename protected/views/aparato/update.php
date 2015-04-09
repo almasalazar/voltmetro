@@ -16,6 +16,6 @@ $this->menu=array(
 );
 ?>
 
-<h1>Update Aparato <?php echo $model->no_serie; ?></h1>
+<h1>Actualizar Aparatos <?php echo $model->no_serie; ?></h1>
 
 <?php echo $this->renderPartial('_form', array('model'=>$model)); ?>

@@ -1,3 +1,4 @@
+
 <?php
 /* @var $this PersonaController */
 /* @var $model Persona */
@@ -22,8 +23,8 @@
 	</div>
 
 	<div class="row">
-		<?php echo $form->label($model,'correo'); ?>
-		<?php echo $form->textField($model,'correo',array('size'=>60,'maxlength'=>100)); ?>
+		<?php echo $form->label($model,'email'); ?>
+		<?php echo $form->textField($model,'email',array('size'=>60,'maxlength'=>100)); ?>
 	</div>
 
 	<div class="row">

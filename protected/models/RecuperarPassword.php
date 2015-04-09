@@ -7,7 +7,7 @@
  */
 class RecuperarPassword extends CFormModel
 {
-	public $username;
+	public $rpe;
 	public $email;
 	public $captcha;
 
@@ -16,7 +16,7 @@ class RecuperarPassword extends CFormModel
 	{
 		return array(
 			// username and password are required
-			array('username, email, captcha', 'required'),
+			array('rpe, email, captcha', 'required'),
 
 			array(
 				'email',

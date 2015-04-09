@@ -32,6 +32,8 @@ $('.search-form form').submit(function(){
 
 <?php $this->widget('zii.widgets.grid.CGridView', array(
 	'id'=>'aparato-grid',
+	'itemsCssClass'=>'table table-striped',
+	'pager'=>array("htmlOptions"=>array("class"=>"pagination")),
 	'dataProvider'=>$modelGrid->search(),
 	'filter'=>$modelGrid,
 	'columns'=>array(

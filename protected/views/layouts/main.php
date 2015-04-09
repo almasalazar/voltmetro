@@ -77,7 +77,7 @@
                       <li><a href="?r=persona/admin"><span class="glyphicon glyphicon-user"></span>   Personas </a></li>
                       <li><a href="?r=aparato/admin"><span class="glyphicon glyphicon-phone"></span>   Aparatos</a></li>
                       <li><a href="?r=area/admin"><span class="glyphicon glyphicon-list-alt"></span>   Areas</a></li>
-                      <li><a href=""><span class="glyphicon glyphicon-time"></span>  Proximos a Calibrar</a></li>
+                      <li><a href="?r=site/calibraciones"><span class="glyphicon glyphicon-time"></span>  Proximos a Calibrar</a></li>
                       </ul>         
                   </div>
        <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">

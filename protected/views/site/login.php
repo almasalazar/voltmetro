@@ -24,15 +24,18 @@ $this->breadcrumbs=array(
 
 	<p class="note">Campos requeridos<span class="required">*</span></p>
 
+	<div class="col-md-4" >
+	<div class="panel panel-success">
+
 	<div class="form-group">
 		<?php echo $form->labelEx($model,'rpe*'); ?>
-		<?php echo $form->textField($model,'username'); ?>
+		<?php echo $form->textField($model,'username', array('class'=>'form-control')); ?>
 		<?php echo $form->error($model,'username'); ?>
 	</div>
 
 	<div class="form-group">
 		<?php echo $form->labelEx($model,'password'); ?>
-		<?php echo $form->passwordField($model,'password'); ?>
+		<?php echo $form->passwordField($model,'password', array('class'=>'form-control')); ?>
 		<?php echo $form->error($model,'password'); ?>
 	</div>
 
@@ -49,6 +52,9 @@ $this->breadcrumbs=array(
 	 <a href="<?php echo Yii::app()->createUrl('site/recuperarpassword'); ?> "> 
  		Recuperar password
  	</a>
+		</div>
+	</div>
+
 
 <?php $this->endWidget(); ?>
 </div><!-- form -->

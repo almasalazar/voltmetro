@@ -16,7 +16,7 @@ $this->breadcrumbs=array(
 <div class="col-md-9" >
 	<div class="panel panel-success">
 			<div class="panel panel-heading">
-				<h3 class="panel-title">Agregar Aparato</h3>
+				<h3 class="panel-title">Agregar un Aparato</h3>
 			</div>
 			<div class="panel-body">
 		<?php echo $this->renderPartial('_form', array('model'=>$model)); ?>	
