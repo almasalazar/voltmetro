@@ -79,7 +79,7 @@ class Persona extends CActiveRecord
 			'password' => 'Password',
 			'es_jefe' => 'Es Jefe',
 			'rpe_jefe' => 'Rpe Jefe',
-			'id_area' => 'Id Area',
+			'id_area' => 'Area',
 		);
 	}
 

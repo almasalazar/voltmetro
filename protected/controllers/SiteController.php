@@ -109,7 +109,7 @@ class SiteController extends Controller
 	}
 
 	
-
+	
 	public function actionRecuperarpassword(){
 		$model = new RecuperarPassword;
 		$msg = '';
@@ -152,6 +152,8 @@ class SiteController extends Controller
 					 	}
 
 					 	$email = new EnviarEmail;
+						$to = "'".$model->email."'";
+						$to_name = "'".$model->rpe."'";
 					 	$subject = "Has solicitado recuperar tu password en ";
 					 	$subject .= Yii::app()->name;
 					 	$message = "Bienvenid@" .$model->rpe ." su password es ";
@@ -177,7 +179,6 @@ class SiteController extends Controller
 		$this->render('recuperarpassword', array('model' => $model, 'msg' => $msg));
 	
 }
-
 
 
 }

@@ -70,6 +70,7 @@ class Aparato extends CActiveRecord
 		return array(
 			'rpe0' => array(self::BELONGS_TO, 'Persona', 'rpe'),
 			'idEstatus' => array(self::BELONGS_TO, 'Estatus', 'id_estatus'),
+			
 		);
 	}
 
@@ -84,12 +85,12 @@ class Aparato extends CActiveRecord
 			'marca' => 'Marca',
 			'modelo' => 'Modelo',
 			'tipo' => 'Tipo',
-			'ultima_calib' => 'Ultima Calib',
-			'prox_calib' => 'Prox Calib',
+			'ultima_calib' => 'Ultima Calibracion',
+			'prox_calib' => 'Prox Calibracion',
 			'observaciones' => 'Observaciones',
 			'archivo' => 'Archivo',
 			'rpe' => 'Rpe',
-			'id_estatus' => 'Id Estatus',
+			'id_estatus' => 'Estatus',
 		);
 	}
 

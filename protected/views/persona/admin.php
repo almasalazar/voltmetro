@@ -47,6 +47,8 @@ $('.search-form form').submit(function(){
 		'email',
 		'password',
 		'rpe_jefe',
+		'es_jefe',
+		'id_area',
 		/*
 		'es_jefe',
 		'id_area',

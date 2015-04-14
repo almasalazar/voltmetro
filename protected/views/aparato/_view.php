@@ -3,26 +3,14 @@
 /* @var $data Aparato */
 ?>
 
-<div class="media">
-	<div class="media-body">
-		<div>
-			<h4 class="media-heading">
-				<?php echo CHtml::encode($data->getAttributeLabel('no_serie')); ?>: <?php echo CHtml::link(CHtml::encode($data->no_serie), array('view', 'id'=>$data->no_serie)); ?>
-				<?php echo CHtml::encode($data->getAttributeLabel('rpe')); ?>: <?php echo CHtml::encode($data->rpe); ?>
-				<?php echo CHtml::encode($data->archivo); ?>
-				<small>
-					<?php echo CHtml::encode($data->prox_calib); ?>
-				</small>
-			</h4>
-		</div>
-</div>
-	
+<div class="view">
+	<b><?php echo CHtml::encode($data->getAttributeLabel('no_serie')); ?>:</b>
+	 <?php echo CHtml::link(CHtml::encode($data->no_serie), array('view', 'id'=>$data->no_serie)); ?>
+	<br />		
 
-
-	 	<?php
-
-	 /*
-
+	<b><?php echo CHtml::encode($data->getAttributeLabel('rpe')); ?>:</b>
+	<?php echo CHtml::encode($data->rpe); ?>
+	<br />
 
 	 <b><?php echo CHtml::encode($data->getAttributeLabel('descripcion')); ?>:</b>
 	<?php echo CHtml::encode($data->descripcion); ?>
@@ -62,9 +50,9 @@
 	<br />
 
 	<b><?php echo CHtml::encode($data->getAttributeLabel('id_estatus')); ?>:</b>
-	<?php echo CHtml::encode($data->id_estatus); ?>
+	<?php echo CHtml::encode($data->idEstatus->estatus); ?>
 	<br />
 
-	*/ ?>
+	
 
 </div>

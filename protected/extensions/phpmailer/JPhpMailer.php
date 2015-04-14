@@ -14,8 +14,8 @@
  * $mail->IsSMTP();
  * $mail->Host='smpt.163.com';
  * $mail->SMTPAuth=true;
- * $mail->Username='yourname@yourdomain';
- * $mail->Password='yourpassword';
+ * $mail->Username='voltmetroweb@gmail.com';
+ * $mail->Password='voltmetro_web1';
  * $mail->SetFrom('name@yourdomain.com','First Last');
  * $mail->Subject='PHPMailer Test Subject via smtp, basic with authentication';
  * $mail->AltBody='To view the message, please use an HTML compatible email viewer!';

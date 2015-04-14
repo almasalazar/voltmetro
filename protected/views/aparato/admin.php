@@ -44,6 +44,7 @@ $('.search-form form').submit(function(){
 		'ultima_calib',
 		'prox_calib',
 		'rpe',
+		'id_estatus',
 		/*
 		'tipo',
 		'observaciones',
