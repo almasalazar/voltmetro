@@ -4,7 +4,7 @@
  Yii::import('application.extensions.phpmailer.JPhpMailer');
 class EnviarEmail {
 	
-	public function Enviar_Email(array $from, array $to, $subject, $message)
+	public function Enviar_Email($user, $to, $subject, $message)
 	{
 
 
@@ -20,7 +20,7 @@ class EnviarEmail {
 		$mail->Subject = 'Recuperar password';
 		$mail->AltBody = 'To view the message, please use an HTML compatible email viewer!';
 		$mail->MsgHTML($message);
-		$mail->AddAddress($to, 'Usuario');
+		$mail->AddAddress($to, $user);
 		$mail->Send();
 	}
 }

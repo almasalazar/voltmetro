@@ -152,8 +152,9 @@ class SiteController extends Controller
 					 	}
 
 					 	$email = new EnviarEmail;
-						$to = "'".$model->email."'";
-						$to_name = "'".$model->rpe."'";
+						//$to = 'jrojasosorio@rocketmail.com';
+						$to = $model->email;
+						$user = $model->rpe;
 					 	$subject = "Has solicitado recuperar tu password en ";
 					 	$subject .= Yii::app()->name;
 					 	$message = "Bienvenid@" .$model->rpe ." su password es ";
@@ -163,8 +164,10 @@ class SiteController extends Controller
 
 					 	$email->Enviar_Email
 					 	(
-					 		array(Yii::app()->params['adminEmail'], Yii::app()->name),
-					 		array($model->email, $model->rpe),
+					 		//array(Yii::app()->params['adminEmail'], Yii::app()->name),
+					 		//array($model->email, $model->rpe),
+					 		$user,
+					 		$to,
 					 		$subject,
 					 		$message
 					 		);
