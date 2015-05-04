@@ -30,7 +30,7 @@
 	<br />
 
 	<b><?php echo CHtml::encode($data->getAttributeLabel('id_area')); ?>:</b>
-	<?php echo CHtml::encode($data->idArea->nombre); ?>
+	<?php echo CHtml::encode($data->idArea->area); ?>
 	<br />
 
 

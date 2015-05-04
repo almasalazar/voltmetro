@@ -9,9 +9,13 @@
 <?php $form=$this->beginWidget('CActiveForm', array(
 	'id'=>'persona-form',
 	'enableAjaxValidation'=>false,
+	'enableClientValidation'=>true,
+	'clientOptions'=>array(
+		'validateOnSubmit'=>true,
+		)
 )); ?>
 
-	<p class="note">Fields with <span class="required">*</span> are required.</p>
+	<p class="note">Los campos con <span class="required">*</span> son requeridos.</p>
 
 	<?php echo $form->errorSummary($model); ?>
 
@@ -29,13 +33,13 @@
 
 	<div class="form-group">
 		<?php echo $form->labelEx($model,'email*'); ?>
-		<?php echo $form->textField($model,'email',array('size'=>60,'maxlength'=>100,'class'=>'form-control')); ?>
+		<?php echo $form->textField($model,'email',array("placeholder"=>"Email del Jefe de area",'size'=>60,'maxlength'=>100,'class'=>'form-control')); ?>
 		<?php echo $form->error($model,'email'); ?>
 	</div>
 
 	<div class="form-group">
 		<?php echo $form->labelEx($model,'password'); ?>
-		<?php echo $form->passwordField($model,'password',array('size'=>60,'maxlength'=>100,'class'=>'form-control')); ?>
+		<?php echo $form->passwordField($model,'password',array("placeholder"=>"En caso de ser jefe de area",'size'=>60,'maxlength'=>100,'class'=>'form-control')); ?>
 		<?php echo $form->error($model,'password'); ?>
 	</div>
 
@@ -54,7 +58,7 @@
 	<div class="form-group">
 		<?php echo $form->labelEx($model,'Area Asignada *'); ?>
 		<?php echo $form->dropDownList($model,'id_area',
-		CHtml::listData(Area::model()->findAll(),'id_area','tipo','nombre'),
+		CHtml::listData(Area::model()->findAll(),'id_area','tipo','area'),
 		array('empty'=>'Selecciona el area',
 		  			'class'=>'form-control')); ?>
 		<?php echo $form->error($model,'id_area'); ?>

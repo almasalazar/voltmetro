@@ -8,8 +8,8 @@ $this->breadcrumbs=array(
 );
 
 $this->menu=array(
-	array('label'=>'List Aparato', 'url'=>array('index')),
-	array('label'=>'Create Aparato', 'url'=>array('create')),
+	array('label'=>'Listar Aparatos', 'url'=>array('index')),
+	array('label'=>'Crear Aparato', 'url'=>array('create')),
 );
 
 Yii::app()->clientScript->registerScript('search', "
@@ -34,8 +34,8 @@ $('.search-form form').submit(function(){
 	'id'=>'aparato-grid',
 	'itemsCssClass'=>'table table-striped',
 	'pager'=>array("htmlOptions"=>array("class"=>"pagination")),
-	'dataProvider'=>$modelGrid->search(),
-	'filter'=>$modelGrid,
+	'dataProvider'=>$model->search(),
+	'filter'=>$model,
 	'columns'=>array(
 		'no_serie',
 		'descripcion',
@@ -44,17 +44,27 @@ $('.search-form form').submit(function(){
 		'ultima_calib',
 		'prox_calib',
 		'rpe',
-		'id_estatus',
+		'idEstatus.estatus',
 		/*
 		'tipo',
 		'observaciones',
 		'archivo',
-		'id_estatus',
 		*/
 		array(
 			'class'=>'CButtonColumn',
+			'header'=>'Ver,Editar,Eliminar',
+			),
+
+		array(
+			'class'=>'CLinkColumn',
+			'header'=>'Email',
+			'imageUrl'=>Yii::app()->baseUrl.'/img/email.png',
+			#'labelExpression'=>'$data->email',
+			'htmlOptions'=>array('style'=>'text-aling:center'),
+			#'urlExpression'=>
 			),
 		),
+
 )); ?>
 
 

@@ -9,7 +9,12 @@
 <?php $form=$this->beginWidget('CActiveForm', array(
 	'id'=>'aparato-form',
 	'enableAjaxValidation'=>false,
-	'htmlOptions' => array('enctype' => 'multipart/form-data'),//NO TE OLVIDES DE ASIGNAR ESTO
+	'htmlOptions' => array('enctype' => 'multipart/form-data'),//para subir los respaldos
+	'enableClientValidation'=>true,
+	'clientOptions'=>array(
+		'validateOnSubmit'=>true,
+		)
+
 )); ?>
 
 	<p class="note">Los Campos con <span class="required">*</span> son requeridos</p>
@@ -24,7 +29,7 @@
 
 	<div class="form-group">
 		<?php echo $form->labelEx($model,'Descripcion *'); ?>
-		<?php echo $form->textArea($model,'descripcion',array('rows'=>6, 'cols'=>50,'class'=>'form-control')); ?>
+		<?php echo $form->textArea($model,'descripcion',array("placeholder"=>"Voltmetro o Patron",'rows'=>6, 'cols'=>50,'class'=>'form-control')); ?>
 		<?php echo $form->error($model,'descripcion'); ?>
 	</div>
 
@@ -42,7 +47,7 @@
 
 	<div class="form-group">
 		<?php echo $form->labelEx($model,'tipo *'); ?>
-		<?php echo $form->textArea($model,'tipo',array('rows'=>6, 'cols'=>50,'class'=>'form-control')); ?>
+		<?php echo $form->textArea($model,'tipo',array("placeholder"=>"Digital o Analogico", 'rows'=>6, 'cols'=>50,'class'=>'form-control')); ?>
 		<?php echo $form->error($model,'tipo'); ?>
 	</div>
 
@@ -52,7 +57,13 @@
 				array('model'=>$model, 
 					'attribute'=>'ultima_calib',
 					'language'=>'es', 
-					'options'=>array('showAnim'=>'fold','dateFormat'=>'yy-mm-dd'),
+					'options'=>array(
+						'showAnim'=>'fold',
+						'dateFormat'=>'yy-mm-dd',
+						'showButtonPanel' => true,
+						'changeYear'=> true,
+						),
+
 					'htmlOptions'=>array('class'=>'form-control')),
 				true);
 		?>
@@ -65,7 +76,12 @@
 				array('model'=>$model, 
 					'attribute'=>'prox_calib',
 					'language'=>'es', 
-					'options'=>array('showAnim'=>'fold','dateFormat'=>'yy-mm-dd'),
+					'options'=>array(
+						'showAnim'=>'fold',
+						'dateFormat'=>'yy-mm-dd',
+						'showButtonPanel' => true,
+						'changeYear'=> true,
+						),
 					'htmlOptions'=>array('class'=>'form-control')),
 				true);
 		?>
@@ -79,9 +95,6 @@
 		<?php echo $form->error($model,'observaciones'); ?>
 	</div>
 
-	
-
-	<?php //echo $form->textFieldRow($model,'fotoprincipal',array('class'=>'span5','maxlength'=>15)); ?>
     <?php 
         echo $form->labelEx($model, 'archivo');
         echo $form->fileField($model, 'archivo');
@@ -90,14 +103,14 @@
  
     <?php if(!$model->isNewRecord){ //mostramos la imagen?>
     <div class="container">
-            <?php //echo CHtml::image(Yii::app()->params['file_tours'].$model->fotoprincipal,"fotoprincipal",array("width"=>200, 'title'=>$model->fotoprincipal)); ?>
+            
             <?php echo CHtml::image('../../img/respaldos'.$model->archivo,"archivo",array("width"=>200, 'title'=>$model->archivo)); ?>
     </div>
     <?php } ?>
 
 	<div class="form-group">
 		<?php echo $form->labelEx($model,'rpe *'); ?>
-		<?php echo $form->textField($model,'rpe',array('size'=>60,'maxlength'=>100,'class'=>'form-control')); ?>
+		<?php echo $form->textField($model,'rpe',array("placeholder"=>"Rpe de la persona responsable del Aparato",'size'=>60,'maxlength'=>100,'class'=>'form-control')); ?>
 		<?php echo $form->error($model,'rpe'); ?>
 	</div>
 

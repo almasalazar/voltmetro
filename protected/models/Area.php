@@ -5,7 +5,7 @@
  *
  * The followings are the available columns in table 'area':
  * @property integer $id_area
- * @property string $nombre
+ * @property string $area
  * @property string $tipo
  *
  * The followings are the available model relations:
@@ -39,13 +39,14 @@ class Area extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('id_area, nombre, tipo', 'required'),
+			array('id_area, area, tipo', 'required'),
 			array('id_area', 'numerical', 'integerOnly'=>true),
-			array('nombre', 'length', 'max'=>100),
+			array('id_area','unique', 'attributeName'=>'id_area','className'=>'Area','allowEmpty'=>false,'message'=> 'El area ya se encuentra en la base de datos.'),
+			array('area', 'length', 'max'=>100),
 			array('tipo', 'length', 'max'=>50),
 			// The following rule is used by search().
 			// Please remove those attributes that should not be searched.
-			array('id_area, nombre, tipo', 'safe', 'on'=>'search'),
+			array('id_area, area, tipo', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -68,7 +69,7 @@ class Area extends CActiveRecord
 	{
 		return array(
 			'id_area' => 'Id Area',
-			'nombre' => 'Nombre',
+			'area' => 'Area',
 			'tipo' => 'Tipo',
 		);
 	}
@@ -85,7 +86,7 @@ class Area extends CActiveRecord
 		$criteria=new CDbCriteria;
 
 		$criteria->compare('id_area',$this->id_area);
-		$criteria->compare('nombre',$this->nombre,true);
+		$criteria->compare('area',$this->area,true);
 		$criteria->compare('tipo',$this->tipo,true);
 
 		return new CActiveDataProvider($this, array(

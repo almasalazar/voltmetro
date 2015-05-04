@@ -141,35 +141,33 @@ class AparatoController extends Controller
 		$this->render('index',array(
 			'dataProvider'=>$dataProvider,
 		));
+
+
+
+		/*  para hacerlo en excel
+
+		Yii::app()->request->sendFile('infovoltme.xls',
+			$this->render(index, array(
+				'dataProvider'=>$dataProvider,
+				)) 
+
+		 */
 	}
 
 	/**
 	 * Manages all models.
 	 */
-	public function actionAdmin()
+		public function actionAdmin()
 	{
-				//vista de crear
-		$model=new Aparato;
-		if(isset($_POST['Aparato']))
-		{
-			$model->attributes=$_POST['Aparato'];
-			$model->save();
-				#$this->redirect(array('view','id'=>$model->no_serie));
-		}
-
-		//vista de admin
-		$modelGrid=new Aparato('search');
-		$modelGrid->unsetAttributes();  // clear any default values
+		$model=new Aparato('search');
+		$model->unsetAttributes();  // clear any default values
 		if(isset($_GET['Aparato']))
-			$modelGrid->attributes=$_GET['Aparato'];
-		#$modelGrid->rpe = $rpe;
+			$model->attributes=$_GET['Aparato'];
 
 		$this->render('admin',array(
-			'modelGrid'=>$modelGrid,
 			'model'=>$model,
 		));
 	}
-
 	/**
 	 * Returns the data model based on the primary key given in the GET variable.
 	 * If the data model is not found, an HTTP exception will be raised.

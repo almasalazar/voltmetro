@@ -7,8 +7,8 @@ $this->breadcrumbs=array(
 );
 
 $this->menu=array(
-	array('label'=>'Create Aparato', 'url'=>array('create')),
-	array('label'=>'Manage Aparato', 'url'=>array('admin')),
+	array('label'=>'Crear Aparato', 'url'=>array('create')),
+	array('label'=>'Administrar Aparato', 'url'=>array('admin')),
 );
 ?>
 

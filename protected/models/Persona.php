@@ -18,6 +18,7 @@
  */
 class Persona extends CActiveRecord
 {
+	public $area;
 	/**
 	 * Returns the static model of the specified AR class.
 	 * @param string $className active record class name.
@@ -44,8 +45,9 @@ class Persona extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('rpe, nombre, email, es_jefe, rpe_jefe, id_area', 'required'),
+			array('rpe, nombre, email, es_jefe, rpe_jefe, id_area', 'required', 'message'=> 'El campo : {attribute} debes ingresarlo '),
 			array('es_jefe, id_area', 'numerical', 'integerOnly'=>true),
+			array('rpe','unique', 'attributeName'=>'rpe','className'=>'Persona','allowEmpty'=>false,'message'=> 'El rpe ya se encuentra en la base de datos.'),
 			array('rpe, email, password, rpe_jefe', 'length', 'max'=>100),
 			array('nombre', 'length', 'max'=>150),
 			// The following rule is used by search().

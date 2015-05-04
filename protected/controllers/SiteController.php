@@ -152,12 +152,12 @@ class SiteController extends Controller
 					 	}
 
 					 	$email = new EnviarEmail;
-						//$to = 'jrojasosorio@rocketmail.com';
+						
 						$to = $model->email;
 						$user = $model->rpe;
 					 	$subject = "Has solicitado recuperar tu password en ";
 					 	$subject .= Yii::app()->name;
-					 	$message = "Bienvenid@" .$model->rpe ." su password es ";
+					 	$message = "Usuario con rpe   " .$model->rpe ." su password es:   ";
 					 	$message .= $password;
 					 	$message .= "<br /> <br />";
 					 	$message .= "<a href='http//localhost/voltmetro/'> Regresar al voltmetroWeb </a>";
@@ -171,6 +171,7 @@ class SiteController extends Controller
 					 		$subject,
 					 		$message
 					 		);
+					 	$msg = "<strong class='text-info'>En hora buena, el password ha sido enviado a su correo electronico </strong>";
 					 }
 					 else{
 					 	$msg = "<strong class='text-error'> Error el usuario no existe </strong>";

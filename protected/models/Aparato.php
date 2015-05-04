@@ -22,6 +22,11 @@
  */
 class Aparato extends CActiveRecord
 {
+
+	public $nombre;
+	public $estatus;
+	public $area;
+
 	/**
 	 * Returns the static model of the specified AR class.
 	 * @param string $className active record class name.
@@ -48,12 +53,13 @@ class Aparato extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('no_serie, descripcion, marca, modelo, tipo, ultima_calib, prox_calib, rpe, id_estatus', 'required'),
+			array('no_serie, descripcion, marca, modelo, tipo, rpe, id_estatus', 'required', 'message'=> 'El campo : {attribute} debes ingresarlo '),
 			array('archivo', 'file','types'=>'jpg, gif, png', 'allowEmpty'=>true),
+			array('no_serie','unique', 'attributeName'=>'no_serie','className'=>'Aparato','allowEmpty'=>false,'message'=> 'El No. Serie que usted ingreso ya fue asignado a otro aparato.'),
 			array('id_estatus', 'numerical', 'integerOnly'=>true),
 			array('no_serie', 'length', 'max'=>50),
 			array('rpe', 'length', 'max'=>100),
-			array('observaciones, archivo', 'safe'),
+			array('observaciones, archivo, ultima_calib, prox_calib','safe'),
 			// The following rule is used by search().
 			// Please remove those attributes that should not be searched.
 			array('no_serie, descripcion, marca, modelo, tipo, ultima_calib, prox_calib, observaciones, archivo, rpe, id_estatus', 'safe', 'on'=>'search'),
@@ -86,7 +92,7 @@ class Aparato extends CActiveRecord
 			'modelo' => 'Modelo',
 			'tipo' => 'Tipo',
 			'ultima_calib' => 'Ultima Calibracion',
-			'prox_calib' => 'Prox Calibracion',
+			'prox_calib' => 'Proxima Calibracion',
 			'observaciones' => 'Observaciones',
 			'archivo' => 'Archivo',
 			'rpe' => 'Rpe',

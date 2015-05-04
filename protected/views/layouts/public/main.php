@@ -45,52 +45,5 @@
 			'links'=>$this->breadcrumbs,
 		)); ?><!-- breadcrumbs -->
 	<?php endif?>
-	
-<body>
-    <div class="container">
-      <div class="row row-offcanvas row-offcanvas-right">
-        <div class="col-xs-12 col-sm-9">
-          <p class="pull-right visible-xs">
-            <button type="button" class="btn btn-success btn-xs" data-toggle="offcanvas">Toggle nav</button>
-          </p>
-          
-          <div class="jumbotron">
-      <div class="container" >
-        <h1 align="center">Welcom to Metrology Lab!</h1>
-        <p>Sistema desarrollado por la oficina de aseguramiento de la mediciòn para el monitoreo de los voltmetros y patrones a cargo de las diferentes àreas que abarca la Zona Celaya </p>
-      </div>
-       </div>
-          <div class="row">
-          <?php echo $content; ?>
-          </div><!--/row-->
-        </div><!--/.col-xs-12.col-sm-9-->
-        <div class="col-xs-6 col-sm-3 sidebar-offcanvas" id="sidebar">
-          <div class="list-group" >
-            <a href="?r=site/index" class="list-group-item active">Inicio</a>
-            <a href="?r=aparato/create" class="list-group-item">Enter</a>
-            <a href="?r=persona/create" class="list-group-item">.</a>
-          </div>
-        </div><!--/.sidebar-offcanvas-->
-      </div><!--/row-->
+<?php echo $content; ?>
 
-      <hr>
-
-      <footer>
-        <p align="center">&copy; CFE Zona Distribuciòn Celaya</p>
-      </footer>
-
-    </div><!--/.container-->
-
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="js/ie10-viewport-bug-workaround.js"></script>
-
-    <script src="offcanvas.js"></script>
- 
-  </body>
-</html>

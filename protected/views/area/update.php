@@ -16,6 +16,6 @@ $this->menu=array(
 );
 ?>
 
-<h1>Update Area <?php echo $model->id_area; ?></h1>
+<h1>Actualizar Area <?php echo $model->id_area; ?></h1>
 
 <?php echo $this->renderPartial('_form', array('model'=>$model)); ?>

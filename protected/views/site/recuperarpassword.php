@@ -19,8 +19,17 @@ echo $msg ;
 			))
 	?>
 
-<div class="col-md-4" >
-	<div class="panel panel-success">		
+<div class="row">
+    <div class="col-md-4 col-md-offset-1">
+    	
+    	<div class="panel panel-default panel-shadow">
+		  <div class="panel-heading">
+		  		<h3 class="panel-title">
+		    		Recuperar contraseña:
+		    	</h3>
+		  </div>
+		  <div class="panel-body">
+	
 
 <div class="form-group">
 		<?php echo $form->labelEx($model,'rpe'); ?>

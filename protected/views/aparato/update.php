@@ -9,10 +9,10 @@ $this->breadcrumbs=array(
 );
 
 $this->menu=array(
-	array('label'=>'List Aparato', 'url'=>array('index')),
-	array('label'=>'Create Aparato', 'url'=>array('create')),
-	array('label'=>'View Aparato', 'url'=>array('view', 'id'=>$model->no_serie)),
-	array('label'=>'Manage Aparato', 'url'=>array('admin')),
+	array('label'=>'Listar Aparatos', 'url'=>array('index')),
+	array('label'=>'Crear Aparato', 'url'=>array('create')),
+	array('label'=>'Ver Aparato', 'url'=>array('view', 'id'=>$model->no_serie)),
+	array('label'=>'Administrar Aparato', 'url'=>array('admin')),
 );
 ?>
 

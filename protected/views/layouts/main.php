@@ -47,8 +47,6 @@
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
             <span class="sr-only">Toggle navigation</span>
             <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
           </button>
           <a class="navbar-brand" href="#">VoltmetroWeb Zona Celaya</a>
         </div>
@@ -77,7 +75,10 @@
                       <li><a href="?r=persona/admin"><span class="glyphicon glyphicon-user"></span>   Personas </a></li>
                       <li><a href="?r=aparato/admin"><span class="glyphicon glyphicon-phone"></span>   Aparatos</a></li>
                       <li><a href="?r=area/admin"><span class="glyphicon glyphicon-list-alt"></span>   Areas</a></li>
-                      <li><a href="?r=site/calibraciones"><span class="glyphicon glyphicon-time"></span>  Proximos a Calibrar</a></li>
+                      <li><a href="?r=calibraciones/index"><span class="glyphicon glyphicon-time"></span>  Proximos a Calibrar</a></li>
+                      <li><a href="?r=pendientes/index"><span class="glyphicon glyphicon-search"></span>  Pendientes a Calibrar</a></li>
+                      <li><a href="?r=biblioteca/index"><span class="glyphicon glyphicon-book"></span>   Biblioteca Virtual</a></li>
+                      <li><a href="?r=biblioteca/create"><span class="glyphicon glyphicon-upload"></span>   Subir Documento</a></li>
                       </ul>         
                   </div>
        <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
@@ -87,7 +88,7 @@
                             <a href="?r=persona/create">
                               <img src="img/img1.jpg" class="img-responsive" alt="Generic placeholder thumbnail">
                               <h4>Agregar personal</h4>
-                              <span class="text-muted">Crear un nuevo usuario a la base de datos</span>
+                              <span class="text-muted">Registrar un nuevo usuario a la base de datos</span>
                             </a>
                         </div>
                         
@@ -110,8 +111,8 @@
                         <div class="col-xs-6 col-sm-3 placeholder">
                         <a href="?r=aparato/create">
                            <img  src="img/img9.jpg" class="img-responsive" alt="Generic placeholder thumbnail">
-                            <h4>Añadir Voltmetros</h4>
-                            <span class="text-muted">Crear un nuevo aparato a la base de datos</span>
+                            <h4>Registrar Aparatos</h4>
+                            <span class="text-muted">Agregar un nuevo aparato a la base de datos</span>
                             </a>
                         </div>
 
@@ -120,11 +121,6 @@
         </div>
       </div>
     </div>
-
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-
     
   </body>
 </html>

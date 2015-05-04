@@ -22,9 +22,9 @@
 	</div>
 
 	<div class="form-group">
-		<?php echo $form->labelEx($model,'nombre'); ?>
-		<?php echo $form->textField($model,'nombre',array('size'=>60,'maxlength'=>100,'class'=>'form-control')); ?>
-		<?php echo $form->error($model,'nombre'); ?>
+		<?php echo $form->labelEx($model,'area'); ?>
+		<?php echo $form->textField($model,'area',array('size'=>60,'maxlength'=>100,'class'=>'form-control')); ?>
+		<?php echo $form->error($model,'area'); ?>
 	</div>
 
 	<div class="form-group">

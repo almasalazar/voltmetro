@@ -9,13 +9,13 @@ $this->breadcrumbs=array(
 );
 
 $this->menu=array(
-	array('label'=>'List Persona', 'url'=>array('index')),
-	array('label'=>'Create Persona', 'url'=>array('create')),
-	array('label'=>'View Persona', 'url'=>array('view', 'id'=>$model->rpe)),
-	array('label'=>'Manage Persona', 'url'=>array('admin')),
+	array('label'=>'Listar Persona', 'url'=>array('index')),
+	array('label'=>'Crear Persona', 'url'=>array('create')),
+	array('label'=>'Ver Persona', 'url'=>array('view', 'id'=>$model->rpe)),
+	array('label'=>'Administar Persona', 'url'=>array('admin')),
 );
 ?>
 
-<h1>Update Persona <?php echo $model->rpe; ?></h1>
+<h1>Actualizar Persona <?php echo $model->rpe; ?></h1>
 
 <?php echo $this->renderPartial('_form', array('model'=>$model)); ?>
