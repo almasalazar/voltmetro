@@ -8,6 +8,7 @@ class PersonaController extends Controller
 	 */
 	public $layout='//layouts/column2';
 
+
 	/**
 	 * @return array action filters
 	 */
@@ -24,28 +25,31 @@ class PersonaController extends Controller
 	 * This method is used by the 'accessControl' filter.
 	 * @return array access control rules
 	 */
+	
 	public function accessRules()
 	{
 		return array(
 			array('allow',  // allow all users to perform 'index' and 'view' actions
 				'actions'=>array('index','view'),
-				'users'=>array('@'),
-				#'roles'=>array(admin)
+				//'users'=>array('@'),
+				'roles'=>array('admin','editor')
 			),
 			array('allow', // allow authenticated user to perform 'create' and 'update' actions
 				'actions'=>array('create','update'),
-				'users'=>array('9ERCB', '9L1AM'),
-				#'roles'=>array(superadmin),
+				//'users'=>array('9ERCB', '9L1AM'),
+				'roles'=>array('admin'),
 			),
 			array('allow', // allow admin user to perform 'admin' and 'delete' actions
 				'actions'=>array('admin','delete'),
-				'users'=>array('9ERCB'),
+				//'users'=>array('9ERCB'),
+				'roles'=>array('admin'),
 			),
 			array('deny',  // deny all users
 				'users'=>array('*'),
 			),
 		);
 	}
+	
 
 	/**
 	 * Displays a particular model.
@@ -124,10 +128,27 @@ class PersonaController extends Controller
 	 */
 	public function actionIndex()
 	{
-		$dataProvider=new CActiveDataProvider('Persona');
-		$this->render('index',array(
-			'dataProvider'=>$dataProvider,
-		));
+		//Yii::app()->authManager->createRole("admin");
+		//Yii::app()->authManager->createRole("editor");
+		//Yii::app()->authManager->createRole("invitado");
+		
+		//Yii::app()->authManager->assign("admin", '9ERCB');
+		//Yii::app()->authManager->assign("admin", '10030754');
+		//Yii::app()->authManager->assign("editor", '9L1AM');
+
+		//echo "hola";
+		if(Yii::app()->user->checkAccess("admin")){
+			$dataProvider=new CActiveDataProvider('Persona');
+			$this->render('index',array(
+				'dataProvider'=>$dataProvider,
+			));
+		}
+		else{
+			echo "no tiene permisos";
+		}
+			
+
+			
 	}
 
 	/**

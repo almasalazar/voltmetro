@@ -11,6 +11,7 @@
  */
 class User extends CActiveRecord
 {
+
 	/**
 	 * Returns the static model of the specified AR class.
 	 * @return User the static model class
