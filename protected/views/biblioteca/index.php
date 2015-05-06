@@ -12,18 +12,40 @@ $this->menu=array(
 );
 ?>
 
-<h1>Bibliotecas</h1>
 
-<?php $this->widget('zii.widgets.CListView', array(
-	'dataProvider'=>$dataProvider,
-	'itemView'=>'_view',
-	 'sortableAttributes'=>array(
-	    ),
-)); ?>
+<!-- Start Descargables Section -->
+<div id="descargables">
+<div class=" section pricing-section">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <!-- Start Big Heading -->
+        <div class="big-title text-center">
+          <h1><strong>Formatos</strong> Descargables</h1>
+        </div>
+        <!-- End Big Heading -->
+
+        <!-- Text -->
+	 <?php $this->widget('zii.widgets.CListView', array(
+					'dataProvider'=>$dataProvider,
+					'itemView'=>'_view',
+					 'sortableAttributes'=>array(
+					    ),
+				)); ?>
+
+
+	 </div>
+
+</div>
+</div>
+</div>
+</div>
+</center>
+<!-- End Descargables Section -->
 
 
 
-// investigar programacion para mostrar documentos y poder descargar
+
 
  <?php
 /*

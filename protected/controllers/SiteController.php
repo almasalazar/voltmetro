@@ -68,7 +68,7 @@ class SiteController extends Controller
 					"Content-type: text/plain; charset=UTF-8";
 
 				mail(Yii::app()->params['adminEmail'],$subject,$model->body,$headers);
-				Yii::app()->user->setFlash('contact','Thank you for contacting us. We will respond to you as soon as possible.');
+				Yii::app()->user->setFlash('contact','Gracias por contactarnos.');
 				$this->refresh();
 			}
 		}
@@ -80,7 +80,7 @@ class SiteController extends Controller
 	 */
 	public function actionLogin()
 	{
-		$this->layout='//layouts/column1';
+		$this->layout='//layouts/public/column1';
 		$model=new LoginForm;
 
 		// if it is ajax validation request
@@ -111,6 +111,8 @@ class SiteController extends Controller
 	
 	
 	public function actionRecuperarpassword(){
+
+		$this->layout='//layouts/public/column1';
 		$model = new RecuperarPassword;
 		$msg = '';
 
@@ -176,7 +178,6 @@ class SiteController extends Controller
 					 else{
 					 	$msg = "<strong class='text-error'> Error el usuario no existe </strong>";
 					 }
-
 				}
 		}
 

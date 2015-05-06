@@ -3,11 +3,8 @@
 /* @var $error array */
 
 $this->pageTitle=Yii::app()->name . ' - Recuperar password';
-$this->breadcrumbs=array('Recuperar password',);
-echo $msg ;
-?>
 
-<div class="form">
+?>
 	<?php $form = $this->beginWidget('CActiveForm',
 		array(
 			'method'=>'POST',
@@ -18,26 +15,32 @@ echo $msg ;
 				),
 			))
 	?>
+<div class="container" >
 
-<div class="row">
-    <div class="col-md-4 col-md-offset-1">
-    	
+	<img src="img/banner-cfe.png" width="100%" id="banner-cfe">
+	
+	<div class="container" >
+		<hr>		
+	<div class="row">
+    <div class="col-md-4 col-md-offset-4">
+
     	<div class="panel panel-default panel-shadow">
-		  <div class="panel-heading">
-		  		<h3 class="panel-title">
-		    		Recuperar contraseña:
-		    	</h3>
+		  <div class="panel-heading text-center">
+		  	La constraseña sera enviada a su correo electronico
 		  </div>
 		  <div class="panel-body">
-	
+					<div class="form">
+				<form id="logon-form" action="" method="post">
 
 <div class="form-group">
+<span class="glyphicon glyphicon-user"></span>
 		<?php echo $form->labelEx($model,'rpe'); ?>
 		<?php echo $form->textField($model,'rpe', array('class'=>'form-control')); ?>
 		<?php echo $form->error($model,'rpe'); ?>
 	</div>
 
 	<div class="form-group">
+	<span class="glyphicon glyphicon-gmail"></span>
 		<?php echo $form->labelEx($model,'email'); ?>
 		<?php echo $form->textField($model,'email', array('class'=>'form-control')); ?>
  		<?php echo $form->error($model,'email', array('class'=>'text-error')); ?>
@@ -62,6 +65,7 @@ echo $msg ;
 	<?php $this->endWidget();?>
 </div>
 
-
 	</div>
-</div>
+		</div><!--panel -->
+	</div><!-- col-md-4 -->
+</div><!-- row -->
