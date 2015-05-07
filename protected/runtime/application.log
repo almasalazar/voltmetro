@@ -8,6 +8,7 @@ REQUEST_URI=/voltmetro/index.php?r=configuraciones/admin
 HTTP_REFERER=http://localhost/voltmetro/index.php?r=site/login
 ---
 2015/05/05 17:44:44 [error] [php] Undefined variable: form (C:\xampp\htdocs\voltmetro\protected\views\site\login.php:31)
+<<<<<<< HEAD
 Stack trace:
 #0 C:\xampp\htdocs\Yii\framework\web\CController.php(869): SiteController->renderFile()
 #1 C:\xampp\htdocs\Yii\framework\web\CController.php(782): SiteController->renderPartial()
@@ -367,6 +368,273 @@ in C:\xampp\htdocs\voltmetro\index.php (13)
 in C:\xampp\htdocs\voltmetro\protected\controllers\BibliotecaController.php (73)
 in C:\xampp\htdocs\voltmetro\index.php (13)
 2015/05/05 20:33:20 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Usted no se encuentra autorizado a realizar esta acción.' in C:\xampp\htdocs\Yii\framework\web\auth\CAccessControlFilter.php:179
+=======
+Stack trace:
+#0 C:\xampp\htdocs\Yii\framework\web\CController.php(869): SiteController->renderFile()
+#1 C:\xampp\htdocs\Yii\framework\web\CController.php(782): SiteController->renderPartial()
+#2 C:\xampp\htdocs\voltmetro\protected\controllers\SiteController.php(102): SiteController->render()
+#3 C:\xampp\htdocs\Yii\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#4 C:\xampp\htdocs\Yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\Yii\framework\web\CController.php(286): SiteController->runAction()
+#6 C:\xampp\htdocs\Yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#7 C:\xampp\htdocs\Yii\framework\web\CWebApplication.php(282): SiteController->run()
+#8 C:\xampp\htdocs\Yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\xampp\htdocs\Yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\voltmetro\index.php(13): CWebApplication->run()
+REQUEST_URI=/voltmetro/index.php?r=site/login
+in C:\xampp\htdocs\voltmetro\protected\views\site\login.php (31)
+in C:\xampp\htdocs\voltmetro\protected\controllers\SiteController.php (102)
+in C:\xampp\htdocs\voltmetro\index.php (13)
+2015/05/05 17:49:25 [error] [php] Undefined variable: model (C:\xampp\htdocs\voltmetro\protected\controllers\SiteController.php:102)
+Stack trace:
+#0 C:\xampp\htdocs\Yii\framework\web\CController.php(286): SiteController->runAction()
+#1 C:\xampp\htdocs\Yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#2 C:\xampp\htdocs\Yii\framework\web\CWebApplication.php(282): SiteController->run()
+#3 C:\xampp\htdocs\Yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\xampp\htdocs\Yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\voltmetro\index.php(13): CWebApplication->run()
+REQUEST_URI=/voltmetro/index.php?r=site/login
+in C:\xampp\htdocs\voltmetro\protected\controllers\SiteController.php (102)
+in C:\xampp\htdocs\voltmetro\index.php (13)
+2015/05/05 17:49:31 [error] [php] Undefined variable: model (C:\xampp\htdocs\voltmetro\protected\controllers\SiteController.php:102)
+Stack trace:
+#0 C:\xampp\htdocs\Yii\framework\web\CController.php(286): SiteController->runAction()
+#1 C:\xampp\htdocs\Yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#2 C:\xampp\htdocs\Yii\framework\web\CWebApplication.php(282): SiteController->run()
+#3 C:\xampp\htdocs\Yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\xampp\htdocs\Yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\voltmetro\index.php(13): CWebApplication->run()
+REQUEST_URI=/voltmetro/index.php?r=site/login
+in C:\xampp\htdocs\voltmetro\protected\controllers\SiteController.php (102)
+in C:\xampp\htdocs\voltmetro\index.php (13)
+2015/05/05 18:50:24 [error] [php] Undefined variable: aparato (C:\xampp\htdocs\voltmetro\protected\views\biblioteca\index.php:36)
+Stack trace:
+#0 C:\xampp\htdocs\Yii\framework\web\CController.php(869): BibliotecaController->renderFile()
+#1 C:\xampp\htdocs\Yii\framework\web\CController.php(782): BibliotecaController->renderPartial()
+#2 C:\xampp\htdocs\voltmetro\protected\controllers\BibliotecaController.php(142): BibliotecaController->render()
+#3 C:\xampp\htdocs\Yii\framework\web\actions\CInlineAction.php(49): BibliotecaController->actionIndex()
+#4 C:\xampp\htdocs\Yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\Yii\framework\web\filters\CFilterChain.php(133): BibliotecaController->runAction()
+#6 C:\xampp\htdocs\Yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\xampp\htdocs\Yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#8 C:\xampp\htdocs\Yii\framework\web\filters\CInlineFilter.php(58): BibliotecaController->filterAccessControl()
+#9 C:\xampp\htdocs\Yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#10 C:\xampp\htdocs\Yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\xampp\htdocs\Yii\framework\web\CController.php(265): BibliotecaController->runActionWithFilters()
+#12 C:\xampp\htdocs\Yii\framework\web\CWebApplication.php(282): BibliotecaController->run()
+#13 C:\xampp\htdocs\Yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 C:\xampp\htdocs\Yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\voltmetro\index.php(13): CWebApplication->run()
+REQUEST_URI=/voltmetro/index.php?r=biblioteca/index
+in C:\xampp\htdocs\voltmetro\protected\views\biblioteca\index.php (36)
+in C:\xampp\htdocs\voltmetro\protected\controllers\BibliotecaController.php (142)
+in C:\xampp\htdocs\voltmetro\index.php (13)
+2015/05/05 18:51:02 [error] [php] Undefined variable: Biblioteca (C:\xampp\htdocs\voltmetro\protected\views\biblioteca\index.php:36)
+Stack trace:
+#0 C:\xampp\htdocs\Yii\framework\web\CController.php(869): BibliotecaController->renderFile()
+#1 C:\xampp\htdocs\Yii\framework\web\CController.php(782): BibliotecaController->renderPartial()
+#2 C:\xampp\htdocs\voltmetro\protected\controllers\BibliotecaController.php(142): BibliotecaController->render()
+#3 C:\xampp\htdocs\Yii\framework\web\actions\CInlineAction.php(49): BibliotecaController->actionIndex()
+#4 C:\xampp\htdocs\Yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\Yii\framework\web\filters\CFilterChain.php(133): BibliotecaController->runAction()
+#6 C:\xampp\htdocs\Yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\xampp\htdocs\Yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#8 C:\xampp\htdocs\Yii\framework\web\filters\CInlineFilter.php(58): BibliotecaController->filterAccessControl()
+#9 C:\xampp\htdocs\Yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#10 C:\xampp\htdocs\Yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\xampp\htdocs\Yii\framework\web\CController.php(265): BibliotecaController->runActionWithFilters()
+#12 C:\xampp\htdocs\Yii\framework\web\CWebApplication.php(282): BibliotecaController->run()
+#13 C:\xampp\htdocs\Yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 C:\xampp\htdocs\Yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\voltmetro\index.php(13): CWebApplication->run()
+REQUEST_URI=/voltmetro/index.php?r=biblioteca/index
+in C:\xampp\htdocs\voltmetro\protected\views\biblioteca\index.php (36)
+in C:\xampp\htdocs\voltmetro\protected\controllers\BibliotecaController.php (142)
+in C:\xampp\htdocs\voltmetro\index.php (13)
+2015/05/05 18:51:03 [error] [php] Undefined variable: Biblioteca (C:\xampp\htdocs\voltmetro\protected\views\biblioteca\index.php:36)
+Stack trace:
+#0 C:\xampp\htdocs\Yii\framework\web\CController.php(869): BibliotecaController->renderFile()
+#1 C:\xampp\htdocs\Yii\framework\web\CController.php(782): BibliotecaController->renderPartial()
+#2 C:\xampp\htdocs\voltmetro\protected\controllers\BibliotecaController.php(142): BibliotecaController->render()
+#3 C:\xampp\htdocs\Yii\framework\web\actions\CInlineAction.php(49): BibliotecaController->actionIndex()
+#4 C:\xampp\htdocs\Yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\Yii\framework\web\filters\CFilterChain.php(133): BibliotecaController->runAction()
+#6 C:\xampp\htdocs\Yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\xampp\htdocs\Yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#8 C:\xampp\htdocs\Yii\framework\web\filters\CInlineFilter.php(58): BibliotecaController->filterAccessControl()
+#9 C:\xampp\htdocs\Yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#10 C:\xampp\htdocs\Yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\xampp\htdocs\Yii\framework\web\CController.php(265): BibliotecaController->runActionWithFilters()
+#12 C:\xampp\htdocs\Yii\framework\web\CWebApplication.php(282): BibliotecaController->run()
+#13 C:\xampp\htdocs\Yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 C:\xampp\htdocs\Yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\voltmetro\index.php(13): CWebApplication->run()
+REQUEST_URI=/voltmetro/index.php?r=biblioteca/index
+in C:\xampp\htdocs\voltmetro\protected\views\biblioteca\index.php (36)
+in C:\xampp\htdocs\voltmetro\protected\controllers\BibliotecaController.php (142)
+in C:\xampp\htdocs\voltmetro\index.php (13)
+2015/05/05 18:51:16 [error] [php] Undefined variable: biblioteca (C:\xampp\htdocs\voltmetro\protected\views\biblioteca\index.php:36)
+Stack trace:
+#0 C:\xampp\htdocs\Yii\framework\web\CController.php(869): BibliotecaController->renderFile()
+#1 C:\xampp\htdocs\Yii\framework\web\CController.php(782): BibliotecaController->renderPartial()
+#2 C:\xampp\htdocs\voltmetro\protected\controllers\BibliotecaController.php(142): BibliotecaController->render()
+#3 C:\xampp\htdocs\Yii\framework\web\actions\CInlineAction.php(49): BibliotecaController->actionIndex()
+#4 C:\xampp\htdocs\Yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\Yii\framework\web\filters\CFilterChain.php(133): BibliotecaController->runAction()
+#6 C:\xampp\htdocs\Yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\xampp\htdocs\Yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#8 C:\xampp\htdocs\Yii\framework\web\filters\CInlineFilter.php(58): BibliotecaController->filterAccessControl()
+#9 C:\xampp\htdocs\Yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#10 C:\xampp\htdocs\Yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\xampp\htdocs\Yii\framework\web\CController.php(265): BibliotecaController->runActionWithFilters()
+#12 C:\xampp\htdocs\Yii\framework\web\CWebApplication.php(282): BibliotecaController->run()
+#13 C:\xampp\htdocs\Yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 C:\xampp\htdocs\Yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\voltmetro\index.php(13): CWebApplication->run()
+REQUEST_URI=/voltmetro/index.php?r=biblioteca/index
+in C:\xampp\htdocs\voltmetro\protected\views\biblioteca\index.php (36)
+in C:\xampp\htdocs\voltmetro\protected\controllers\BibliotecaController.php (142)
+in C:\xampp\htdocs\voltmetro\index.php (13)
+2015/05/05 18:51:17 [error] [php] Undefined variable: biblioteca (C:\xampp\htdocs\voltmetro\protected\views\biblioteca\index.php:36)
+Stack trace:
+#0 C:\xampp\htdocs\Yii\framework\web\CController.php(869): BibliotecaController->renderFile()
+#1 C:\xampp\htdocs\Yii\framework\web\CController.php(782): BibliotecaController->renderPartial()
+#2 C:\xampp\htdocs\voltmetro\protected\controllers\BibliotecaController.php(142): BibliotecaController->render()
+#3 C:\xampp\htdocs\Yii\framework\web\actions\CInlineAction.php(49): BibliotecaController->actionIndex()
+#4 C:\xampp\htdocs\Yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\Yii\framework\web\filters\CFilterChain.php(133): BibliotecaController->runAction()
+#6 C:\xampp\htdocs\Yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\xampp\htdocs\Yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#8 C:\xampp\htdocs\Yii\framework\web\filters\CInlineFilter.php(58): BibliotecaController->filterAccessControl()
+#9 C:\xampp\htdocs\Yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#10 C:\xampp\htdocs\Yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\xampp\htdocs\Yii\framework\web\CController.php(265): BibliotecaController->runActionWithFilters()
+#12 C:\xampp\htdocs\Yii\framework\web\CWebApplication.php(282): BibliotecaController->run()
+#13 C:\xampp\htdocs\Yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 C:\xampp\htdocs\Yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\voltmetro\index.php(13): CWebApplication->run()
+REQUEST_URI=/voltmetro/index.php?r=biblioteca/index
+in C:\xampp\htdocs\voltmetro\protected\views\biblioteca\index.php (36)
+in C:\xampp\htdocs\voltmetro\protected\controllers\BibliotecaController.php (142)
+in C:\xampp\htdocs\voltmetro\index.php (13)
+2015/05/05 18:53:00 [error] [php] Undefined variable: biblioteca (C:\xampp\htdocs\voltmetro\protected\views\biblioteca\index.php:36)
+Stack trace:
+#0 C:\xampp\htdocs\Yii\framework\web\CController.php(869): BibliotecaController->renderFile()
+#1 C:\xampp\htdocs\Yii\framework\web\CController.php(782): BibliotecaController->renderPartial()
+#2 C:\xampp\htdocs\voltmetro\protected\controllers\BibliotecaController.php(142): BibliotecaController->render()
+#3 C:\xampp\htdocs\Yii\framework\web\actions\CInlineAction.php(49): BibliotecaController->actionIndex()
+#4 C:\xampp\htdocs\Yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\Yii\framework\web\filters\CFilterChain.php(133): BibliotecaController->runAction()
+#6 C:\xampp\htdocs\Yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\xampp\htdocs\Yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#8 C:\xampp\htdocs\Yii\framework\web\filters\CInlineFilter.php(58): BibliotecaController->filterAccessControl()
+#9 C:\xampp\htdocs\Yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#10 C:\xampp\htdocs\Yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\xampp\htdocs\Yii\framework\web\CController.php(265): BibliotecaController->runActionWithFilters()
+#12 C:\xampp\htdocs\Yii\framework\web\CWebApplication.php(282): BibliotecaController->run()
+#13 C:\xampp\htdocs\Yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 C:\xampp\htdocs\Yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\voltmetro\index.php(13): CWebApplication->run()
+REQUEST_URI=/voltmetro/index.php?r=biblioteca/index
+in C:\xampp\htdocs\voltmetro\protected\views\biblioteca\index.php (36)
+in C:\xampp\htdocs\voltmetro\protected\controllers\BibliotecaController.php (142)
+in C:\xampp\htdocs\voltmetro\index.php (13)
+2015/05/05 18:55:10 [error] [php] Undefined variable: biblioteca (C:\xampp\htdocs\voltmetro\protected\views\biblioteca\index.php:36)
+Stack trace:
+#0 C:\xampp\htdocs\Yii\framework\web\CController.php(869): BibliotecaController->renderFile()
+#1 C:\xampp\htdocs\Yii\framework\web\CController.php(782): BibliotecaController->renderPartial()
+#2 C:\xampp\htdocs\voltmetro\protected\controllers\BibliotecaController.php(142): BibliotecaController->render()
+#3 C:\xampp\htdocs\Yii\framework\web\actions\CInlineAction.php(49): BibliotecaController->actionIndex()
+#4 C:\xampp\htdocs\Yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\Yii\framework\web\filters\CFilterChain.php(133): BibliotecaController->runAction()
+#6 C:\xampp\htdocs\Yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\xampp\htdocs\Yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#8 C:\xampp\htdocs\Yii\framework\web\filters\CInlineFilter.php(58): BibliotecaController->filterAccessControl()
+#9 C:\xampp\htdocs\Yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#10 C:\xampp\htdocs\Yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\xampp\htdocs\Yii\framework\web\CController.php(265): BibliotecaController->runActionWithFilters()
+#12 C:\xampp\htdocs\Yii\framework\web\CWebApplication.php(282): BibliotecaController->run()
+#13 C:\xampp\htdocs\Yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 C:\xampp\htdocs\Yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\voltmetro\index.php(13): CWebApplication->run()
+REQUEST_URI=/voltmetro/index.php?r=biblioteca/index
+in C:\xampp\htdocs\voltmetro\protected\views\biblioteca\index.php (36)
+in C:\xampp\htdocs\voltmetro\protected\controllers\BibliotecaController.php (142)
+in C:\xampp\htdocs\voltmetro\index.php (13)
+2015/05/05 18:56:04 [error] [php] Undefined variable: biblioteca (C:\xampp\htdocs\voltmetro\protected\views\biblioteca\index.php:31)
+Stack trace:
+#0 C:\xampp\htdocs\Yii\framework\web\CController.php(869): BibliotecaController->renderFile()
+#1 C:\xampp\htdocs\Yii\framework\web\CController.php(782): BibliotecaController->renderPartial()
+#2 C:\xampp\htdocs\voltmetro\protected\controllers\BibliotecaController.php(142): BibliotecaController->render()
+#3 C:\xampp\htdocs\Yii\framework\web\actions\CInlineAction.php(49): BibliotecaController->actionIndex()
+#4 C:\xampp\htdocs\Yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\Yii\framework\web\filters\CFilterChain.php(133): BibliotecaController->runAction()
+#6 C:\xampp\htdocs\Yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\xampp\htdocs\Yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#8 C:\xampp\htdocs\Yii\framework\web\filters\CInlineFilter.php(58): BibliotecaController->filterAccessControl()
+#9 C:\xampp\htdocs\Yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#10 C:\xampp\htdocs\Yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\xampp\htdocs\Yii\framework\web\CController.php(265): BibliotecaController->runActionWithFilters()
+#12 C:\xampp\htdocs\Yii\framework\web\CWebApplication.php(282): BibliotecaController->run()
+#13 C:\xampp\htdocs\Yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 C:\xampp\htdocs\Yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\voltmetro\index.php(13): CWebApplication->run()
+REQUEST_URI=/voltmetro/index.php?r=biblioteca/index
+in C:\xampp\htdocs\voltmetro\protected\views\biblioteca\index.php (31)
+in C:\xampp\htdocs\voltmetro\protected\controllers\BibliotecaController.php (142)
+in C:\xampp\htdocs\voltmetro\index.php (13)
+2015/05/05 18:56:05 [error] [php] Undefined variable: biblioteca (C:\xampp\htdocs\voltmetro\protected\views\biblioteca\index.php:31)
+Stack trace:
+#0 C:\xampp\htdocs\Yii\framework\web\CController.php(869): BibliotecaController->renderFile()
+#1 C:\xampp\htdocs\Yii\framework\web\CController.php(782): BibliotecaController->renderPartial()
+#2 C:\xampp\htdocs\voltmetro\protected\controllers\BibliotecaController.php(142): BibliotecaController->render()
+#3 C:\xampp\htdocs\Yii\framework\web\actions\CInlineAction.php(49): BibliotecaController->actionIndex()
+#4 C:\xampp\htdocs\Yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\Yii\framework\web\filters\CFilterChain.php(133): BibliotecaController->runAction()
+#6 C:\xampp\htdocs\Yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\xampp\htdocs\Yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#8 C:\xampp\htdocs\Yii\framework\web\filters\CInlineFilter.php(58): BibliotecaController->filterAccessControl()
+#9 C:\xampp\htdocs\Yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#10 C:\xampp\htdocs\Yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\xampp\htdocs\Yii\framework\web\CController.php(265): BibliotecaController->runActionWithFilters()
+#12 C:\xampp\htdocs\Yii\framework\web\CWebApplication.php(282): BibliotecaController->run()
+#13 C:\xampp\htdocs\Yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 C:\xampp\htdocs\Yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\voltmetro\index.php(13): CWebApplication->run()
+REQUEST_URI=/voltmetro/index.php?r=biblioteca/index
+in C:\xampp\htdocs\voltmetro\protected\views\biblioteca\index.php (31)
+in C:\xampp\htdocs\voltmetro\protected\controllers\BibliotecaController.php (142)
+in C:\xampp\htdocs\voltmetro\index.php (13)
+2015/05/05 19:01:49 [warning] [application] Error al definir unsafe el atributo "nombre" de "Biblioteca".
+in C:\xampp\htdocs\voltmetro\protected\controllers\BibliotecaController.php (73)
+in C:\xampp\htdocs\voltmetro\index.php (13)
+2015/05/05 19:02:21 [warning] [application] Error al definir unsafe el atributo "nombre" de "Biblioteca".
+in C:\xampp\htdocs\voltmetro\protected\controllers\BibliotecaController.php (73)
+in C:\xampp\htdocs\voltmetro\index.php (13)
+2015/05/05 19:11:08 [warning] [application] Error al definir unsafe el atributo "nombre" de "Biblioteca".
+in C:\xampp\htdocs\voltmetro\protected\controllers\BibliotecaController.php (73)
+in C:\xampp\htdocs\voltmetro\index.php (13)
+2015/05/05 19:11:08 [error] [php] Undefined variable: rnd (C:\xampp\htdocs\voltmetro\protected\controllers\BibliotecaController.php:76)
+Stack trace:
+#0 C:\xampp\htdocs\Yii\framework\web\filters\CFilterChain.php(133): BibliotecaController->runAction()
+#1 C:\xampp\htdocs\Yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#2 C:\xampp\htdocs\Yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#3 C:\xampp\htdocs\Yii\framework\web\filters\CInlineFilter.php(58): BibliotecaController->filterAccessControl()
+#4 C:\xampp\htdocs\Yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#5 C:\xampp\htdocs\Yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\Yii\framework\web\CController.php(265): BibliotecaController->runActionWithFilters()
+#7 C:\xampp\htdocs\Yii\framework\web\CWebApplication.php(282): BibliotecaController->run()
+#8 C:\xampp\htdocs\Yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\xampp\htdocs\Yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\voltmetro\index.php(13): CWebApplication->run()
+REQUEST_URI=/voltmetro/index.php?r=biblioteca/create
+in C:\xampp\htdocs\voltmetro\protected\controllers\BibliotecaController.php (76)
+in C:\xampp\htdocs\voltmetro\index.php (13)
+2015/05/05 19:11:41 [warning] [application] Error al definir unsafe el atributo "nombre" de "Biblioteca".
+in C:\xampp\htdocs\voltmetro\protected\controllers\BibliotecaController.php (73)
+in C:\xampp\htdocs\voltmetro\index.php (13)
+2015/05/05 20:31:24 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Usted no se encuentra autorizado a realizar esta acción.' in C:\xampp\htdocs\Yii\framework\web\auth\CAccessControlFilter.php:179
+>>>>>>> de4ee7d13620f2b49fe303e8fa7df5aeb36c676f
 Stack trace:
 #0 C:\xampp\htdocs\Yii\framework\web\auth\CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(CWebUser), 'Usted no se enc...')
 #1 C:\xampp\htdocs\Yii\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
@@ -376,6 +644,7 @@ Stack trace:
 #5 C:\xampp\htdocs\Yii\framework\web\CController.php(291): CFilterChain->run()
 #6 C:\xampp\htdocs\Yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
 #7 C:\xampp\htdocs\Yii\framework\web\CWebApplication.php(282): CController->run('admin')
+<<<<<<< HEAD
 #8 C:\xampp\htdocs\Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('biblioteca/admi...')
 #9 C:\xampp\htdocs\Yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
 #10 C:\xampp\htdocs\voltmetro\index.php(13): CApplication->run()
@@ -384,6 +653,16 @@ REQUEST_URI=/voltmetro/index.php?r=biblioteca/admin
 HTTP_REFERER=http://localhost/voltmetro/index.php?r=biblioteca/index
 ---
 2015/05/05 20:33:33 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Usted no se encuentra autorizado a realizar esta acción.' in C:\xampp\htdocs\Yii\framework\web\auth\CAccessControlFilter.php:179
+=======
+#8 C:\xampp\htdocs\Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('persona/admin')
+#9 C:\xampp\htdocs\Yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\voltmetro\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/voltmetro/index.php?r=persona/admin
+HTTP_REFERER=http://localhost/voltmetro/index.php?r=site/login
+---
+2015/05/05 20:31:37 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Usted no se encuentra autorizado a realizar esta acción.' in C:\xampp\htdocs\Yii\framework\web\auth\CAccessControlFilter.php:179
+>>>>>>> de4ee7d13620f2b49fe303e8fa7df5aeb36c676f
 Stack trace:
 #0 C:\xampp\htdocs\Yii\framework\web\auth\CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(CWebUser), 'Usted no se enc...')
 #1 C:\xampp\htdocs\Yii\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
@@ -398,9 +677,15 @@ Stack trace:
 #10 C:\xampp\htdocs\voltmetro\index.php(13): CApplication->run()
 #11 {main}
 REQUEST_URI=/voltmetro/index.php?r=persona/admin
+<<<<<<< HEAD
 HTTP_REFERER=http://localhost/voltmetro/index.php?r=aparato/create
 ---
 2015/05/05 20:33:35 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Usted no se encuentra autorizado a realizar esta acción.' in C:\xampp\htdocs\Yii\framework\web\auth\CAccessControlFilter.php:179
+=======
+HTTP_REFERER=http://localhost/voltmetro/index.php?r=site/login
+---
+2015/05/05 20:31:41 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Usted no se encuentra autorizado a realizar esta acción.' in C:\xampp\htdocs\Yii\framework\web\auth\CAccessControlFilter.php:179
+>>>>>>> de4ee7d13620f2b49fe303e8fa7df5aeb36c676f
 Stack trace:
 #0 C:\xampp\htdocs\Yii\framework\web\auth\CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(CWebUser), 'Usted no se enc...')
 #1 C:\xampp\htdocs\Yii\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
@@ -417,7 +702,11 @@ Stack trace:
 REQUEST_URI=/voltmetro/index.php?r=persona/admin
 HTTP_REFERER=http://localhost/voltmetro/index.php?r=persona/admin
 ---
+<<<<<<< HEAD
 2015/05/05 20:33:36 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Usted no se encuentra autorizado a realizar esta acción.' in C:\xampp\htdocs\Yii\framework\web\auth\CAccessControlFilter.php:179
+=======
+2015/05/05 20:31:42 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Usted no se encuentra autorizado a realizar esta acción.' in C:\xampp\htdocs\Yii\framework\web\auth\CAccessControlFilter.php:179
+>>>>>>> de4ee7d13620f2b49fe303e8fa7df5aeb36c676f
 Stack trace:
 #0 C:\xampp\htdocs\Yii\framework\web\auth\CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(CWebUser), 'Usted no se enc...')
 #1 C:\xampp\htdocs\Yii\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
@@ -426,6 +715,166 @@ Stack trace:
 #4 C:\xampp\htdocs\Yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
 #5 C:\xampp\htdocs\Yii\framework\web\CController.php(291): CFilterChain->run()
 #6 C:\xampp\htdocs\Yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+<<<<<<< HEAD
+#7 C:\xampp\htdocs\Yii\framework\web\CWebApplication.php(282): CController->run('create')
+#8 C:\xampp\htdocs\Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('persona/create')
+#9 C:\xampp\htdocs\Yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\voltmetro\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/voltmetro/index.php?r=persona/create
+HTTP_REFERER=http://localhost/voltmetro/index.php?r=persona/admin
+---
+2015/05/05 20:33:38 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Usted no se encuentra autorizado a realizar esta acción.' in C:\xampp\htdocs\Yii\framework\web\auth\CAccessControlFilter.php:179
+=======
+#7 C:\xampp\htdocs\Yii\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 C:\xampp\htdocs\Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('aparato/admin')
+#9 C:\xampp\htdocs\Yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\voltmetro\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/voltmetro/index.php?r=aparato/admin
+HTTP_REFERER=http://localhost/voltmetro/index.php?r=persona/admin
+---
+2015/05/05 20:31:43 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Usted no se encuentra autorizado a realizar esta acción.' in C:\xampp\htdocs\Yii\framework\web\auth\CAccessControlFilter.php:179
+>>>>>>> de4ee7d13620f2b49fe303e8fa7df5aeb36c676f
+Stack trace:
+#0 C:\xampp\htdocs\Yii\framework\web\auth\CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(CWebUser), 'Usted no se enc...')
+#1 C:\xampp\htdocs\Yii\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp\htdocs\Yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp\htdocs\Yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp\htdocs\Yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp\htdocs\Yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\Yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+<<<<<<< HEAD
+#7 C:\xampp\htdocs\Yii\framework\web\CWebApplication.php(282): CController->run('create')
+#8 C:\xampp\htdocs\Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('persona/create')
+#9 C:\xampp\htdocs\Yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\voltmetro\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/voltmetro/index.php?r=persona/create
+HTTP_REFERER=http://localhost/voltmetro/index.php?r=persona/create
+---
+2015/05/05 20:33:41 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Usted no se encuentra autorizado a realizar esta acción.' in C:\xampp\htdocs\Yii\framework\web\auth\CAccessControlFilter.php:179
+=======
+#7 C:\xampp\htdocs\Yii\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 C:\xampp\htdocs\Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('area/admin')
+#9 C:\xampp\htdocs\Yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\voltmetro\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/voltmetro/index.php?r=area/admin
+HTTP_REFERER=http://localhost/voltmetro/index.php?r=aparato/admin
+---
+2015/05/05 20:32:22 [warning] [application] Error al definir unsafe el atributo "nombre" de "Biblioteca".
+in C:\xampp\htdocs\voltmetro\protected\controllers\BibliotecaController.php (73)
+in C:\xampp\htdocs\voltmetro\index.php (13)
+2015/05/05 20:32:33 [warning] [application] Error al definir unsafe el atributo "nombre" de "Biblioteca".
+in C:\xampp\htdocs\voltmetro\protected\controllers\BibliotecaController.php (73)
+in C:\xampp\htdocs\voltmetro\index.php (13)
+2015/05/05 20:32:55 [warning] [application] Error al definir unsafe el atributo "nombre" de "Biblioteca".
+in C:\xampp\htdocs\voltmetro\protected\controllers\BibliotecaController.php (73)
+in C:\xampp\htdocs\voltmetro\index.php (13)
+2015/05/05 20:33:20 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Usted no se encuentra autorizado a realizar esta acción.' in C:\xampp\htdocs\Yii\framework\web\auth\CAccessControlFilter.php:179
+>>>>>>> de4ee7d13620f2b49fe303e8fa7df5aeb36c676f
+Stack trace:
+#0 C:\xampp\htdocs\Yii\framework\web\auth\CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(CWebUser), 'Usted no se enc...')
+#1 C:\xampp\htdocs\Yii\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp\htdocs\Yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp\htdocs\Yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp\htdocs\Yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp\htdocs\Yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\Yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+<<<<<<< HEAD
+#7 C:\xampp\htdocs\Yii\framework\web\CWebApplication.php(282): CController->run('create')
+#8 C:\xampp\htdocs\Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('persona/create')
+#9 C:\xampp\htdocs\Yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\voltmetro\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/voltmetro/index.php?r=persona/create
+HTTP_REFERER=http://localhost/voltmetro/index.php?r=persona/create
+---
+2015/05/05 20:33:44 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Usted no se encuentra autorizado a realizar esta acción.' in C:\xampp\htdocs\Yii\framework\web\auth\CAccessControlFilter.php:179
+=======
+#7 C:\xampp\htdocs\Yii\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 C:\xampp\htdocs\Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('biblioteca/admi...')
+#9 C:\xampp\htdocs\Yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\voltmetro\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/voltmetro/index.php?r=biblioteca/admin
+HTTP_REFERER=http://localhost/voltmetro/index.php?r=biblioteca/index
+---
+2015/05/05 20:33:33 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Usted no se encuentra autorizado a realizar esta acción.' in C:\xampp\htdocs\Yii\framework\web\auth\CAccessControlFilter.php:179
+>>>>>>> de4ee7d13620f2b49fe303e8fa7df5aeb36c676f
+Stack trace:
+#0 C:\xampp\htdocs\Yii\framework\web\auth\CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(CWebUser), 'Usted no se enc...')
+#1 C:\xampp\htdocs\Yii\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp\htdocs\Yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp\htdocs\Yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp\htdocs\Yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp\htdocs\Yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\Yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\Yii\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 C:\xampp\htdocs\Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('persona/admin')
+#9 C:\xampp\htdocs\Yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\voltmetro\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/voltmetro/index.php?r=persona/admin
+HTTP_REFERER=http://localhost/voltmetro/index.php?r=aparato/create
+---
+<<<<<<< HEAD
+2015/05/05 20:33:44 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Usted no se encuentra autorizado a realizar esta acción.' in C:\xampp\htdocs\Yii\framework\web\auth\CAccessControlFilter.php:179
+=======
+2015/05/05 20:33:35 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Usted no se encuentra autorizado a realizar esta acción.' in C:\xampp\htdocs\Yii\framework\web\auth\CAccessControlFilter.php:179
+>>>>>>> de4ee7d13620f2b49fe303e8fa7df5aeb36c676f
+Stack trace:
+#0 C:\xampp\htdocs\Yii\framework\web\auth\CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(CWebUser), 'Usted no se enc...')
+#1 C:\xampp\htdocs\Yii\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp\htdocs\Yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp\htdocs\Yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp\htdocs\Yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp\htdocs\Yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\Yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\Yii\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 C:\xampp\htdocs\Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('persona/admin')
+#9 C:\xampp\htdocs\Yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\voltmetro\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/voltmetro/index.php?r=persona/admin
+<<<<<<< HEAD
+HTTP_REFERER=http://localhost/voltmetro/index.php?r=aparato/create
+---
+2015/05/05 20:33:45 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Usted no se encuentra autorizado a realizar esta acción.' in C:\xampp\htdocs\Yii\framework\web\auth\CAccessControlFilter.php:179
+=======
+HTTP_REFERER=http://localhost/voltmetro/index.php?r=persona/admin
+---
+2015/05/05 20:33:36 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Usted no se encuentra autorizado a realizar esta acción.' in C:\xampp\htdocs\Yii\framework\web\auth\CAccessControlFilter.php:179
+>>>>>>> de4ee7d13620f2b49fe303e8fa7df5aeb36c676f
+Stack trace:
+#0 C:\xampp\htdocs\Yii\framework\web\auth\CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(CWebUser), 'Usted no se enc...')
+#1 C:\xampp\htdocs\Yii\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp\htdocs\Yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp\htdocs\Yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp\htdocs\Yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp\htdocs\Yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\Yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+<<<<<<< HEAD
+#7 C:\xampp\htdocs\Yii\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 C:\xampp\htdocs\Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('aparato/admin')
+#9 C:\xampp\htdocs\Yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\voltmetro\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/voltmetro/index.php?r=aparato/admin
+HTTP_REFERER=http://localhost/voltmetro/index.php?r=persona/admin
+---
+2015/05/05 20:53:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "configuraciones/admin"' in C:\xampp\htdocs\Yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('configuraciones...')
+#1 C:\xampp\htdocs\Yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\voltmetro\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/voltmetro/index.php?r=configuraciones/admin
+HTTP_REFERER=http://localhost/voltmetro/index.php?r=persona/create
+---
+2015/05/05 21:39:48 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Usted no se encuentra autorizado a realizar esta acción.' in C:\xampp\htdocs\Yii\framework\web\auth\CAccessControlFilter.php:179
+=======
 #7 C:\xampp\htdocs\Yii\framework\web\CWebApplication.php(282): CController->run('create')
 #8 C:\xampp\htdocs\Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('persona/create')
 #9 C:\xampp\htdocs\Yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
@@ -452,6 +901,7 @@ REQUEST_URI=/voltmetro/index.php?r=persona/create
 HTTP_REFERER=http://localhost/voltmetro/index.php?r=persona/create
 ---
 2015/05/05 20:33:41 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Usted no se encuentra autorizado a realizar esta acción.' in C:\xampp\htdocs\Yii\framework\web\auth\CAccessControlFilter.php:179
+>>>>>>> de4ee7d13620f2b49fe303e8fa7df5aeb36c676f
 Stack trace:
 #0 C:\xampp\htdocs\Yii\framework\web\auth\CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(CWebUser), 'Usted no se enc...')
 #1 C:\xampp\htdocs\Yii\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
@@ -466,9 +916,15 @@ Stack trace:
 #10 C:\xampp\htdocs\voltmetro\index.php(13): CApplication->run()
 #11 {main}
 REQUEST_URI=/voltmetro/index.php?r=persona/create
+<<<<<<< HEAD
+HTTP_REFERER=http://localhost/voltmetro/index.php?r=site/login
+---
+2015/05/05 21:39:50 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Usted no se encuentra autorizado a realizar esta acción.' in C:\xampp\htdocs\Yii\framework\web\auth\CAccessControlFilter.php:179
+=======
 HTTP_REFERER=http://localhost/voltmetro/index.php?r=persona/create
 ---
 2015/05/05 20:33:44 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Usted no se encuentra autorizado a realizar esta acción.' in C:\xampp\htdocs\Yii\framework\web\auth\CAccessControlFilter.php:179
+>>>>>>> de4ee7d13620f2b49fe303e8fa7df5aeb36c676f
 Stack trace:
 #0 C:\xampp\htdocs\Yii\framework\web\auth\CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(CWebUser), 'Usted no se enc...')
 #1 C:\xampp\htdocs\Yii\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
@@ -483,6 +939,11 @@ Stack trace:
 #10 C:\xampp\htdocs\voltmetro\index.php(13): CApplication->run()
 #11 {main}
 REQUEST_URI=/voltmetro/index.php?r=persona/admin
+<<<<<<< HEAD
+HTTP_REFERER=http://localhost/voltmetro/index.php?r=persona/create
+---
+2015/05/05 21:39:51 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Usted no se encuentra autorizado a realizar esta acción.' in C:\xampp\htdocs\Yii\framework\web\auth\CAccessControlFilter.php:179
+=======
 HTTP_REFERER=http://localhost/voltmetro/index.php?r=aparato/create
 ---
 2015/05/05 20:33:44 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Usted no se encuentra autorizado a realizar esta acción.' in C:\xampp\htdocs\Yii\framework\web\auth\CAccessControlFilter.php:179
@@ -503,6 +964,7 @@ REQUEST_URI=/voltmetro/index.php?r=persona/admin
 HTTP_REFERER=http://localhost/voltmetro/index.php?r=aparato/create
 ---
 2015/05/05 20:33:45 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Usted no se encuentra autorizado a realizar esta acción.' in C:\xampp\htdocs\Yii\framework\web\auth\CAccessControlFilter.php:179
+>>>>>>> de4ee7d13620f2b49fe303e8fa7df5aeb36c676f
 Stack trace:
 #0 C:\xampp\htdocs\Yii\framework\web\auth\CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(CWebUser), 'Usted no se enc...')
 #1 C:\xampp\htdocs\Yii\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
@@ -519,6 +981,26 @@ Stack trace:
 REQUEST_URI=/voltmetro/index.php?r=aparato/admin
 HTTP_REFERER=http://localhost/voltmetro/index.php?r=persona/admin
 ---
+<<<<<<< HEAD
+2015/05/05 21:39:53 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Usted no se encuentra autorizado a realizar esta acción.' in C:\xampp\htdocs\Yii\framework\web\auth\CAccessControlFilter.php:179
+Stack trace:
+#0 C:\xampp\htdocs\Yii\framework\web\auth\CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(CWebUser), 'Usted no se enc...')
+#1 C:\xampp\htdocs\Yii\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp\htdocs\Yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp\htdocs\Yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp\htdocs\Yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp\htdocs\Yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\Yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\Yii\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 C:\xampp\htdocs\Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('area/admin')
+#9 C:\xampp\htdocs\Yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\voltmetro\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/voltmetro/index.php?r=area/admin
+HTTP_REFERER=http://localhost/voltmetro/index.php?r=aparato/admin
+---
+2015/05/05 21:40:52 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Usted no se encuentra autorizado a realizar esta acción.' in C:\xampp\htdocs\Yii\framework\web\auth\CAccessControlFilter.php:179
+=======
 2015/05/05 20:53:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "configuraciones/admin"' in C:\xampp\htdocs\Yii\framework\web\CWebApplication.php:286
 Stack trace:
 #0 C:\xampp\htdocs\Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('configuraciones...')
@@ -529,6 +1011,7 @@ REQUEST_URI=/voltmetro/index.php?r=configuraciones/admin
 HTTP_REFERER=http://localhost/voltmetro/index.php?r=persona/create
 ---
 2015/05/05 21:39:48 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Usted no se encuentra autorizado a realizar esta acción.' in C:\xampp\htdocs\Yii\framework\web\auth\CAccessControlFilter.php:179
+>>>>>>> de4ee7d13620f2b49fe303e8fa7df5aeb36c676f
 Stack trace:
 #0 C:\xampp\htdocs\Yii\framework\web\auth\CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(CWebUser), 'Usted no se enc...')
 #1 C:\xampp\htdocs\Yii\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
@@ -538,6 +1021,16 @@ Stack trace:
 #5 C:\xampp\htdocs\Yii\framework\web\CController.php(291): CFilterChain->run()
 #6 C:\xampp\htdocs\Yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
 #7 C:\xampp\htdocs\Yii\framework\web\CWebApplication.php(282): CController->run('create')
+<<<<<<< HEAD
+#8 C:\xampp\htdocs\Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('aparato/create')
+#9 C:\xampp\htdocs\Yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\voltmetro\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/voltmetro/index.php?r=aparato/create
+HTTP_REFERER=http://localhost/voltmetro/index.php?r=biblioteca/index
+---
+2015/05/05 21:40:57 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Usted no se encuentra autorizado a realizar esta acción.' in C:\xampp\htdocs\Yii\framework\web\auth\CAccessControlFilter.php:179
+=======
 #8 C:\xampp\htdocs\Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('persona/create')
 #9 C:\xampp\htdocs\Yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
 #10 C:\xampp\htdocs\voltmetro\index.php(13): CApplication->run()
@@ -546,6 +1039,7 @@ REQUEST_URI=/voltmetro/index.php?r=persona/create
 HTTP_REFERER=http://localhost/voltmetro/index.php?r=site/login
 ---
 2015/05/05 21:39:50 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Usted no se encuentra autorizado a realizar esta acción.' in C:\xampp\htdocs\Yii\framework\web\auth\CAccessControlFilter.php:179
+>>>>>>> de4ee7d13620f2b49fe303e8fa7df5aeb36c676f
 Stack trace:
 #0 C:\xampp\htdocs\Yii\framework\web\auth\CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(CWebUser), 'Usted no se enc...')
 #1 C:\xampp\htdocs\Yii\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
@@ -554,6 +1048,17 @@ Stack trace:
 #4 C:\xampp\htdocs\Yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
 #5 C:\xampp\htdocs\Yii\framework\web\CController.php(291): CFilterChain->run()
 #6 C:\xampp\htdocs\Yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+<<<<<<< HEAD
+#7 C:\xampp\htdocs\Yii\framework\web\CWebApplication.php(282): CController->run('create')
+#8 C:\xampp\htdocs\Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('persona/create')
+#9 C:\xampp\htdocs\Yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\voltmetro\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/voltmetro/index.php?r=persona/create
+HTTP_REFERER=http://localhost/voltmetro/index.php?r=aparato/create
+---
+2015/05/05 21:40:59 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Usted no se encuentra autorizado a realizar esta acción.' in C:\xampp\htdocs\Yii\framework\web\auth\CAccessControlFilter.php:179
+=======
 #7 C:\xampp\htdocs\Yii\framework\web\CWebApplication.php(282): CController->run('admin')
 #8 C:\xampp\htdocs\Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('persona/admin')
 #9 C:\xampp\htdocs\Yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
@@ -563,6 +1068,7 @@ REQUEST_URI=/voltmetro/index.php?r=persona/admin
 HTTP_REFERER=http://localhost/voltmetro/index.php?r=persona/create
 ---
 2015/05/05 21:39:51 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Usted no se encuentra autorizado a realizar esta acción.' in C:\xampp\htdocs\Yii\framework\web\auth\CAccessControlFilter.php:179
+>>>>>>> de4ee7d13620f2b49fe303e8fa7df5aeb36c676f
 Stack trace:
 #0 C:\xampp\htdocs\Yii\framework\web\auth\CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(CWebUser), 'Usted no se enc...')
 #1 C:\xampp\htdocs\Yii\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
@@ -572,6 +1078,39 @@ Stack trace:
 #5 C:\xampp\htdocs\Yii\framework\web\CController.php(291): CFilterChain->run()
 #6 C:\xampp\htdocs\Yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
 #7 C:\xampp\htdocs\Yii\framework\web\CWebApplication.php(282): CController->run('admin')
+<<<<<<< HEAD
+#8 C:\xampp\htdocs\Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('persona/admin')
+#9 C:\xampp\htdocs\Yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\voltmetro\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/voltmetro/index.php?r=persona/admin
+HTTP_REFERER=http://localhost/voltmetro/index.php?r=persona/create
+---
+2015/05/07 06:31:08 [error] [system.db.CDbCommand] CDbCommand::execute() falló: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'invitado-9AEYJ' for key 'PRIMARY'. La sentencia SQL ejecutada fue: INSERT INTO `AuthAssignment` (`itemname`, `userid`, `bizrule`, `data`) VALUES (:itemname, :userid, :bizrule, :data).
+in C:\xampp\htdocs\voltmetro\protected\controllers\PersonaController.php (140)
+in C:\xampp\htdocs\voltmetro\index.php (13)
+2015/05/07 06:31:08 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand falló al ejecutar la sentencia SQL: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'invitado-9AEYJ' for key 'PRIMARY'. The SQL statement executed was: INSERT INTO `AuthAssignment` (`itemname`, `userid`, `bizrule`, `data`) VALUES (:itemname, :userid, :bizrule, :data)' in C:\xampp\htdocs\yii\framework\db\CDbCommand.php:358
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\CDbCommand.php(1278): CDbCommand->execute(Array)
+#1 C:\xampp\htdocs\yii\framework\web\auth\CDbAuthManager.php(263): CDbCommand->insert('AuthAssignment', Array)
+#2 C:\xampp\htdocs\voltmetro\protected\controllers\PersonaController.php(140): CDbAuthManager->assign('invitado', '9AEYJ')
+#3 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): PersonaController->actionIndex()
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('index')
+#13 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('persona/index')
+#14 C:\xampp\htdocs\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\voltmetro\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/voltmetro/index.php?r=persona/index
+---
+=======
 #8 C:\xampp\htdocs\Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('aparato/admin')
 #9 C:\xampp\htdocs\Yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
 #10 C:\xampp\htdocs\voltmetro\index.php(13): CApplication->run()
@@ -647,27 +1186,4 @@ Stack trace:
 REQUEST_URI=/voltmetro/index.php?r=persona/admin
 HTTP_REFERER=http://localhost/voltmetro/index.php?r=persona/create
 ---
-2015/05/07 06:31:08 [error] [system.db.CDbCommand] CDbCommand::execute() falló: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'invitado-9AEYJ' for key 'PRIMARY'. La sentencia SQL ejecutada fue: INSERT INTO `AuthAssignment` (`itemname`, `userid`, `bizrule`, `data`) VALUES (:itemname, :userid, :bizrule, :data).
-in C:\xampp\htdocs\voltmetro\protected\controllers\PersonaController.php (140)
-in C:\xampp\htdocs\voltmetro\index.php (13)
-2015/05/07 06:31:08 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand falló al ejecutar la sentencia SQL: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'invitado-9AEYJ' for key 'PRIMARY'. The SQL statement executed was: INSERT INTO `AuthAssignment` (`itemname`, `userid`, `bizrule`, `data`) VALUES (:itemname, :userid, :bizrule, :data)' in C:\xampp\htdocs\yii\framework\db\CDbCommand.php:358
-Stack trace:
-#0 C:\xampp\htdocs\yii\framework\db\CDbCommand.php(1278): CDbCommand->execute(Array)
-#1 C:\xampp\htdocs\yii\framework\web\auth\CDbAuthManager.php(263): CDbCommand->insert('AuthAssignment', Array)
-#2 C:\xampp\htdocs\voltmetro\protected\controllers\PersonaController.php(140): CDbAuthManager->assign('invitado', '9AEYJ')
-#3 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): PersonaController->actionIndex()
-#4 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
-#5 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
-#6 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
-#7 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
-#8 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
-#9 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
-#10 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
-#11 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
-#12 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('index')
-#13 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('persona/index')
-#14 C:\xampp\htdocs\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
-#15 C:\xampp\htdocs\voltmetro\index.php(13): CApplication->run()
-#16 {main}
-REQUEST_URI=/voltmetro/index.php?r=persona/index
----
+>>>>>>> de4ee7d13620f2b49fe303e8fa7df5aeb36c676f
