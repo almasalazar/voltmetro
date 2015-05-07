@@ -63,7 +63,7 @@ class BibliotecaController extends Controller
 	public function actionCreate()
 	{
 		$model=new Biblioteca;
-		$path_picture = realpath( Yii::app( )->getBasePath( )."/../img/respaldos" )."/";
+		$path_picture = realpath( Yii::app( )->getBasePath( )."/../img/biblioteca" )."/";
 
 		// Uncomment the following line if AJAX validation is needed
 		// $this->performAjaxValidation($model);
@@ -72,9 +72,8 @@ class BibliotecaController extends Controller
 		{
 			$model->attributes=$_POST['Biblioteca'];
   		////////////////////////////////////////////////////////////////////
-            $rnd = rand(0,9999);  // generate random number between 0-9999
             $uploadedFile=CUploadedFile::getInstance($model,'nombre'); 
-            $fileName = "{$rnd}-{$uploadedFile}";  // random number + file name or puedes usar: $fileName=$uploadedFile->getName();
+            $fileName = "{$uploadedFile}";  // random number + file name or puedes usar: $fileName=$uploadedFile->getName();
              
             if(!empty($uploadedFile))  // check if uploaded file is set or not
             {

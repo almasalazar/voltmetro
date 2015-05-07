@@ -76,8 +76,10 @@ class PersonaController extends Controller
 		if(isset($_POST['Persona']))
 		{
 			$model->attributes=$_POST['Persona'];
-			if($model->save())
+			if($model->save()){
+				Yii::app()->authManager->assign("invitado", $model->rpe);
 				$this->redirect(array('view','id'=>$model->rpe));
+			}
 		}
 
 		$this->render('create',array(

@@ -44,7 +44,6 @@ class AparatoController extends Controller
 			),
 		);
 	}
-
 	/**
 	 * Displays a particular model.
 	 * @param integer $id the ID of the model to be displayed
@@ -142,8 +141,6 @@ class AparatoController extends Controller
 			'dataProvider'=>$dataProvider,
 		));
 
-
-
 		/*  para hacerlo en excel
 
 		Yii::app()->request->sendFile('infovoltme.xls',
@@ -179,7 +176,7 @@ class AparatoController extends Controller
 	{
 		$model=Aparato::model()->findByPk($id);
 		if($model===null)
-			throw new CHttpException(404,'The requested page does not exist.');
+			throw new CHttpException(404,'La pagina que solicito no existe.');
 		return $model;
 	}
 

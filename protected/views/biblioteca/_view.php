@@ -5,13 +5,17 @@
 
 <div class="view">
 
-	<b><?php echo CHtml::encode($data->getAttributeLabel('id_biblioteca')); ?>:</b>
-	<?php echo CHtml::link(CHtml::encode($data->id_biblioteca), array('view', 'id'=>$data->id_biblioteca)); ?>
-	<br />
-
-	<b><?php echo CHtml::encode($data->getAttributeLabel('nombre')); ?>:</b>
-	<?php echo CHtml::encode($data->nombre); ?>
-	<br />
-
+		  <div class="col-sm-3 col-md-2">
+		    <div class="thumbnail">
+		      <img src="img/doc.png" alt="...">
+		      <div class="caption">
+		      <b></b>
+				<?php echo CHtml::encode($data->nombre); ?>
+				<p><a href="<?php echo CHtml::encode($data->getAttributeLabel('nombre')); ?>:" class="btn btn-success" role="button">Descargar</a></p>
+				<br />
+		      </div>
+		    </div>
+		  </div>
+	
 
 </div>

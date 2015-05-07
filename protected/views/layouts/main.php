@@ -55,8 +55,9 @@
           <li><a href="?r=configuraciones/admin">Configuraciones</a></li>
             <?php if(Yii::app()->user->isGuest): ?>
             <li class="active"><a href="?r=site/login">Login</a></li>
+
            <?php else: ?>
-            <li><a href="?r=site/logout">Logout</a></li>
+            <li><a href="?r=site/logout">Salir</a>  <?php ('.Yii::app()->user->name.') ?> </li>
           <?php endif;?>
               
           </ul>
@@ -110,7 +111,7 @@
 
                         <div class="col-xs-6 col-sm-3 placeholder">
                         <a href="?r=aparato/create">
-                           <img  src="img/img9.jpg" class="img-responsive" alt="Generic placeholder thumbnail">
+                           <img  src="img/img9.png" class="img-responsive" alt="Generic placeholder thumbnail">
                             <h4>Registrar Aparatos</h4>
                             <span class="text-muted">Agregar un nuevo aparato a la base de datos</span>
                             </a>
