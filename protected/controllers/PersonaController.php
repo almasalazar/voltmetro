@@ -134,10 +134,38 @@ class PersonaController extends Controller
 		//Yii::app()->authManager->createRole("editor");
 		//Yii::app()->authManager->createRole("invitado");
 		
-		//Yii::app()->authManager->assign("admin", '9ERCB');
-		//Yii::app()->authManager->assign("admin", '10030754');
-		//Yii::app()->authManager->assign("editor", '9L1AM');
-
+		
+		/*
+		Yii::app()->authManager->assign("admin", '9ERCB');
+		Yii::app()->authManager->assign("admin", '10030754');
+		Yii::app()->authManager->assign("editor", '9L1AM');
+		Yii::app()->authManager->assign("invitado", '9AEYJ');
+		Yii::app()->authManager->assign("invitado", '9AF47');
+		Yii::app()->authManager->assign("invitado", '9EBUP');
+		Yii::app()->authManager->assign("invitado", '9EBYG');
+		Yii::app()->authManager->assign("invitado", '9EC1D');
+		Yii::app()->authManager->assign("invitado", '9EC2C');
+		Yii::app()->authManager->assign("invitado", '9EC8M');
+		Yii::app()->authManager->assign("invitado", '9EP54');
+		Yii::app()->authManager->assign("invitado", '9EP64');
+		Yii::app()->authManager->assign("invitado", '9ER3V');
+		Yii::app()->authManager->assign("invitado", '9ERDP');
+		Yii::app()->authManager->assign("invitado", '9L1A8');
+		Yii::app()->authManager->assign("invitado", '9L1D5');
+		Yii::app()->authManager->assign("invitado", '9L1F5');
+		Yii::app()->authManager->assign("invitado", '9L1JA');
+		Yii::app()->authManager->assign("invitado", '9L1JR');
+		Yii::app()->authManager->assign("invitado", '9L1L7');
+		Yii::app()->authManager->assign("invitado", '9L1NE');
+		Yii::app()->authManager->assign("invitado", '9L1NN');
+		Yii::app()->authManager->assign("invitado", '9M35N');
+		Yii::app()->authManager->assign("invitado", '9M3AW');
+		Yii::app()->authManager->assign("invitado", '9M80N');
+		Yii::app()->authManager->assign("invitado", '9M8JD');
+		Yii::app()->authManager->assign("invitado", 'K228J');
+		Yii::app()->authManager->assign("invitado", 'K345J');
+		*/
+		
 		//echo "hola";
 		if(Yii::app()->user->checkAccess("admin")){
 			$dataProvider=new CActiveDataProvider('Persona');

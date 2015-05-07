@@ -647,3 +647,27 @@ Stack trace:
 REQUEST_URI=/voltmetro/index.php?r=persona/admin
 HTTP_REFERER=http://localhost/voltmetro/index.php?r=persona/create
 ---
+2015/05/07 06:31:08 [error] [system.db.CDbCommand] CDbCommand::execute() falló: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'invitado-9AEYJ' for key 'PRIMARY'. La sentencia SQL ejecutada fue: INSERT INTO `AuthAssignment` (`itemname`, `userid`, `bizrule`, `data`) VALUES (:itemname, :userid, :bizrule, :data).
+in C:\xampp\htdocs\voltmetro\protected\controllers\PersonaController.php (140)
+in C:\xampp\htdocs\voltmetro\index.php (13)
+2015/05/07 06:31:08 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand falló al ejecutar la sentencia SQL: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'invitado-9AEYJ' for key 'PRIMARY'. The SQL statement executed was: INSERT INTO `AuthAssignment` (`itemname`, `userid`, `bizrule`, `data`) VALUES (:itemname, :userid, :bizrule, :data)' in C:\xampp\htdocs\yii\framework\db\CDbCommand.php:358
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\CDbCommand.php(1278): CDbCommand->execute(Array)
+#1 C:\xampp\htdocs\yii\framework\web\auth\CDbAuthManager.php(263): CDbCommand->insert('AuthAssignment', Array)
+#2 C:\xampp\htdocs\voltmetro\protected\controllers\PersonaController.php(140): CDbAuthManager->assign('invitado', '9AEYJ')
+#3 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): PersonaController->actionIndex()
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('index')
+#13 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('persona/index')
+#14 C:\xampp\htdocs\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\voltmetro\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/voltmetro/index.php?r=persona/index
+---
