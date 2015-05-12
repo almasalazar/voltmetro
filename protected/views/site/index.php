@@ -48,7 +48,7 @@
         <h1 align="center">Welcom to Metrology Lab!</h1>
         <br><br><br>
         <p>Sistema desarrollado por la oficina de aseguramiento de la mediciòn para el monitoreo de los voltmetros y patrones a cargo de las diferentes àreas que abarca la Zona Celaya </p>
-        <div class="buttons" class="btn btn-success" align="center"> <a href="?r=persona/create">Entrar</a></div>
+        <div class="buttons" class="btn btn-success" align="center"> <a href="?r=persona/index">Entrar</a></div>
       </div>
        </div>
           <div class="row">

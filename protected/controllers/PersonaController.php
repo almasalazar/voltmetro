@@ -32,17 +32,17 @@ class PersonaController extends Controller
 			array('allow',  // allow all users to perform 'index' and 'view' actions
 				'actions'=>array('index','view'),
 				//'users'=>array('@'),
-				'roles'=>array('admin','editor')
+				'roles'=>array('admin','editor','invitado')
 			),
 			array('allow', // allow authenticated user to perform 'create' and 'update' actions
 				'actions'=>array('create','update'),
 				//'users'=>array('9ERCB', '9L1AM'),
-				'roles'=>array('admin'),
+				'roles'=>array('admin', 'editor'),
 			),
 			array('allow', // allow admin user to perform 'admin' and 'delete' actions
 				'actions'=>array('admin','delete'),
 				//'users'=>array('9ERCB'),
-				'roles'=>array('admin'),
+				'roles'=>array('admin', 'editor'),
 			),
 			array('deny',  // deny all users
 				'users'=>array('*'),
@@ -164,9 +164,7 @@ class PersonaController extends Controller
 		Yii::app()->authManager->assign("invitado", '9M8JD');
 		Yii::app()->authManager->assign("invitado", 'K228J');
 		Yii::app()->authManager->assign("invitado", 'K345J');
-		*/
 		
-		//echo "hola";
 		if(Yii::app()->user->checkAccess("admin")){
 			$dataProvider=new CActiveDataProvider('Persona');
 			$this->render('index',array(
@@ -176,8 +174,13 @@ class PersonaController extends Controller
 		else{
 			echo "no tiene permisos";
 		}
-			
-
+		*/
+		
+		//echo "hola";
+			$dataProvider=new CActiveDataProvider('Persona');
+			$this->render('index',array(
+				'dataProvider'=>$dataProvider,
+			));
 			
 	}
 

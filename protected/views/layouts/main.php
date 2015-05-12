@@ -71,6 +71,21 @@
     <div class="container-fluid">
       <div class="row">
       <div class="col-sm-3 col-md-2 sidebar">
+        <?php
+  $this->widget('zii.widgets.CMenu',array(
+    'items'=>array(
+      array('label'=>'Inicio', 'url'=>array('/site/index')),
+      array('label'=>'Personas', 'url'=>array('/persona/admin')),
+      array('label'=>'Aparatos', 'url'=>array('/aparato/index')),
+      array('label'=>'Areas', 'url'=>array('/area/admin'), 'visible'=>!Yii::app()->user->checkAccess('invitado')),
+      array('label'=>'Proximos a Calibrar', 'url'=>array('/calibraciones/index'), 'visible'=>!Yii::app()->user->checkAccess('invitado')),
+      array('label'=>'Pendientes a Calibrar', 'url'=>array('/pendientes/index'), 'visible'=>!Yii::app()->user->checkAccess('invitado')),
+      array('label'=>'Biblioteca Virtual', 'url'=>array('/biblioteca/index')),
+      array('label'=>'Subir Documento', 'url'=>array('/biblioteca/create'), 'visible'=>!Yii::app()->user->checkAccess('invitado')),
+    ),
+  ));
+   ?>
+        <!--
                     <ul class="nav nav-sidebar">   
                       <li class="active"><a href="?r=site/index"><span class="glyphicon glyphicon-home"></span>   Inicio</a></li>
                       <li><a href="?r=persona/admin"><span class="glyphicon glyphicon-user"></span>   Personas </a></li>
@@ -80,7 +95,8 @@
                       <li><a href="?r=pendientes/index"><span class="glyphicon glyphicon-search"></span>  Pendientes a Calibrar</a></li>
                       <li><a href="?r=biblioteca/index"><span class="glyphicon glyphicon-book"></span>   Biblioteca Virtual</a></li>
                       <li><a href="?r=biblioteca/create"><span class="glyphicon glyphicon-upload"></span>   Subir Documento</a></li>
-                      </ul>         
+                      </ul>      
+                      -->   
                   </div>
        <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
                     <div class="row placeholders"> 
