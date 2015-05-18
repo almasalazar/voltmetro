@@ -1,7 +1,9 @@
 
+
 <?php $form=$this->beginWidget('CActiveForm', array(
   'id'=>'login-form',
-  'action'=>$this->createUrl("site/login"),
+  'action'=>$this->createUrl("site/login"), //con esta linea es con la que se hace la validacion
+  
   'enableClientValidation'=>true,
   'clientOptions'=>array(
     'validateOnSubmit'=>true,

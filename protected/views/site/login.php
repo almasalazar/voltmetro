@@ -11,6 +11,7 @@ $this->pageTitle=Yii::app()->name . ' - Login';
 	'id'=>'login-form',
 	'enableClientValidation'=>true,
 	'clientOptions'=>array(
+		
 		'validateOnSubmit'=>true,
 	),
 )); ?>
