@@ -3,7 +3,7 @@
 /* @var $data Aparato */
 ?>
 
-<div class="view">
+<div class="table">
 	<b><?php echo CHtml::encode($data->getAttributeLabel('no_serie')); ?>:</b>
 	 <?php echo CHtml::link(CHtml::encode($data->no_serie), array('view', 'id'=>$data->no_serie)); ?>
 	<br />		

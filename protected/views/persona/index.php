@@ -6,10 +6,6 @@ $this->breadcrumbs=array(
 	'Personas',
 );
 
-$this->menu=array(
-	array('label'=>'Crear Persona', 'url'=>array('create')),
-	array('label'=>'Administrar Persona', 'url'=>array('admin')),
-);
 ?>
 
 <h1>Personas</h1>
@@ -18,6 +14,6 @@ $this->menu=array(
 	'dataProvider'=>$dataProvider,
 	'itemView'=>'_view',
 	'pager'=>array("htmlOptions"=>array("class"=>"pagination")),
-	#'sortableAttributes'=>array(),
+	'sortableAttributes'=>array(),
 )); ?>
 

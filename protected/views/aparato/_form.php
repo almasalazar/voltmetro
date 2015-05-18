@@ -52,7 +52,7 @@
 	</div>
 
 	<div class="form-group">
-		<?php echo $form->labelEx($model,'ultima Calibracion *' ); ?>
+		<?php echo $form->labelEx($model,'ultima Calibracion' ); ?>
 		<?php echo $this->widget('zii.widgets.jui.CJuiDatePicker',
 				array('model'=>$model, 
 					'attribute'=>'ultima_calib',
@@ -71,7 +71,7 @@
 	</div>
 
 	<div class="form-group">
-		<?php echo $form->labelEx($model,'proxima Calibracion *'); ?>
+		<?php echo $form->labelEx($model,'proxima Calibracion'); ?>
 		<?php echo $this->widget('zii.widgets.jui.CJuiDatePicker',
 				array('model'=>$model, 
 					'attribute'=>'prox_calib',

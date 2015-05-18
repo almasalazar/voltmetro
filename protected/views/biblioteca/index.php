@@ -6,10 +6,6 @@ $this->breadcrumbs=array(
 	'Bibliotecas',
 );
 
-$this->menu=array(
-	array('label'=>'Subir documentos', 'url'=>array('create')),
-	array('label'=>'Administrar documentos', 'url'=>array('admin')),
-);
 ?>
 
 

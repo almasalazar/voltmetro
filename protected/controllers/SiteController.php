@@ -33,6 +33,11 @@ class SiteController extends Controller
 		// using the default layout 'protected/views/layouts/main.php'
 		$model=new LoginForm;
 		$this->render('index', array("model"=>$model));
+		//esto es lo que me dijiste que pegara tal cual
+		$dataProvider=new CActiveDataProvider('Persona');
+			$this->render('index',array(
+				'dataProvider'=>$dataProvider,
+			));
 	}
 
 	/**

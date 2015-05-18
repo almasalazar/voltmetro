@@ -45,6 +45,8 @@ $('.search-form form').submit(function(){
 		'prox_calib',
 		'rpe',
 		'idEstatus.estatus',
+		'idArea.area',
+		'idArea.tipo',
 		/*
 		'tipo',
 		'observaciones',

@@ -74,6 +74,7 @@
         <?php
   $this->widget('zii.widgets.CMenu',array(
     'items'=>array(
+     
       array('label'=>'Inicio', 'url'=>array('/site/index')),
       array('label'=>'Personas', 'url'=>array('/persona/admin')),
       array('label'=>'Aparatos', 'url'=>array('/aparato/index')),

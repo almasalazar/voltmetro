@@ -40,8 +40,8 @@ $('.search-form form').submit(function(){
 		'email',
 		'password',
 		'rpe_jefe',
-		'idArea.area',
-		'idArea.tipo',
+		#'idArea.area', poner area del aparato y nombre del que lo tiene
+		#'idArea.tipo',
 		/*
 		'es_jefe',
 		'id_area',
