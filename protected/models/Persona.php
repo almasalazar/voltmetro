@@ -19,6 +19,11 @@
 class Persona extends CActiveRecord
 {
 	public $area;
+	public $rpe;
+	public $nombre;
+	public $no_serie;
+	public $tipo;
+	//public $id;
 	/**
 	 * Returns the static model of the specified AR class.
 	 * @param string $className active record class name.

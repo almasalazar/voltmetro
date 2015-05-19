@@ -139,6 +139,12 @@ class AparatoController extends Controller
 	 */
 	public function actionIndex()
 	{
+		/*
+			$dataProvider=new CActiveDataProvider('Aparato');
+			$this->render('index',array(
+				'dataProvider'=>$dataProvider,
+			));
+		*/
 		if(Yii::app()->user->checkAccess("invitado")){
 			$dataProvider=new CActiveDataProvider('Aparato');
 			$this->render('index',array(

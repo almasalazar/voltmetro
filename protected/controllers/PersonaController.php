@@ -177,10 +177,37 @@ class PersonaController extends Controller
 		*/
 		
 		//echo "hola";
+		if(Yii::app()->user->checkAccess("invitado")){
+			/*$dataProvider=new CActiveDataProvider('Persona');
+			$this->render('index',array(
+				'dataProvider'=>$dataProvider,
+			));
+			*/
+			
+			//echo Yii::app()->user->id;
+			//$sql="SELECT rpe,nombre,email from persona where rpe_jefe='9L1A8'";
+			$sql="SELECT p.rpe,p.nombre,a.no_serie,ar.area, ar.tipo from persona p join aparato a on p.rpe = a.rpe
+				  join area ar on ar.id_area = p.id_area where rpe_jefe='".Yii::app()->user->getId()."'";
+			$persona=Persona::model()->findAllBySql($sql);
+			$this->render('index',array('persona'=>$persona));		
+
+		}
+		else{
+			$model=new Persona('search');
+			$model->unsetAttributes();  // clear any default values
+			if(isset($_GET['Persona']))
+				$model->attributes=$_GET['Persona'];
+
+			$this->render('admin',array(
+				'model'=>$model,
+			));
+		}
+		/*
 			$dataProvider=new CActiveDataProvider('Persona');
 			$this->render('index',array(
 				'dataProvider'=>$dataProvider,
 			));
+			*/
 			
 	}
 

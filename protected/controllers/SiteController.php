@@ -33,11 +33,7 @@ class SiteController extends Controller
 		// using the default layout 'protected/views/layouts/main.php'
 		$model=new LoginForm;
 		$this->render('index', array("model"=>$model));
-		//esto es lo que me dijiste que pegara tal cual si lo quito no me manda lo de la variale model
-		$dataProvider=new CActiveDataProvider('Persona');
-			$this->render('index',array(
-				'dataProvider'=>$dataProvider,
-			));
+		
 	}
 
 	/**
@@ -100,8 +96,10 @@ class SiteController extends Controller
 		{
 			$model->attributes=$_POST['LoginForm'];
 			// validate user input and redirect to the previous page if valid
-			if($model->validate() && $model->login())
-				$this->redirect(Yii::app()->user->returnUrl);
+			if($model->validate() && $model->login()){
+				//$this->redirect(Yii::app()->user->returnUrl);
+				$this->redirect('index.php?r=persona');
+			}
 		}
 		// display the login form
 		$this->render('login',array('model'=>$model));
