@@ -87,8 +87,7 @@ class AparatoController extends Controller
   
             if($model->save())
             {
-                 
-                $this->redirect(array('admin'));
+                 $this->redirect(array('view','id'=>$model->no_serie));
             }
         }
         $this->render('create',array(
@@ -146,10 +145,12 @@ class AparatoController extends Controller
 			));
 		*/
 		if(Yii::app()->user->checkAccess("invitado")){
-			$dataProvider=new CActiveDataProvider('Aparato');
-			$this->render('index',array(
-				'dataProvider'=>$dataProvider,
-			));
+
+			$sql="SELECT p.rpe,p.nombre,a.prox_calib,a.no_serie,e.estatus, ar.area, ar.tipo from aparato a join persona p on p.rpe = a.rpe
+				  join area ar on ar.id_area = p.id_area join estatus e on e.id_estatus = a.id_estatus where rpe_jefe='".Yii::app()->user->getId()."'";
+
+			$aparato=Aparato::model()->findAllBySql($sql);
+			$this->render('index',array('aparato'=>$aparato));
 		}
 		else{
 			$model=new Aparato('search');

@@ -23,9 +23,14 @@
 class Aparato extends CActiveRecord
 {
 
-	public $nombre;
-	public $estatus;
 	public $area;
+	public $rpe;
+	public $nombre;
+	public $no_serie;
+	public $tipo;
+	public $prox_calib;
+	public $estatus;
+
 
 	/**
 	 * Returns the static model of the specified AR class.

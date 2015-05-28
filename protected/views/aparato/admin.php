@@ -44,27 +44,22 @@ $('.search-form form').submit(function(){
 		'ultima_calib',
 		'prox_calib',
 		'rpe',
+		'rpe0.nombre',
+		'rpe0.idArea.area', 
+		'rpe0.idArea.tipo',
 		'idEstatus.estatus',
-		'idArea.area',
-		'idArea.tipo',
-		/*
-		'tipo',
-		'observaciones',
-		'archivo',
-		*/
+
+		array(
+			'name'=>'id_estatus',
+			'header'=>'Listar',
+			'filter'=>CHtml::listData(Estatus::model()->findAll(),'id_estatus','estatus'),
+		),
+
 		array(
 			'class'=>'CButtonColumn',
 			'header'=>'Ver,Editar,Eliminar',
 			),
 
-		array(
-			'class'=>'CLinkColumn',
-			'header'=>'Email',
-			'imageUrl'=>Yii::app()->baseUrl.'/img/email.png',
-			#'labelExpression'=>'$data->email',
-			'htmlOptions'=>array('style'=>'text-aling:center'),
-			#'urlExpression'=>
-			),
 		),
 
 )); ?>

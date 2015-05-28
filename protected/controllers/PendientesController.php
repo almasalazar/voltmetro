@@ -17,21 +17,15 @@ class PendientesController extends Controller
 	public function accessRules()
 	{
 		return array(
-			array('allow',  //Se podran acceder a las acciones de index y a la vista
-				'actions'=>array('index','view'),
-				'users'=>array('@'),
-			),
-			array('allow', // Podraa acceder a las acciones de crear y actualizar 
-				'actions'=>array('create','update'),
-				'users'=>array('9ERCB', '9L1AM'),
-			),
-			array('allow', //Podra acceder a las acciones de administrar y borrar
-				'actions'=>array('admin','delete'),
-				'users'=>array('9ERCB'),
-			),
+
 			array('deny',  // denegar a todos los usuarios.
 				'users'=>array('*'),
 			),
+			array('allow',  //Se podran acceder a las acciones de index y a la vista
+				'actions'=>array('index','view'),
+				'users'=>array('9ERCB', '9L1AM'),
+			),
+						
 		);
 	}
 

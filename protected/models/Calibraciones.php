@@ -16,9 +16,19 @@ class Calibraciones extends CFormModel
 	public $prox_calib;
 
 	
-	public function rules()
+	public function accessRules()
 	{
-		
+		return array(
+
+			array('deny',  // denegar a todos los usuarios.
+				'users'=>array('*'),
+			),
+			array('allow',  //Se podran acceder a las acciones de index y a la vista
+				'actions'=>array('index','view'),
+				'users'=>array('9ERCB', '9L1AM'),
+			),
+						
+		);
 	}
 
 	

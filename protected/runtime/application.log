@@ -4360,3 +4360,1185 @@ Stack trace:
 REQUEST_URI=/voltmetro/index.php?r=persona
 HTTP_REFERER=http://localhost:8080/voltmetro/index.php
 ---
+2015/05/19 04:13:31 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Usted no se encuentra autorizado a realizar esta acción.' in C:\xampp\htdocs\Yii\framework\web\auth\CAccessControlFilter.php:179
+Stack trace:
+#0 C:\xampp\htdocs\Yii\framework\web\auth\CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(CWebUser), 'Usted no se enc...')
+#1 C:\xampp\htdocs\Yii\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp\htdocs\Yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp\htdocs\Yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp\htdocs\Yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp\htdocs\Yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\Yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\Yii\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 C:\xampp\htdocs\Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('persona/admin')
+#9 C:\xampp\htdocs\Yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\voltmetro\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/voltmetro/index.php?r=persona/admin
+HTTP_REFERER=http://localhost/voltmetro/index.php?r=persona
+---
+2015/05/19 04:13:38 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Usted no se encuentra autorizado a realizar esta acción.' in C:\xampp\htdocs\Yii\framework\web\auth\CAccessControlFilter.php:179
+Stack trace:
+#0 C:\xampp\htdocs\Yii\framework\web\auth\CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(CWebUser), 'Usted no se enc...')
+#1 C:\xampp\htdocs\Yii\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp\htdocs\Yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp\htdocs\Yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp\htdocs\Yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp\htdocs\Yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\Yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\Yii\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 C:\xampp\htdocs\Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('persona/admin')
+#9 C:\xampp\htdocs\Yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\voltmetro\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/voltmetro/index.php?r=persona/admin
+HTTP_REFERER=http://localhost/voltmetro/index.php?r=persona
+---
+2015/05/19 04:13:46 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Usted no se encuentra autorizado a realizar esta acción.' in C:\xampp\htdocs\Yii\framework\web\auth\CAccessControlFilter.php:179
+Stack trace:
+#0 C:\xampp\htdocs\Yii\framework\web\auth\CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(CWebUser), 'Usted no se enc...')
+#1 C:\xampp\htdocs\Yii\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp\htdocs\Yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp\htdocs\Yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp\htdocs\Yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp\htdocs\Yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\Yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\Yii\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 C:\xampp\htdocs\Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('persona/admin')
+#9 C:\xampp\htdocs\Yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\voltmetro\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/voltmetro/index.php?r=persona/admin
+HTTP_REFERER=http://localhost/voltmetro/index.php?r=biblioteca/index
+---
+2015/05/19 05:16:35 [error] [php] Undefined variable: persona (C:\xampp\htdocs\voltmetro\protected\views\aparato\index.php:8)
+Stack trace:
+#0 C:\xampp\htdocs\Yii\framework\web\CController.php(869): AparatoController->renderFile()
+#1 C:\xampp\htdocs\Yii\framework\web\CController.php(782): AparatoController->renderPartial()
+#2 C:\xampp\htdocs\voltmetro\protected\controllers\AparatoController.php(154): AparatoController->render()
+#3 C:\xampp\htdocs\Yii\framework\web\actions\CInlineAction.php(49): AparatoController->actionIndex()
+#4 C:\xampp\htdocs\Yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\Yii\framework\web\filters\CFilterChain.php(133): AparatoController->runAction()
+#6 C:\xampp\htdocs\Yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\xampp\htdocs\Yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#8 C:\xampp\htdocs\Yii\framework\web\filters\CInlineFilter.php(58): AparatoController->filterAccessControl()
+#9 C:\xampp\htdocs\Yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#10 C:\xampp\htdocs\Yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\xampp\htdocs\Yii\framework\web\CController.php(265): AparatoController->runActionWithFilters()
+#12 C:\xampp\htdocs\Yii\framework\web\CWebApplication.php(282): AparatoController->run()
+#13 C:\xampp\htdocs\Yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 C:\xampp\htdocs\Yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\voltmetro\index.php(13): CWebApplication->run()
+REQUEST_URI=/voltmetro/index.php?r=aparato/index
+in C:\xampp\htdocs\voltmetro\protected\views\aparato\index.php (8)
+in C:\xampp\htdocs\voltmetro\protected\controllers\AparatoController.php (154)
+in C:\xampp\htdocs\voltmetro\index.php (13)
+2015/05/19 05:17:14 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Usted no se encuentra autorizado a realizar esta acción.' in C:\xampp\htdocs\Yii\framework\web\auth\CAccessControlFilter.php:179
+Stack trace:
+#0 C:\xampp\htdocs\Yii\framework\web\auth\CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(CWebUser), 'Usted no se enc...')
+#1 C:\xampp\htdocs\Yii\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp\htdocs\Yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp\htdocs\Yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp\htdocs\Yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp\htdocs\Yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\Yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\Yii\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 C:\xampp\htdocs\Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('persona/admin')
+#9 C:\xampp\htdocs\Yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\voltmetro\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/voltmetro/index.php?r=persona/admin
+HTTP_REFERER=http://localhost/voltmetro/index.php?r=aparato/index
+---
+2015/05/19 05:17:32 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Usted no se encuentra autorizado a realizar esta acción.' in C:\xampp\htdocs\Yii\framework\web\auth\CAccessControlFilter.php:179
+Stack trace:
+#0 C:\xampp\htdocs\Yii\framework\web\auth\CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(CWebUser), 'Usted no se enc...')
+#1 C:\xampp\htdocs\Yii\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp\htdocs\Yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp\htdocs\Yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp\htdocs\Yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp\htdocs\Yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\Yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\Yii\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 C:\xampp\htdocs\Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('persona/admin')
+#9 C:\xampp\htdocs\Yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\voltmetro\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/voltmetro/index.php?r=persona/admin
+HTTP_REFERER=http://localhost/voltmetro/index.php?r=aparato/index
+---
+2015/05/19 05:17:32 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Usted no se encuentra autorizado a realizar esta acción.' in C:\xampp\htdocs\Yii\framework\web\auth\CAccessControlFilter.php:179
+Stack trace:
+#0 C:\xampp\htdocs\Yii\framework\web\auth\CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(CWebUser), 'Usted no se enc...')
+#1 C:\xampp\htdocs\Yii\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp\htdocs\Yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp\htdocs\Yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp\htdocs\Yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp\htdocs\Yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\Yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\Yii\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 C:\xampp\htdocs\Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('persona/admin')
+#9 C:\xampp\htdocs\Yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\voltmetro\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/voltmetro/index.php?r=persona/admin
+HTTP_REFERER=http://localhost/voltmetro/index.php?r=aparato/index
+---
+2015/05/19 16:51:52 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Usted no se encuentra autorizado a realizar esta acción.' in C:\xampp\htdocs\Yii\framework\web\auth\CAccessControlFilter.php:179
+Stack trace:
+#0 C:\xampp\htdocs\Yii\framework\web\auth\CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(CWebUser), 'Usted no se enc...')
+#1 C:\xampp\htdocs\Yii\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp\htdocs\Yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp\htdocs\Yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp\htdocs\Yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp\htdocs\Yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\Yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\Yii\framework\web\CWebApplication.php(282): CController->run('create')
+#8 C:\xampp\htdocs\Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('aparato/create')
+#9 C:\xampp\htdocs\Yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\voltmetro\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/voltmetro/index.php?r=aparato/create
+HTTP_REFERER=http://localhost/voltmetro/index.php?r=biblioteca/index
+---
+2015/05/19 16:51:59 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Usted no se encuentra autorizado a realizar esta acción.' in C:\xampp\htdocs\Yii\framework\web\auth\CAccessControlFilter.php:179
+Stack trace:
+#0 C:\xampp\htdocs\Yii\framework\web\auth\CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(CWebUser), 'Usted no se enc...')
+#1 C:\xampp\htdocs\Yii\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp\htdocs\Yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp\htdocs\Yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp\htdocs\Yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp\htdocs\Yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\Yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\Yii\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 C:\xampp\htdocs\Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('persona/admin')
+#9 C:\xampp\htdocs\Yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\voltmetro\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/voltmetro/index.php?r=persona/admin
+HTTP_REFERER=http://localhost/voltmetro/index.php?r=biblioteca/index
+---
+2015/05/19 17:00:36 [warning] [application] Error al definir unsafe el atributo "nombre" de "Biblioteca".
+in C:\xampp\htdocs\voltmetro\protected\controllers\BibliotecaController.php (73)
+in C:\xampp\htdocs\voltmetro\index.php (13)
+2015/05/19 17:08:17 [warning] [application] Error al definir unsafe el atributo "nombre" de "Biblioteca".
+in C:\xampp\htdocs\voltmetro\protected\controllers\BibliotecaController.php (73)
+in C:\xampp\htdocs\voltmetro\index.php (13)
+2015/05/19 17:08:59 [warning] [application] Error al definir unsafe el atributo "nombre" de "Biblioteca".
+in C:\xampp\htdocs\voltmetro\protected\controllers\BibliotecaController.php (73)
+in C:\xampp\htdocs\voltmetro\index.php (13)
+2015/05/19 17:15:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in C:\xampp\htdocs\voltmetro\protected\controllers\BibliotecaController.php:170
+Stack trace:
+#0 C:\xampp\htdocs\voltmetro\protected\controllers\BibliotecaController.php(55): BibliotecaController->loadModel('Doc1.docx')
+#1 [internal function]: BibliotecaController->actionView('Doc1.docx')
+#2 C:\xampp\htdocs\Yii\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(BibliotecaController), Array)
+#3 C:\xampp\htdocs\Yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(BibliotecaController), Object(ReflectionMethod), Array)
+#4 C:\xampp\htdocs\Yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\Yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\Yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\xampp\htdocs\Yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 C:\xampp\htdocs\Yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\xampp\htdocs\Yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\xampp\htdocs\Yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\xampp\htdocs\Yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\xampp\htdocs\Yii\framework\web\CWebApplication.php(282): CController->run('view')
+#13 C:\xampp\htdocs\Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('biblioteca/view')
+#14 C:\xampp\htdocs\Yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\voltmetro\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/voltmetro/index.php?r=biblioteca/view&id=Doc1.docx
+HTTP_REFERER=http://localhost/voltmetro/index.php?r=biblioteca/index
+---
+2015/05/19 17:15:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in C:\xampp\htdocs\voltmetro\protected\controllers\BibliotecaController.php:170
+Stack trace:
+#0 C:\xampp\htdocs\voltmetro\protected\controllers\BibliotecaController.php(55): BibliotecaController->loadModel('Doc2.pdf')
+#1 [internal function]: BibliotecaController->actionView('Doc2.pdf')
+#2 C:\xampp\htdocs\Yii\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(BibliotecaController), Array)
+#3 C:\xampp\htdocs\Yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(BibliotecaController), Object(ReflectionMethod), Array)
+#4 C:\xampp\htdocs\Yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\Yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\Yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\xampp\htdocs\Yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 C:\xampp\htdocs\Yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\xampp\htdocs\Yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\xampp\htdocs\Yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\xampp\htdocs\Yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\xampp\htdocs\Yii\framework\web\CWebApplication.php(282): CController->run('view')
+#13 C:\xampp\htdocs\Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('biblioteca/view')
+#14 C:\xampp\htdocs\Yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\voltmetro\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/voltmetro/index.php?r=biblioteca/view&id=Doc2.pdf
+HTTP_REFERER=http://localhost/voltmetro/index.php?r=biblioteca/index
+---
+2015/05/19 17:17:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in C:\xampp\htdocs\voltmetro\protected\controllers\BibliotecaController.php:170
+Stack trace:
+#0 C:\xampp\htdocs\voltmetro\protected\controllers\BibliotecaController.php(55): BibliotecaController->loadModel('Doc2.pdf')
+#1 [internal function]: BibliotecaController->actionView('Doc2.pdf')
+#2 C:\xampp\htdocs\Yii\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(BibliotecaController), Array)
+#3 C:\xampp\htdocs\Yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(BibliotecaController), Object(ReflectionMethod), Array)
+#4 C:\xampp\htdocs\Yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\Yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\Yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\xampp\htdocs\Yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 C:\xampp\htdocs\Yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\xampp\htdocs\Yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\xampp\htdocs\Yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\xampp\htdocs\Yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\xampp\htdocs\Yii\framework\web\CWebApplication.php(282): CController->run('view')
+#13 C:\xampp\htdocs\Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('biblioteca/view')
+#14 C:\xampp\htdocs\Yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\voltmetro\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/voltmetro/index.php?r=biblioteca/view&id=Doc2.pdf
+HTTP_REFERER=http://localhost/voltmetro/index.php?r=biblioteca/index
+---
+2015/05/19 17:17:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in C:\xampp\htdocs\voltmetro\protected\controllers\BibliotecaController.php:170
+Stack trace:
+#0 C:\xampp\htdocs\voltmetro\protected\controllers\BibliotecaController.php(55): BibliotecaController->loadModel('Doc2.pdf')
+#1 [internal function]: BibliotecaController->actionView('Doc2.pdf')
+#2 C:\xampp\htdocs\Yii\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(BibliotecaController), Array)
+#3 C:\xampp\htdocs\Yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(BibliotecaController), Object(ReflectionMethod), Array)
+#4 C:\xampp\htdocs\Yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\Yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\Yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\xampp\htdocs\Yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 C:\xampp\htdocs\Yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\xampp\htdocs\Yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\xampp\htdocs\Yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\xampp\htdocs\Yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\xampp\htdocs\Yii\framework\web\CWebApplication.php(282): CController->run('view')
+#13 C:\xampp\htdocs\Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('biblioteca/view')
+#14 C:\xampp\htdocs\Yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\voltmetro\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/voltmetro/index.php?r=biblioteca/view&id=Doc2.pdf
+HTTP_REFERER=http://localhost/voltmetro/index.php?r=biblioteca/index
+---
+2015/05/19 17:17:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in C:\xampp\htdocs\voltmetro\protected\controllers\BibliotecaController.php:170
+Stack trace:
+#0 C:\xampp\htdocs\voltmetro\protected\controllers\BibliotecaController.php(55): BibliotecaController->loadModel('Doc2.pdf')
+#1 [internal function]: BibliotecaController->actionView('Doc2.pdf')
+#2 C:\xampp\htdocs\Yii\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(BibliotecaController), Array)
+#3 C:\xampp\htdocs\Yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(BibliotecaController), Object(ReflectionMethod), Array)
+#4 C:\xampp\htdocs\Yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\Yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\Yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\xampp\htdocs\Yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 C:\xampp\htdocs\Yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\xampp\htdocs\Yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\xampp\htdocs\Yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\xampp\htdocs\Yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\xampp\htdocs\Yii\framework\web\CWebApplication.php(282): CController->run('view')
+#13 C:\xampp\htdocs\Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('biblioteca/view')
+#14 C:\xampp\htdocs\Yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\voltmetro\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/voltmetro/index.php?r=biblioteca/view&id=Doc2.pdf
+HTTP_REFERER=http://localhost/voltmetro/index.php?r=biblioteca/index
+---
+2015/05/19 17:51:23 [warning] [application] Error al definir unsafe el atributo "archivo" de "Aparato".
+in C:\xampp\htdocs\voltmetro\protected\controllers\AparatoController.php (73)
+in C:\xampp\htdocs\voltmetro\index.php (13)
+2015/05/19 17:58:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "configuraciones/admin"' in C:\xampp\htdocs\Yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('configuraciones...')
+#1 C:\xampp\htdocs\Yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\voltmetro\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/voltmetro/index.php?r=configuraciones/admin
+HTTP_REFERER=http://localhost/voltmetro/index.php?r=aparato/index
+---
+2015/05/19 18:03:07 [warning] [application] Error al definir unsafe el atributo "archivo" de "Aparato".
+in C:\xampp\htdocs\voltmetro\protected\controllers\AparatoController.php (73)
+in C:\xampp\htdocs\voltmetro\index.php (13)
+2015/05/19 18:04:40 [warning] [application] Error al definir unsafe el atributo "archivo" de "Aparato".
+in C:\xampp\htdocs\voltmetro\protected\controllers\AparatoController.php (73)
+in C:\xampp\htdocs\voltmetro\index.php (13)
+2015/05/19 18:07:51 [warning] [application] Error al definir unsafe el atributo "archivo" de "Aparato".
+in C:\xampp\htdocs\voltmetro\protected\controllers\AparatoController.php (73)
+in C:\xampp\htdocs\voltmetro\index.php (13)
+2015/05/19 18:12:11 [warning] [application] Error al definir unsafe el atributo "archivo" de "Aparato".
+in C:\xampp\htdocs\voltmetro\protected\controllers\AparatoController.php (73)
+in C:\xampp\htdocs\voltmetro\index.php (13)
+2015/05/19 18:29:25 [warning] [application] Error al definir unsafe el atributo "archivo" de "Aparato".
+in C:\xampp\htdocs\voltmetro\protected\controllers\AparatoController.php (73)
+in C:\xampp\htdocs\voltmetro\index.php (13)
+2015/05/19 18:30:35 [warning] [application] Error al definir unsafe el atributo "archivo" de "Aparato".
+in C:\xampp\htdocs\voltmetro\protected\controllers\AparatoController.php (73)
+in C:\xampp\htdocs\voltmetro\index.php (13)
+2015/05/19 19:12:51 [warning] [application] Error al definir unsafe el atributo "archivo" de "Aparato".
+in C:\xampp\htdocs\voltmetro\protected\controllers\AparatoController.php (73)
+in C:\xampp\htdocs\voltmetro\index.php (13)
+2015/05/19 19:16:24 [warning] [application] Error al definir unsafe el atributo "archivo" de "Aparato".
+in C:\xampp\htdocs\voltmetro\protected\controllers\AparatoController.php (73)
+in C:\xampp\htdocs\voltmetro\index.php (13)
+2015/05/19 19:18:46 [warning] [application] Error al definir unsafe el atributo "archivo" de "Aparato".
+in C:\xampp\htdocs\voltmetro\protected\controllers\AparatoController.php (73)
+in C:\xampp\htdocs\voltmetro\index.php (13)
+2015/05/19 19:20:56 [warning] [application] Error al definir unsafe el atributo "archivo" de "Aparato".
+in C:\xampp\htdocs\voltmetro\protected\controllers\AparatoController.php (73)
+in C:\xampp\htdocs\voltmetro\index.php (13)
+2015/05/19 19:22:33 [warning] [application] Error al definir unsafe el atributo "archivo" de "Aparato".
+in C:\xampp\htdocs\voltmetro\protected\controllers\AparatoController.php (73)
+in C:\xampp\htdocs\voltmetro\index.php (13)
+2015/05/19 19:27:50 [warning] [application] Error al definir unsafe el atributo "archivo" de "Aparato".
+in C:\xampp\htdocs\voltmetro\protected\controllers\AparatoController.php (73)
+in C:\xampp\htdocs\voltmetro\index.php (13)
+2015/05/19 19:29:38 [warning] [application] Error al definir unsafe el atributo "archivo" de "Aparato".
+in C:\xampp\htdocs\voltmetro\protected\controllers\AparatoController.php (73)
+in C:\xampp\htdocs\voltmetro\index.php (13)
+2015/05/19 19:30:56 [warning] [application] Error al definir unsafe el atributo "archivo" de "Aparato".
+in C:\xampp\htdocs\voltmetro\protected\controllers\AparatoController.php (73)
+in C:\xampp\htdocs\voltmetro\index.php (13)
+2015/05/19 19:32:20 [warning] [application] Error al definir unsafe el atributo "archivo" de "Aparato".
+in C:\xampp\htdocs\voltmetro\protected\controllers\AparatoController.php (73)
+in C:\xampp\htdocs\voltmetro\index.php (13)
+2015/05/19 19:33:36 [warning] [application] Error al definir unsafe el atributo "archivo" de "Aparato".
+in C:\xampp\htdocs\voltmetro\protected\controllers\AparatoController.php (73)
+in C:\xampp\htdocs\voltmetro\index.php (13)
+2015/05/19 19:35:22 [warning] [application] Error al definir unsafe el atributo "archivo" de "Aparato".
+in C:\xampp\htdocs\voltmetro\protected\controllers\AparatoController.php (73)
+in C:\xampp\htdocs\voltmetro\index.php (13)
+2015/05/19 19:36:54 [warning] [application] Error al definir unsafe el atributo "archivo" de "Aparato".
+in C:\xampp\htdocs\voltmetro\protected\controllers\AparatoController.php (73)
+in C:\xampp\htdocs\voltmetro\index.php (13)
+2015/05/19 21:09:55 [warning] [application] Error al definir unsafe el atributo "archivo" de "Aparato".
+in C:\xampp\htdocs\voltmetro\protected\controllers\AparatoController.php (112)
+in C:\xampp\htdocs\voltmetro\index.php (13)
+2015/05/19 21:10:25 [warning] [application] Error al definir unsafe el atributo "archivo" de "Aparato".
+in C:\xampp\htdocs\voltmetro\protected\controllers\AparatoController.php (112)
+in C:\xampp\htdocs\voltmetro\index.php (13)
+2015/05/26 17:36:10 [warning] [application] Error al definir unsafe el atributo "archivo" de "Aparato".
+in C:\xampp\htdocs\voltmetro\protected\controllers\AparatoController.php (73)
+in C:\xampp\htdocs\voltmetro\index.php (13)
+2015/05/26 17:37:51 [warning] [application] Error al definir unsafe el atributo "archivo" de "Aparato".
+in C:\xampp\htdocs\voltmetro\protected\controllers\AparatoController.php (73)
+in C:\xampp\htdocs\voltmetro\index.php (13)
+2015/05/26 17:41:46 [warning] [application] Error al definir unsafe el atributo "archivo" de "Aparato".
+in C:\xampp\htdocs\voltmetro\protected\controllers\AparatoController.php (112)
+in C:\xampp\htdocs\voltmetro\index.php (13)
+2015/05/26 17:54:32 [warning] [application] Error al definir unsafe el atributo "archivo" de "Aparato".
+in C:\xampp\htdocs\voltmetro\protected\controllers\AparatoController.php (73)
+in C:\xampp\htdocs\voltmetro\index.php (13)
+2015/05/26 18:38:50 [warning] [application] Error al definir unsafe el atributo "archivo" de "Aparato".
+in C:\xampp\htdocs\voltmetro\protected\controllers\AparatoController.php (112)
+in C:\xampp\htdocs\voltmetro\index.php (13)
+2015/05/26 18:43:03 [warning] [application] Error al definir unsafe el atributo "archivo" de "Aparato".
+in C:\xampp\htdocs\voltmetro\protected\controllers\AparatoController.php (73)
+in C:\xampp\htdocs\voltmetro\index.php (13)
+2015/05/26 18:48:52 [warning] [application] Error al definir unsafe el atributo "archivo" de "Aparato".
+in C:\xampp\htdocs\voltmetro\protected\controllers\AparatoController.php (73)
+in C:\xampp\htdocs\voltmetro\index.php (13)
+2015/05/26 18:51:11 [warning] [application] Error al definir unsafe el atributo "archivo" de "Aparato".
+in C:\xampp\htdocs\voltmetro\protected\controllers\AparatoController.php (73)
+in C:\xampp\htdocs\voltmetro\index.php (13)
+2015/05/26 18:54:58 [warning] [application] Error al definir unsafe el atributo "archivo" de "Aparato".
+in C:\xampp\htdocs\voltmetro\protected\controllers\AparatoController.php (73)
+in C:\xampp\htdocs\voltmetro\index.php (13)
+2015/05/26 19:06:50 [warning] [application] Error al definir unsafe el atributo "archivo" de "Aparato".
+in C:\xampp\htdocs\voltmetro\protected\controllers\AparatoController.php (73)
+in C:\xampp\htdocs\voltmetro\index.php (13)
+2015/05/26 19:08:00 [warning] [application] Error al definir unsafe el atributo "archivo" de "Aparato".
+in C:\xampp\htdocs\voltmetro\protected\controllers\AparatoController.php (73)
+in C:\xampp\htdocs\voltmetro\index.php (13)
+2015/05/26 19:12:48 [warning] [application] Error al definir unsafe el atributo "archivo" de "Aparato".
+in C:\xampp\htdocs\voltmetro\protected\controllers\AparatoController.php (73)
+in C:\xampp\htdocs\voltmetro\index.php (13)
+2015/05/26 19:28:02 [warning] [application] Error al definir unsafe el atributo "archivo" de "Aparato".
+in C:\xampp\htdocs\voltmetro\protected\controllers\AparatoController.php (73)
+in C:\xampp\htdocs\voltmetro\index.php (13)
+2015/05/26 19:36:50 [warning] [application] Error al definir unsafe el atributo "archivo" de "Aparato".
+in C:\xampp\htdocs\voltmetro\protected\controllers\AparatoController.php (73)
+in C:\xampp\htdocs\voltmetro\index.php (13)
+2015/05/26 19:49:19 [warning] [application] Error al definir unsafe el atributo "archivo" de "Aparato".
+in C:\xampp\htdocs\voltmetro\protected\controllers\AparatoController.php (73)
+in C:\xampp\htdocs\voltmetro\index.php (13)
+2015/05/26 19:50:54 [warning] [application] Error al definir unsafe el atributo "archivo" de "Aparato".
+in C:\xampp\htdocs\voltmetro\protected\controllers\AparatoController.php (73)
+in C:\xampp\htdocs\voltmetro\index.php (13)
+2015/05/26 19:56:37 [warning] [application] Error al definir unsafe el atributo "archivo" de "Aparato".
+in C:\xampp\htdocs\voltmetro\protected\controllers\AparatoController.php (73)
+in C:\xampp\htdocs\voltmetro\index.php (13)
+2015/05/26 20:02:24 [warning] [application] Error al definir unsafe el atributo "archivo" de "Aparato".
+in C:\xampp\htdocs\voltmetro\protected\controllers\AparatoController.php (73)
+in C:\xampp\htdocs\voltmetro\index.php (13)
+2015/05/26 20:07:21 [warning] [application] Error al definir unsafe el atributo "archivo" de "Aparato".
+in C:\xampp\htdocs\voltmetro\protected\controllers\AparatoController.php (73)
+in C:\xampp\htdocs\voltmetro\index.php (13)
+2015/05/26 20:10:47 [warning] [application] Error al definir unsafe el atributo "archivo" de "Aparato".
+in C:\xampp\htdocs\voltmetro\protected\controllers\AparatoController.php (73)
+in C:\xampp\htdocs\voltmetro\index.php (13)
+2015/05/26 20:14:58 [warning] [application] Error al definir unsafe el atributo "archivo" de "Aparato".
+in C:\xampp\htdocs\voltmetro\protected\controllers\AparatoController.php (73)
+in C:\xampp\htdocs\voltmetro\index.php (13)
+2015/05/26 20:18:12 [warning] [application] Error al definir unsafe el atributo "archivo" de "Aparato".
+in C:\xampp\htdocs\voltmetro\protected\controllers\AparatoController.php (73)
+in C:\xampp\htdocs\voltmetro\index.php (13)
+2015/05/26 20:27:45 [warning] [application] Error al definir unsafe el atributo "archivo" de "Aparato".
+in C:\xampp\htdocs\voltmetro\protected\controllers\AparatoController.php (73)
+in C:\xampp\htdocs\voltmetro\index.php (13)
+2015/05/26 20:30:11 [warning] [application] Error al definir unsafe el atributo "archivo" de "Aparato".
+in C:\xampp\htdocs\voltmetro\protected\controllers\AparatoController.php (73)
+in C:\xampp\htdocs\voltmetro\index.php (13)
+2015/05/26 20:34:39 [warning] [application] Error al definir unsafe el atributo "archivo" de "Aparato".
+in C:\xampp\htdocs\voltmetro\protected\controllers\AparatoController.php (73)
+in C:\xampp\htdocs\voltmetro\index.php (13)
+2015/05/26 20:39:31 [warning] [application] Error al definir unsafe el atributo "archivo" de "Aparato".
+in C:\xampp\htdocs\voltmetro\protected\controllers\AparatoController.php (73)
+in C:\xampp\htdocs\voltmetro\index.php (13)
+2015/05/26 20:42:22 [warning] [application] Error al definir unsafe el atributo "archivo" de "Aparato".
+in C:\xampp\htdocs\voltmetro\protected\controllers\AparatoController.php (73)
+in C:\xampp\htdocs\voltmetro\index.php (13)
+2015/05/26 20:52:54 [warning] [application] Error al definir unsafe el atributo "archivo" de "Aparato".
+in C:\xampp\htdocs\voltmetro\protected\controllers\AparatoController.php (73)
+in C:\xampp\htdocs\voltmetro\index.php (13)
+2015/05/26 21:03:43 [warning] [application] Error al definir unsafe el atributo "archivo" de "Aparato".
+in C:\xampp\htdocs\voltmetro\protected\controllers\AparatoController.php (73)
+in C:\xampp\htdocs\voltmetro\index.php (13)
+2015/05/26 21:05:12 [warning] [application] Error al definir unsafe el atributo "archivo" de "Aparato".
+in C:\xampp\htdocs\voltmetro\protected\controllers\AparatoController.php (73)
+in C:\xampp\htdocs\voltmetro\index.php (13)
+2015/05/26 21:08:26 [warning] [application] Error al definir unsafe el atributo "archivo" de "Aparato".
+in C:\xampp\htdocs\voltmetro\protected\controllers\AparatoController.php (73)
+in C:\xampp\htdocs\voltmetro\index.php (13)
+2015/05/26 21:12:26 [warning] [application] Error al definir unsafe el atributo "archivo" de "Aparato".
+in C:\xampp\htdocs\voltmetro\protected\controllers\AparatoController.php (73)
+in C:\xampp\htdocs\voltmetro\index.php (13)
+2015/05/26 21:14:53 [warning] [application] Error al definir unsafe el atributo "archivo" de "Aparato".
+in C:\xampp\htdocs\voltmetro\protected\controllers\AparatoController.php (73)
+in C:\xampp\htdocs\voltmetro\index.php (13)
+2015/05/26 21:17:37 [warning] [application] Error al definir unsafe el atributo "archivo" de "Aparato".
+in C:\xampp\htdocs\voltmetro\protected\controllers\AparatoController.php (73)
+in C:\xampp\htdocs\voltmetro\index.php (13)
+2015/05/26 21:20:40 [warning] [application] Error al definir unsafe el atributo "archivo" de "Aparato".
+in C:\xampp\htdocs\voltmetro\protected\controllers\AparatoController.php (73)
+in C:\xampp\htdocs\voltmetro\index.php (13)
+2015/05/26 21:22:52 [warning] [application] Error al definir unsafe el atributo "archivo" de "Aparato".
+in C:\xampp\htdocs\voltmetro\protected\controllers\AparatoController.php (73)
+in C:\xampp\htdocs\voltmetro\index.php (13)
+2015/05/26 21:24:38 [warning] [application] Error al definir unsafe el atributo "archivo" de "Aparato".
+in C:\xampp\htdocs\voltmetro\protected\controllers\AparatoController.php (73)
+in C:\xampp\htdocs\voltmetro\index.php (13)
+2015/05/26 21:27:03 [warning] [application] Error al definir unsafe el atributo "archivo" de "Aparato".
+in C:\xampp\htdocs\voltmetro\protected\controllers\AparatoController.php (73)
+in C:\xampp\htdocs\voltmetro\index.php (13)
+2015/05/26 21:29:43 [warning] [application] Error al definir unsafe el atributo "archivo" de "Aparato".
+in C:\xampp\htdocs\voltmetro\protected\controllers\AparatoController.php (73)
+in C:\xampp\htdocs\voltmetro\index.php (13)
+2015/05/27 17:24:54 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Usted no se encuentra autorizado a realizar esta acción.' in C:\xampp\htdocs\Yii\framework\web\auth\CAccessControlFilter.php:179
+Stack trace:
+#0 C:\xampp\htdocs\Yii\framework\web\auth\CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(CWebUser), 'Usted no se enc...')
+#1 C:\xampp\htdocs\Yii\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp\htdocs\Yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp\htdocs\Yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp\htdocs\Yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp\htdocs\Yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\Yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\Yii\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 C:\xampp\htdocs\Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('persona/admin')
+#9 C:\xampp\htdocs\Yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\voltmetro\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/voltmetro/index.php?r=persona/admin
+HTTP_REFERER=http://localhost/voltmetro/index.php?r=persona
+---
+2015/05/27 17:24:54 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Usted no se encuentra autorizado a realizar esta acción.' in C:\xampp\htdocs\Yii\framework\web\auth\CAccessControlFilter.php:179
+Stack trace:
+#0 C:\xampp\htdocs\Yii\framework\web\auth\CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(CWebUser), 'Usted no se enc...')
+#1 C:\xampp\htdocs\Yii\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp\htdocs\Yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp\htdocs\Yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp\htdocs\Yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp\htdocs\Yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\Yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\Yii\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 C:\xampp\htdocs\Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('persona/admin')
+#9 C:\xampp\htdocs\Yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\voltmetro\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/voltmetro/index.php?r=persona/admin
+HTTP_REFERER=http://localhost/voltmetro/index.php?r=persona
+---
+2015/05/27 17:25:38 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Usted no se encuentra autorizado a realizar esta acción.' in C:\xampp\htdocs\Yii\framework\web\auth\CAccessControlFilter.php:179
+Stack trace:
+#0 C:\xampp\htdocs\Yii\framework\web\auth\CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(CWebUser), 'Usted no se enc...')
+#1 C:\xampp\htdocs\Yii\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp\htdocs\Yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp\htdocs\Yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp\htdocs\Yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp\htdocs\Yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\Yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\Yii\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 C:\xampp\htdocs\Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('persona/admin')
+#9 C:\xampp\htdocs\Yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\voltmetro\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/voltmetro/index.php?r=persona/admin
+HTTP_REFERER=http://localhost/voltmetro/index.php?r=persona
+---
+2015/05/27 17:26:05 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Usted no se encuentra autorizado a realizar esta acción.' in C:\xampp\htdocs\Yii\framework\web\auth\CAccessControlFilter.php:179
+Stack trace:
+#0 C:\xampp\htdocs\Yii\framework\web\auth\CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(CWebUser), 'Usted no se enc...')
+#1 C:\xampp\htdocs\Yii\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp\htdocs\Yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp\htdocs\Yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp\htdocs\Yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp\htdocs\Yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\Yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\Yii\framework\web\CWebApplication.php(282): CController->run('create')
+#8 C:\xampp\htdocs\Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('aparato/create')
+#9 C:\xampp\htdocs\Yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\voltmetro\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/voltmetro/index.php?r=aparato/create
+HTTP_REFERER=http://localhost/voltmetro/index.php?r=biblioteca/index
+---
+2015/05/27 17:26:05 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Usted no se encuentra autorizado a realizar esta acción.' in C:\xampp\htdocs\Yii\framework\web\auth\CAccessControlFilter.php:179
+Stack trace:
+#0 C:\xampp\htdocs\Yii\framework\web\auth\CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(CWebUser), 'Usted no se enc...')
+#1 C:\xampp\htdocs\Yii\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp\htdocs\Yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp\htdocs\Yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp\htdocs\Yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp\htdocs\Yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\Yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\Yii\framework\web\CWebApplication.php(282): CController->run('create')
+#8 C:\xampp\htdocs\Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('aparato/create')
+#9 C:\xampp\htdocs\Yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\voltmetro\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/voltmetro/index.php?r=aparato/create
+HTTP_REFERER=http://localhost/voltmetro/index.php?r=biblioteca/index
+---
+2015/05/27 18:00:07 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Usted no se encuentra autorizado a realizar esta acción.' in C:\xampp\htdocs\Yii\framework\web\auth\CAccessControlFilter.php:179
+Stack trace:
+#0 C:\xampp\htdocs\Yii\framework\web\auth\CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(CWebUser), 'Usted no se enc...')
+#1 C:\xampp\htdocs\Yii\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp\htdocs\Yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp\htdocs\Yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp\htdocs\Yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp\htdocs\Yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\Yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\Yii\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 C:\xampp\htdocs\Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('persona/admin')
+#9 C:\xampp\htdocs\Yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\voltmetro\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/voltmetro/index.php?r=persona/admin
+HTTP_REFERER=http://localhost/voltmetro/index.php?r=biblioteca/index
+---
+2015/05/27 18:00:07 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Usted no se encuentra autorizado a realizar esta acción.' in C:\xampp\htdocs\Yii\framework\web\auth\CAccessControlFilter.php:179
+Stack trace:
+#0 C:\xampp\htdocs\Yii\framework\web\auth\CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(CWebUser), 'Usted no se enc...')
+#1 C:\xampp\htdocs\Yii\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp\htdocs\Yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp\htdocs\Yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp\htdocs\Yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp\htdocs\Yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\Yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\Yii\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 C:\xampp\htdocs\Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('persona/admin')
+#9 C:\xampp\htdocs\Yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\voltmetro\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/voltmetro/index.php?r=persona/admin
+HTTP_REFERER=http://localhost/voltmetro/index.php?r=biblioteca/index
+---
+2015/05/27 18:13:46 [error] [php] Use of undefined constant nombre - assumed 'nombre' (C:\xampp\htdocs\Yii\framework\base\CComponent.php(606) : eval()'d code:1)
+Stack trace:
+#0 C:\xampp\htdocs\Yii\framework\zii\widgets\grid\CGridColumn.php(144): CDataColumn->renderDataCellContent()
+#1 C:\xampp\htdocs\Yii\framework\zii\widgets\grid\CGridView.php(589): CDataColumn->renderDataCell()
+#2 C:\xampp\htdocs\Yii\framework\zii\widgets\grid\CGridView.php(545): CGridView->renderTableRow()
+#3 C:\xampp\htdocs\Yii\framework\zii\widgets\grid\CGridView.php(455): CGridView->renderTableBody()
+#4 C:\xampp\htdocs\Yii\framework\zii\widgets\CBaseListView.php(160): CGridView->renderItems()
+#5 unknown(0): CGridView->renderSection()
+#6 C:\xampp\htdocs\Yii\framework\zii\widgets\CBaseListView.php(143): preg_replace_callback()
+#7 C:\xampp\htdocs\Yii\framework\zii\widgets\CBaseListView.php(128): CGridView->renderContent()
+#8 C:\xampp\htdocs\Yii\framework\web\CBaseController.php(173): CGridView->run()
+#9 C:\xampp\htdocs\voltmetro\protected\views\aparato\admin.php(66): AparatoController->widget()
+#10 C:\xampp\htdocs\Yii\framework\web\CBaseController.php(126): require()
+#11 C:\xampp\htdocs\Yii\framework\web\CBaseController.php(95): AparatoController->renderInternal()
+#12 C:\xampp\htdocs\Yii\framework\web\CController.php(869): AparatoController->renderFile()
+#13 C:\xampp\htdocs\Yii\framework\web\CController.php(782): AparatoController->renderPartial()
+#14 C:\xampp\htdocs\voltmetro\protected\controllers\AparatoController.php(163): AparatoController->render()
+#15 C:\xampp\htdocs\Yii\framework\web\actions\CInlineAction.php(49): AparatoController->actionIndex()
+#16 C:\xampp\htdocs\Yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#17 C:\xampp\htdocs\Yii\framework\web\filters\CFilterChain.php(133): AparatoController->runAction()
+#18 C:\xampp\htdocs\Yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#19 C:\xampp\htdocs\Yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#20 C:\xampp\htdocs\Yii\framework\web\filters\CInlineFilter.php(58): AparatoController->filterAccessControl()
+#21 C:\xampp\htdocs\Yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#22 C:\xampp\htdocs\Yii\framework\web\CController.php(291): CFilterChain->run()
+#23 C:\xampp\htdocs\Yii\framework\web\CController.php(265): AparatoController->runActionWithFilters()
+#24 C:\xampp\htdocs\Yii\framework\web\CWebApplication.php(282): AparatoController->run()
+#25 C:\xampp\htdocs\Yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#26 C:\xampp\htdocs\Yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#27 C:\xampp\htdocs\voltmetro\index.php(13): CWebApplication->run()
+REQUEST_URI=/voltmetro/index.php?r=aparato/index
+in C:\xampp\htdocs\voltmetro\protected\views\aparato\admin.php (66)
+in C:\xampp\htdocs\voltmetro\protected\controllers\AparatoController.php (163)
+in C:\xampp\htdocs\voltmetro\index.php (13)
+2015/05/27 18:23:03 [error] [php] Use of undefined constant rpe0 - assumed 'rpe0' (C:\xampp\htdocs\Yii\framework\base\CComponent.php(606) : eval()'d code:1)
+Stack trace:
+#0 C:\xampp\htdocs\Yii\framework\zii\widgets\grid\CGridColumn.php(144): CDataColumn->renderDataCellContent()
+#1 C:\xampp\htdocs\Yii\framework\zii\widgets\grid\CGridView.php(589): CDataColumn->renderDataCell()
+#2 C:\xampp\htdocs\Yii\framework\zii\widgets\grid\CGridView.php(545): CGridView->renderTableRow()
+#3 C:\xampp\htdocs\Yii\framework\zii\widgets\grid\CGridView.php(455): CGridView->renderTableBody()
+#4 C:\xampp\htdocs\Yii\framework\zii\widgets\CBaseListView.php(160): CGridView->renderItems()
+#5 unknown(0): CGridView->renderSection()
+#6 C:\xampp\htdocs\Yii\framework\zii\widgets\CBaseListView.php(143): preg_replace_callback()
+#7 C:\xampp\htdocs\Yii\framework\zii\widgets\CBaseListView.php(128): CGridView->renderContent()
+#8 C:\xampp\htdocs\Yii\framework\web\CBaseController.php(173): CGridView->run()
+#9 C:\xampp\htdocs\voltmetro\protected\views\aparato\admin.php(65): AparatoController->widget()
+#10 C:\xampp\htdocs\Yii\framework\web\CBaseController.php(126): require()
+#11 C:\xampp\htdocs\Yii\framework\web\CBaseController.php(95): AparatoController->renderInternal()
+#12 C:\xampp\htdocs\Yii\framework\web\CController.php(869): AparatoController->renderFile()
+#13 C:\xampp\htdocs\Yii\framework\web\CController.php(782): AparatoController->renderPartial()
+#14 C:\xampp\htdocs\voltmetro\protected\controllers\AparatoController.php(163): AparatoController->render()
+#15 C:\xampp\htdocs\Yii\framework\web\actions\CInlineAction.php(49): AparatoController->actionIndex()
+#16 C:\xampp\htdocs\Yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#17 C:\xampp\htdocs\Yii\framework\web\filters\CFilterChain.php(133): AparatoController->runAction()
+#18 C:\xampp\htdocs\Yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#19 C:\xampp\htdocs\Yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#20 C:\xampp\htdocs\Yii\framework\web\filters\CInlineFilter.php(58): AparatoController->filterAccessControl()
+#21 C:\xampp\htdocs\Yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#22 C:\xampp\htdocs\Yii\framework\web\CController.php(291): CFilterChain->run()
+#23 C:\xampp\htdocs\Yii\framework\web\CController.php(265): AparatoController->runActionWithFilters()
+#24 C:\xampp\htdocs\Yii\framework\web\CWebApplication.php(282): AparatoController->run()
+#25 C:\xampp\htdocs\Yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#26 C:\xampp\htdocs\Yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#27 C:\xampp\htdocs\voltmetro\index.php(13): CWebApplication->run()
+REQUEST_URI=/voltmetro/index.php?r=aparato/index
+in C:\xampp\htdocs\voltmetro\protected\views\aparato\admin.php (65)
+in C:\xampp\htdocs\voltmetro\protected\controllers\AparatoController.php (163)
+in C:\xampp\htdocs\voltmetro\index.php (13)
+2015/05/27 18:23:51 [error] [php] Use of undefined constant rpe0 - assumed 'rpe0' (C:\xampp\htdocs\Yii\framework\base\CComponent.php(606) : eval()'d code:1)
+Stack trace:
+#0 C:\xampp\htdocs\Yii\framework\zii\widgets\grid\CGridColumn.php(144): CDataColumn->renderDataCellContent()
+#1 C:\xampp\htdocs\Yii\framework\zii\widgets\grid\CGridView.php(589): CDataColumn->renderDataCell()
+#2 C:\xampp\htdocs\Yii\framework\zii\widgets\grid\CGridView.php(545): CGridView->renderTableRow()
+#3 C:\xampp\htdocs\Yii\framework\zii\widgets\grid\CGridView.php(455): CGridView->renderTableBody()
+#4 C:\xampp\htdocs\Yii\framework\zii\widgets\CBaseListView.php(160): CGridView->renderItems()
+#5 unknown(0): CGridView->renderSection()
+#6 C:\xampp\htdocs\Yii\framework\zii\widgets\CBaseListView.php(143): preg_replace_callback()
+#7 C:\xampp\htdocs\Yii\framework\zii\widgets\CBaseListView.php(128): CGridView->renderContent()
+#8 C:\xampp\htdocs\Yii\framework\web\CBaseController.php(173): CGridView->run()
+#9 C:\xampp\htdocs\voltmetro\protected\views\aparato\admin.php(65): AparatoController->widget()
+#10 C:\xampp\htdocs\Yii\framework\web\CBaseController.php(126): require()
+#11 C:\xampp\htdocs\Yii\framework\web\CBaseController.php(95): AparatoController->renderInternal()
+#12 C:\xampp\htdocs\Yii\framework\web\CController.php(869): AparatoController->renderFile()
+#13 C:\xampp\htdocs\Yii\framework\web\CController.php(782): AparatoController->renderPartial()
+#14 C:\xampp\htdocs\voltmetro\protected\controllers\AparatoController.php(163): AparatoController->render()
+#15 C:\xampp\htdocs\Yii\framework\web\actions\CInlineAction.php(49): AparatoController->actionIndex()
+#16 C:\xampp\htdocs\Yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#17 C:\xampp\htdocs\Yii\framework\web\filters\CFilterChain.php(133): AparatoController->runAction()
+#18 C:\xampp\htdocs\Yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#19 C:\xampp\htdocs\Yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#20 C:\xampp\htdocs\Yii\framework\web\filters\CInlineFilter.php(58): AparatoController->filterAccessControl()
+#21 C:\xampp\htdocs\Yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#22 C:\xampp\htdocs\Yii\framework\web\CController.php(291): CFilterChain->run()
+#23 C:\xampp\htdocs\Yii\framework\web\CController.php(265): AparatoController->runActionWithFilters()
+#24 C:\xampp\htdocs\Yii\framework\web\CWebApplication.php(282): AparatoController->run()
+#25 C:\xampp\htdocs\Yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#26 C:\xampp\htdocs\Yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#27 C:\xampp\htdocs\voltmetro\index.php(13): CWebApplication->run()
+REQUEST_URI=/voltmetro/index.php?r=aparato/index
+in C:\xampp\htdocs\voltmetro\protected\views\aparato\admin.php (65)
+in C:\xampp\htdocs\voltmetro\protected\controllers\AparatoController.php (163)
+in C:\xampp\htdocs\voltmetro\index.php (13)
+2015/05/27 18:23:53 [error] [php] Use of undefined constant rpe0 - assumed 'rpe0' (C:\xampp\htdocs\Yii\framework\base\CComponent.php(606) : eval()'d code:1)
+Stack trace:
+#0 C:\xampp\htdocs\Yii\framework\zii\widgets\grid\CGridColumn.php(144): CDataColumn->renderDataCellContent()
+#1 C:\xampp\htdocs\Yii\framework\zii\widgets\grid\CGridView.php(589): CDataColumn->renderDataCell()
+#2 C:\xampp\htdocs\Yii\framework\zii\widgets\grid\CGridView.php(545): CGridView->renderTableRow()
+#3 C:\xampp\htdocs\Yii\framework\zii\widgets\grid\CGridView.php(455): CGridView->renderTableBody()
+#4 C:\xampp\htdocs\Yii\framework\zii\widgets\CBaseListView.php(160): CGridView->renderItems()
+#5 unknown(0): CGridView->renderSection()
+#6 C:\xampp\htdocs\Yii\framework\zii\widgets\CBaseListView.php(143): preg_replace_callback()
+#7 C:\xampp\htdocs\Yii\framework\zii\widgets\CBaseListView.php(128): CGridView->renderContent()
+#8 C:\xampp\htdocs\Yii\framework\web\CBaseController.php(173): CGridView->run()
+#9 C:\xampp\htdocs\voltmetro\protected\views\aparato\admin.php(65): AparatoController->widget()
+#10 C:\xampp\htdocs\Yii\framework\web\CBaseController.php(126): require()
+#11 C:\xampp\htdocs\Yii\framework\web\CBaseController.php(95): AparatoController->renderInternal()
+#12 C:\xampp\htdocs\Yii\framework\web\CController.php(869): AparatoController->renderFile()
+#13 C:\xampp\htdocs\Yii\framework\web\CController.php(782): AparatoController->renderPartial()
+#14 C:\xampp\htdocs\voltmetro\protected\controllers\AparatoController.php(163): AparatoController->render()
+#15 C:\xampp\htdocs\Yii\framework\web\actions\CInlineAction.php(49): AparatoController->actionIndex()
+#16 C:\xampp\htdocs\Yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#17 C:\xampp\htdocs\Yii\framework\web\filters\CFilterChain.php(133): AparatoController->runAction()
+#18 C:\xampp\htdocs\Yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#19 C:\xampp\htdocs\Yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#20 C:\xampp\htdocs\Yii\framework\web\filters\CInlineFilter.php(58): AparatoController->filterAccessControl()
+#21 C:\xampp\htdocs\Yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#22 C:\xampp\htdocs\Yii\framework\web\CController.php(291): CFilterChain->run()
+#23 C:\xampp\htdocs\Yii\framework\web\CController.php(265): AparatoController->runActionWithFilters()
+#24 C:\xampp\htdocs\Yii\framework\web\CWebApplication.php(282): AparatoController->run()
+#25 C:\xampp\htdocs\Yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#26 C:\xampp\htdocs\Yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#27 C:\xampp\htdocs\voltmetro\index.php(13): CWebApplication->run()
+REQUEST_URI=/voltmetro/index.php?r=aparato/index
+in C:\xampp\htdocs\voltmetro\protected\views\aparato\admin.php (65)
+in C:\xampp\htdocs\voltmetro\protected\controllers\AparatoController.php (163)
+in C:\xampp\htdocs\voltmetro\index.php (13)
+2015/05/27 18:23:54 [error] [php] Use of undefined constant rpe0 - assumed 'rpe0' (C:\xampp\htdocs\Yii\framework\base\CComponent.php(606) : eval()'d code:1)
+Stack trace:
+#0 C:\xampp\htdocs\Yii\framework\zii\widgets\grid\CGridColumn.php(144): CDataColumn->renderDataCellContent()
+#1 C:\xampp\htdocs\Yii\framework\zii\widgets\grid\CGridView.php(589): CDataColumn->renderDataCell()
+#2 C:\xampp\htdocs\Yii\framework\zii\widgets\grid\CGridView.php(545): CGridView->renderTableRow()
+#3 C:\xampp\htdocs\Yii\framework\zii\widgets\grid\CGridView.php(455): CGridView->renderTableBody()
+#4 C:\xampp\htdocs\Yii\framework\zii\widgets\CBaseListView.php(160): CGridView->renderItems()
+#5 unknown(0): CGridView->renderSection()
+#6 C:\xampp\htdocs\Yii\framework\zii\widgets\CBaseListView.php(143): preg_replace_callback()
+#7 C:\xampp\htdocs\Yii\framework\zii\widgets\CBaseListView.php(128): CGridView->renderContent()
+#8 C:\xampp\htdocs\Yii\framework\web\CBaseController.php(173): CGridView->run()
+#9 C:\xampp\htdocs\voltmetro\protected\views\aparato\admin.php(65): AparatoController->widget()
+#10 C:\xampp\htdocs\Yii\framework\web\CBaseController.php(126): require()
+#11 C:\xampp\htdocs\Yii\framework\web\CBaseController.php(95): AparatoController->renderInternal()
+#12 C:\xampp\htdocs\Yii\framework\web\CController.php(869): AparatoController->renderFile()
+#13 C:\xampp\htdocs\Yii\framework\web\CController.php(782): AparatoController->renderPartial()
+#14 C:\xampp\htdocs\voltmetro\protected\controllers\AparatoController.php(163): AparatoController->render()
+#15 C:\xampp\htdocs\Yii\framework\web\actions\CInlineAction.php(49): AparatoController->actionIndex()
+#16 C:\xampp\htdocs\Yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#17 C:\xampp\htdocs\Yii\framework\web\filters\CFilterChain.php(133): AparatoController->runAction()
+#18 C:\xampp\htdocs\Yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#19 C:\xampp\htdocs\Yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#20 C:\xampp\htdocs\Yii\framework\web\filters\CInlineFilter.php(58): AparatoController->filterAccessControl()
+#21 C:\xampp\htdocs\Yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#22 C:\xampp\htdocs\Yii\framework\web\CController.php(291): CFilterChain->run()
+#23 C:\xampp\htdocs\Yii\framework\web\CController.php(265): AparatoController->runActionWithFilters()
+#24 C:\xampp\htdocs\Yii\framework\web\CWebApplication.php(282): AparatoController->run()
+#25 C:\xampp\htdocs\Yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#26 C:\xampp\htdocs\Yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#27 C:\xampp\htdocs\voltmetro\index.php(13): CWebApplication->run()
+REQUEST_URI=/voltmetro/index.php?r=aparato/index
+in C:\xampp\htdocs\voltmetro\protected\views\aparato\admin.php (65)
+in C:\xampp\htdocs\voltmetro\protected\controllers\AparatoController.php (163)
+in C:\xampp\htdocs\voltmetro\index.php (13)
+2015/05/27 18:24:52 [error] [php] Use of undefined constant rpe0 - assumed 'rpe0' (C:\xampp\htdocs\Yii\framework\base\CComponent.php(606) : eval()'d code:1)
+Stack trace:
+#0 C:\xampp\htdocs\Yii\framework\zii\widgets\grid\CGridColumn.php(144): CDataColumn->renderDataCellContent()
+#1 C:\xampp\htdocs\Yii\framework\zii\widgets\grid\CGridView.php(589): CDataColumn->renderDataCell()
+#2 C:\xampp\htdocs\Yii\framework\zii\widgets\grid\CGridView.php(545): CGridView->renderTableRow()
+#3 C:\xampp\htdocs\Yii\framework\zii\widgets\grid\CGridView.php(455): CGridView->renderTableBody()
+#4 C:\xampp\htdocs\Yii\framework\zii\widgets\CBaseListView.php(160): CGridView->renderItems()
+#5 unknown(0): CGridView->renderSection()
+#6 C:\xampp\htdocs\Yii\framework\zii\widgets\CBaseListView.php(143): preg_replace_callback()
+#7 C:\xampp\htdocs\Yii\framework\zii\widgets\CBaseListView.php(128): CGridView->renderContent()
+#8 C:\xampp\htdocs\Yii\framework\web\CBaseController.php(173): CGridView->run()
+#9 C:\xampp\htdocs\voltmetro\protected\views\aparato\admin.php(65): AparatoController->widget()
+#10 C:\xampp\htdocs\Yii\framework\web\CBaseController.php(126): require()
+#11 C:\xampp\htdocs\Yii\framework\web\CBaseController.php(95): AparatoController->renderInternal()
+#12 C:\xampp\htdocs\Yii\framework\web\CController.php(869): AparatoController->renderFile()
+#13 C:\xampp\htdocs\Yii\framework\web\CController.php(782): AparatoController->renderPartial()
+#14 C:\xampp\htdocs\voltmetro\protected\controllers\AparatoController.php(163): AparatoController->render()
+#15 C:\xampp\htdocs\Yii\framework\web\actions\CInlineAction.php(49): AparatoController->actionIndex()
+#16 C:\xampp\htdocs\Yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#17 C:\xampp\htdocs\Yii\framework\web\filters\CFilterChain.php(133): AparatoController->runAction()
+#18 C:\xampp\htdocs\Yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#19 C:\xampp\htdocs\Yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#20 C:\xampp\htdocs\Yii\framework\web\filters\CInlineFilter.php(58): AparatoController->filterAccessControl()
+#21 C:\xampp\htdocs\Yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#22 C:\xampp\htdocs\Yii\framework\web\CController.php(291): CFilterChain->run()
+#23 C:\xampp\htdocs\Yii\framework\web\CController.php(265): AparatoController->runActionWithFilters()
+#24 C:\xampp\htdocs\Yii\framework\web\CWebApplication.php(282): AparatoController->run()
+#25 C:\xampp\htdocs\Yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#26 C:\xampp\htdocs\Yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#27 C:\xampp\htdocs\voltmetro\index.php(13): CWebApplication->run()
+REQUEST_URI=/voltmetro/index.php?r=aparato/index
+in C:\xampp\htdocs\voltmetro\protected\views\aparato\admin.php (65)
+in C:\xampp\htdocs\voltmetro\protected\controllers\AparatoController.php (163)
+in C:\xampp\htdocs\voltmetro\index.php (13)
+2015/05/27 18:25:11 [warning] [application] Error al definir unsafe el atributo "nombre" de "Aparato".
+in C:\xampp\htdocs\voltmetro\protected\controllers\AparatoController.php (159)
+in C:\xampp\htdocs\voltmetro\index.php (13)
+2015/05/27 18:25:20 [warning] [application] Error al definir unsafe el atributo "nombre" de "Aparato".
+in C:\xampp\htdocs\voltmetro\protected\controllers\AparatoController.php (159)
+in C:\xampp\htdocs\voltmetro\index.php (13)
+2015/05/27 18:25:24 [warning] [application] Error al definir unsafe el atributo "nombre" de "Aparato".
+in C:\xampp\htdocs\voltmetro\protected\controllers\AparatoController.php (159)
+in C:\xampp\htdocs\voltmetro\index.php (13)
+2015/05/27 18:25:29 [warning] [application] Error al definir unsafe el atributo "nombre" de "Aparato".
+in C:\xampp\htdocs\voltmetro\protected\controllers\AparatoController.php (159)
+in C:\xampp\htdocs\voltmetro\index.php (13)
+2015/05/27 18:25:45 [warning] [application] Error al definir unsafe el atributo "nombre" de "Aparato".
+in C:\xampp\htdocs\voltmetro\protected\controllers\AparatoController.php (159)
+in C:\xampp\htdocs\voltmetro\index.php (13)
+2015/05/27 18:25:53 [warning] [application] Error al definir unsafe el atributo "nombre" de "Aparato".
+in C:\xampp\htdocs\voltmetro\protected\controllers\AparatoController.php (159)
+in C:\xampp\htdocs\voltmetro\index.php (13)
+2015/05/27 18:25:58 [warning] [application] Error al definir unsafe el atributo "nombre" de "Aparato".
+in C:\xampp\htdocs\voltmetro\protected\controllers\AparatoController.php (159)
+in C:\xampp\htdocs\voltmetro\index.php (13)
+2015/05/27 18:42:40 [error] [php] Use of undefined constant area - assumed 'area' (C:\xampp\htdocs\Yii\framework\base\CComponent.php(606) : eval()'d code:1)
+Stack trace:
+#0 C:\xampp\htdocs\Yii\framework\zii\widgets\grid\CGridColumn.php(144): CDataColumn->renderDataCellContent()
+#1 C:\xampp\htdocs\Yii\framework\zii\widgets\grid\CGridView.php(589): CDataColumn->renderDataCell()
+#2 C:\xampp\htdocs\Yii\framework\zii\widgets\grid\CGridView.php(545): CGridView->renderTableRow()
+#3 C:\xampp\htdocs\Yii\framework\zii\widgets\grid\CGridView.php(455): CGridView->renderTableBody()
+#4 C:\xampp\htdocs\Yii\framework\zii\widgets\CBaseListView.php(160): CGridView->renderItems()
+#5 unknown(0): CGridView->renderSection()
+#6 C:\xampp\htdocs\Yii\framework\zii\widgets\CBaseListView.php(143): preg_replace_callback()
+#7 C:\xampp\htdocs\Yii\framework\zii\widgets\CBaseListView.php(128): CGridView->renderContent()
+#8 C:\xampp\htdocs\Yii\framework\web\CBaseController.php(173): CGridView->run()
+#9 C:\xampp\htdocs\voltmetro\protected\views\persona\admin.php(69): PersonaController->widget()
+#10 C:\xampp\htdocs\Yii\framework\web\CBaseController.php(126): require()
+#11 C:\xampp\htdocs\Yii\framework\web\CBaseController.php(95): PersonaController->renderInternal()
+#12 C:\xampp\htdocs\Yii\framework\web\CController.php(869): PersonaController->renderFile()
+#13 C:\xampp\htdocs\Yii\framework\web\CController.php(782): PersonaController->renderPartial()
+#14 C:\xampp\htdocs\voltmetro\protected\controllers\PersonaController.php(226): PersonaController->render()
+#15 C:\xampp\htdocs\Yii\framework\web\actions\CInlineAction.php(49): PersonaController->actionAdmin()
+#16 C:\xampp\htdocs\Yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#17 C:\xampp\htdocs\Yii\framework\web\filters\CFilterChain.php(133): PersonaController->runAction()
+#18 C:\xampp\htdocs\Yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#19 C:\xampp\htdocs\Yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#20 C:\xampp\htdocs\Yii\framework\web\filters\CInlineFilter.php(58): PersonaController->filterAccessControl()
+#21 C:\xampp\htdocs\Yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#22 C:\xampp\htdocs\Yii\framework\web\CController.php(291): CFilterChain->run()
+#23 C:\xampp\htdocs\Yii\framework\web\CController.php(265): PersonaController->runActionWithFilters()
+#24 C:\xampp\htdocs\Yii\framework\web\CWebApplication.php(282): PersonaController->run()
+#25 C:\xampp\htdocs\Yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#26 C:\xampp\htdocs\Yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#27 C:\xampp\htdocs\voltmetro\index.php(13): CWebApplication->run()
+REQUEST_URI=/voltmetro/index.php?r=persona/admin
+in C:\xampp\htdocs\voltmetro\protected\views\persona\admin.php (69)
+in C:\xampp\htdocs\voltmetro\protected\controllers\PersonaController.php (226)
+in C:\xampp\htdocs\voltmetro\index.php (13)
+2015/05/27 18:55:38 [error] [php] call_user_func_array() expects parameter 1 to be a valid callback, array must have exactly two members (C:\xampp\htdocs\Yii\framework\base\CComponent.php:611)
+Stack trace:
+#0 C:\xampp\htdocs\Yii\framework\zii\widgets\grid\CGridColumn.php(144): CDataColumn->renderDataCellContent()
+#1 C:\xampp\htdocs\Yii\framework\zii\widgets\grid\CGridView.php(589): CDataColumn->renderDataCell()
+#2 C:\xampp\htdocs\Yii\framework\zii\widgets\grid\CGridView.php(545): CGridView->renderTableRow()
+#3 C:\xampp\htdocs\Yii\framework\zii\widgets\grid\CGridView.php(455): CGridView->renderTableBody()
+#4 C:\xampp\htdocs\Yii\framework\zii\widgets\CBaseListView.php(160): CGridView->renderItems()
+#5 unknown(0): CGridView->renderSection()
+#6 C:\xampp\htdocs\Yii\framework\zii\widgets\CBaseListView.php(143): preg_replace_callback()
+#7 C:\xampp\htdocs\Yii\framework\zii\widgets\CBaseListView.php(128): CGridView->renderContent()
+#8 C:\xampp\htdocs\Yii\framework\web\CBaseController.php(173): CGridView->run()
+#9 C:\xampp\htdocs\voltmetro\protected\views\persona\admin.php(69): PersonaController->widget()
+#10 C:\xampp\htdocs\Yii\framework\web\CBaseController.php(126): require()
+#11 C:\xampp\htdocs\Yii\framework\web\CBaseController.php(95): PersonaController->renderInternal()
+#12 C:\xampp\htdocs\Yii\framework\web\CController.php(869): PersonaController->renderFile()
+#13 C:\xampp\htdocs\Yii\framework\web\CController.php(782): PersonaController->renderPartial()
+#14 C:\xampp\htdocs\voltmetro\protected\controllers\PersonaController.php(226): PersonaController->render()
+#15 C:\xampp\htdocs\Yii\framework\web\actions\CInlineAction.php(49): PersonaController->actionAdmin()
+#16 C:\xampp\htdocs\Yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#17 C:\xampp\htdocs\Yii\framework\web\filters\CFilterChain.php(133): PersonaController->runAction()
+#18 C:\xampp\htdocs\Yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#19 C:\xampp\htdocs\Yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#20 C:\xampp\htdocs\Yii\framework\web\filters\CInlineFilter.php(58): PersonaController->filterAccessControl()
+#21 C:\xampp\htdocs\Yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#22 C:\xampp\htdocs\Yii\framework\web\CController.php(291): CFilterChain->run()
+#23 C:\xampp\htdocs\Yii\framework\web\CController.php(265): PersonaController->runActionWithFilters()
+#24 C:\xampp\htdocs\Yii\framework\web\CWebApplication.php(282): PersonaController->run()
+#25 C:\xampp\htdocs\Yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#26 C:\xampp\htdocs\Yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#27 C:\xampp\htdocs\voltmetro\index.php(13): CWebApplication->run()
+REQUEST_URI=/voltmetro/index.php?r=persona/admin
+in C:\xampp\htdocs\voltmetro\protected\views\persona\admin.php (69)
+in C:\xampp\htdocs\voltmetro\protected\controllers\PersonaController.php (226)
+in C:\xampp\htdocs\voltmetro\index.php (13)
+2015/05/27 18:59:18 [error] [exception.CException] exception 'CException' with message '"name" o "value" deben especificarse para CDataColumn.' in C:\xampp\htdocs\Yii\framework\zii\widgets\grid\CDataColumn.php:78
+Stack trace:
+#0 C:\xampp\htdocs\Yii\framework\zii\widgets\grid\CGridView.php(376): CDataColumn->init()
+#1 C:\xampp\htdocs\Yii\framework\zii\widgets\grid\CGridView.php(334): CGridView->initColumns()
+#2 C:\xampp\htdocs\Yii\framework\web\CBaseController.php(147): CGridView->init()
+#3 C:\xampp\htdocs\Yii\framework\web\CBaseController.php(172): CBaseController->createWidget('zii.widgets.gri...', Array)
+#4 C:\xampp\htdocs\voltmetro\protected\views\persona\admin.php(69): CBaseController->widget('zii.widgets.gri...', Array)
+#5 C:\xampp\htdocs\Yii\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\Yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#7 C:\xampp\htdocs\Yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#8 C:\xampp\htdocs\Yii\framework\web\CController.php(782): CController->renderPartial('admin', Array, true)
+#9 C:\xampp\htdocs\voltmetro\protected\controllers\PersonaController.php(226): CController->render('admin', Array)
+#10 C:\xampp\htdocs\Yii\framework\web\actions\CInlineAction.php(49): PersonaController->actionAdmin()
+#11 C:\xampp\htdocs\Yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#12 C:\xampp\htdocs\Yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#13 C:\xampp\htdocs\Yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#14 C:\xampp\htdocs\Yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#15 C:\xampp\htdocs\Yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#16 C:\xampp\htdocs\Yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#17 C:\xampp\htdocs\Yii\framework\web\CController.php(291): CFilterChain->run()
+#18 C:\xampp\htdocs\Yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#19 C:\xampp\htdocs\Yii\framework\web\CWebApplication.php(282): CController->run('admin')
+#20 C:\xampp\htdocs\Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('persona/admin')
+#21 C:\xampp\htdocs\Yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#22 C:\xampp\htdocs\voltmetro\index.php(13): CApplication->run()
+#23 {main}
+REQUEST_URI=/voltmetro/index.php?r=persona/admin
+HTTP_REFERER=http://localhost/voltmetro/index.php?r=aparato/index
+---
+2015/05/27 19:00:50 [error] [exception.CException] exception 'CException' with message 'Propiedad "Persona"."Area" no se encuentra definida.' in C:\xampp\htdocs\Yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\Yii\framework\db\ar\CActiveRecord.php(143): CComponent->__get('Area')
+#1 C:\xampp\htdocs\Yii\framework\web\helpers\CHtml.php(2255): CActiveRecord->__get('Area')
+#2 C:\xampp\htdocs\Yii\framework\web\helpers\CHtml.php(1565): CHtml::resolveValue(Object(Persona), 'Area')
+#3 C:\xampp\htdocs\Yii\framework\zii\widgets\grid\CDataColumn.php(95): CHtml::activeDropDownList(Object(Persona), 'Area', Array, Array)
+#4 C:\xampp\htdocs\Yii\framework\zii\widgets\grid\CGridColumn.php(109): CDataColumn->renderFilterCellContent()
+#5 C:\xampp\htdocs\Yii\framework\zii\widgets\grid\CGridView.php(505): CGridColumn->renderFilterCell()
+#6 C:\xampp\htdocs\Yii\framework\zii\widgets\grid\CGridView.php(483): CGridView->renderFilter()
+#7 C:\xampp\htdocs\Yii\framework\zii\widgets\grid\CGridView.php(453): CGridView->renderTableHeader()
+#8 C:\xampp\htdocs\Yii\framework\zii\widgets\CBaseListView.php(160): CGridView->renderItems()
+#9 [internal function]: CBaseListView->renderSection(Array)
+#10 C:\xampp\htdocs\Yii\framework\zii\widgets\CBaseListView.php(143): preg_replace_callback('/{(\\w+)}/', Array, '{summary}\n{item...')
+#11 C:\xampp\htdocs\Yii\framework\zii\widgets\CBaseListView.php(128): CBaseListView->renderContent()
+#12 C:\xampp\htdocs\Yii\framework\web\CBaseController.php(173): CBaseListView->run()
+#13 C:\xampp\htdocs\voltmetro\protected\views\persona\admin.php(69): CBaseController->widget('zii.widgets.gri...', Array)
+#14 C:\xampp\htdocs\Yii\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#15 C:\xampp\htdocs\Yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#16 C:\xampp\htdocs\Yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#17 C:\xampp\htdocs\Yii\framework\web\CController.php(782): CController->renderPartial('admin', Array, true)
+#18 C:\xampp\htdocs\voltmetro\protected\controllers\PersonaController.php(226): CController->render('admin', Array)
+#19 C:\xampp\htdocs\Yii\framework\web\actions\CInlineAction.php(49): PersonaController->actionAdmin()
+#20 C:\xampp\htdocs\Yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#21 C:\xampp\htdocs\Yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#22 C:\xampp\htdocs\Yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#23 C:\xampp\htdocs\Yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#24 C:\xampp\htdocs\Yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#25 C:\xampp\htdocs\Yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#26 C:\xampp\htdocs\Yii\framework\web\CController.php(291): CFilterChain->run()
+#27 C:\xampp\htdocs\Yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#28 C:\xampp\htdocs\Yii\framework\web\CWebApplication.php(282): CController->run('admin')
+#29 C:\xampp\htdocs\Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('persona/admin')
+#30 C:\xampp\htdocs\Yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#31 C:\xampp\htdocs\voltmetro\index.php(13): CApplication->run()
+#32 {main}
+REQUEST_URI=/voltmetro/index.php?r=persona/admin
+HTTP_REFERER=http://localhost/voltmetro/index.php?r=aparato/index
+---
+2015/05/27 19:01:06 [warning] [application] Error al definir unsafe el atributo "area" de "Persona".
+in C:\xampp\htdocs\voltmetro\protected\controllers\PersonaController.php (222)
+in C:\xampp\htdocs\voltmetro\index.php (13)
+2015/05/27 19:01:11 [warning] [application] Error al definir unsafe el atributo "area" de "Persona".
+in C:\xampp\htdocs\voltmetro\protected\controllers\PersonaController.php (222)
+in C:\xampp\htdocs\voltmetro\index.php (13)
+2015/05/27 19:01:14 [warning] [application] Error al definir unsafe el atributo "area" de "Persona".
+in C:\xampp\htdocs\voltmetro\protected\controllers\PersonaController.php (222)
+in C:\xampp\htdocs\voltmetro\index.php (13)
+2015/05/27 19:01:24 [warning] [application] Error al definir unsafe el atributo "area" de "Persona".
+in C:\xampp\htdocs\voltmetro\protected\controllers\PersonaController.php (222)
+in C:\xampp\htdocs\voltmetro\index.php (13)
+2015/05/27 19:01:28 [warning] [application] Error al definir unsafe el atributo "area" de "Persona".
+in C:\xampp\htdocs\voltmetro\protected\controllers\PersonaController.php (222)
+in C:\xampp\htdocs\voltmetro\index.php (13)
+2015/05/27 19:01:32 [warning] [application] Error al definir unsafe el atributo "area" de "Persona".
+in C:\xampp\htdocs\voltmetro\protected\controllers\PersonaController.php (222)
+in C:\xampp\htdocs\voltmetro\index.php (13)
+2015/05/27 19:01:35 [warning] [application] Error al definir unsafe el atributo "area" de "Persona".
+in C:\xampp\htdocs\voltmetro\protected\controllers\PersonaController.php (222)
+in C:\xampp\htdocs\voltmetro\index.php (13)
+2015/05/27 19:01:38 [warning] [application] Error al definir unsafe el atributo "area" de "Persona".
+in C:\xampp\htdocs\voltmetro\protected\controllers\PersonaController.php (222)
+in C:\xampp\htdocs\voltmetro\index.php (13)
+2015/05/27 19:09:55 [warning] [application] Error al definir unsafe el atributo "nombre" de "Aparato".
+in C:\xampp\htdocs\voltmetro\protected\controllers\AparatoController.php (159)
+in C:\xampp\htdocs\voltmetro\index.php (13)
+2015/05/27 19:11:46 [error] [exception.CException] exception 'CException' with message 'La columna debe especificarse en el formato "Nombre:Tipo:Etiqueta", donde "Tipo" y "Etiqueta" son opcionales.' in C:\xampp\htdocs\Yii\framework\zii\widgets\grid\CGridView.php:387
+Stack trace:
+#0 C:\xampp\htdocs\Yii\framework\zii\widgets\grid\CGridView.php(358): CGridView->createDataColumn('nombre del pers...')
+#1 C:\xampp\htdocs\Yii\framework\zii\widgets\grid\CGridView.php(334): CGridView->initColumns()
+#2 C:\xampp\htdocs\Yii\framework\web\CBaseController.php(147): CGridView->init()
+#3 C:\xampp\htdocs\Yii\framework\web\CBaseController.php(172): CBaseController->createWidget('zii.widgets.gri...', Array)
+#4 C:\xampp\htdocs\voltmetro\protected\views\persona\admin.php(68): CBaseController->widget('zii.widgets.gri...', Array)
+#5 C:\xampp\htdocs\Yii\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\Yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#7 C:\xampp\htdocs\Yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#8 C:\xampp\htdocs\Yii\framework\web\CController.php(782): CController->renderPartial('admin', Array, true)
+#9 C:\xampp\htdocs\voltmetro\protected\controllers\PersonaController.php(226): CController->render('admin', Array)
+#10 C:\xampp\htdocs\Yii\framework\web\actions\CInlineAction.php(49): PersonaController->actionAdmin()
+#11 C:\xampp\htdocs\Yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#12 C:\xampp\htdocs\Yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#13 C:\xampp\htdocs\Yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#14 C:\xampp\htdocs\Yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#15 C:\xampp\htdocs\Yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#16 C:\xampp\htdocs\Yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#17 C:\xampp\htdocs\Yii\framework\web\CController.php(291): CFilterChain->run()
+#18 C:\xampp\htdocs\Yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#19 C:\xampp\htdocs\Yii\framework\web\CWebApplication.php(282): CController->run('admin')
+#20 C:\xampp\htdocs\Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('persona/admin')
+#21 C:\xampp\htdocs\Yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#22 C:\xampp\htdocs\voltmetro\index.php(13): CApplication->run()
+#23 {main}
+REQUEST_URI=/voltmetro/index.php?r=persona/admin
+HTTP_REFERER=http://localhost/voltmetro/index.php?r=area/admin
+---
+2015/05/27 19:14:50 [error] [php] Trying to get property of non-object (C:\xampp\htdocs\Yii\framework\base\CComponent.php(606) : eval()'d code:1)
+Stack trace:
+#0 C:\xampp\htdocs\Yii\framework\zii\widgets\grid\CGridColumn.php(144): CDataColumn->renderDataCellContent()
+#1 C:\xampp\htdocs\Yii\framework\zii\widgets\grid\CGridView.php(589): CDataColumn->renderDataCell()
+#2 C:\xampp\htdocs\Yii\framework\zii\widgets\grid\CGridView.php(545): CGridView->renderTableRow()
+#3 C:\xampp\htdocs\Yii\framework\zii\widgets\grid\CGridView.php(455): CGridView->renderTableBody()
+#4 C:\xampp\htdocs\Yii\framework\zii\widgets\CBaseListView.php(160): CGridView->renderItems()
+#5 unknown(0): CGridView->renderSection()
+#6 C:\xampp\htdocs\Yii\framework\zii\widgets\CBaseListView.php(143): preg_replace_callback()
+#7 C:\xampp\htdocs\Yii\framework\zii\widgets\CBaseListView.php(128): CGridView->renderContent()
+#8 C:\xampp\htdocs\Yii\framework\web\CBaseController.php(173): CGridView->run()
+#9 C:\xampp\htdocs\voltmetro\protected\views\persona\admin.php(73): PersonaController->widget()
+#10 C:\xampp\htdocs\Yii\framework\web\CBaseController.php(126): require()
+#11 C:\xampp\htdocs\Yii\framework\web\CBaseController.php(95): PersonaController->renderInternal()
+#12 C:\xampp\htdocs\Yii\framework\web\CController.php(869): PersonaController->renderFile()
+#13 C:\xampp\htdocs\Yii\framework\web\CController.php(782): PersonaController->renderPartial()
+#14 C:\xampp\htdocs\voltmetro\protected\controllers\PersonaController.php(226): PersonaController->render()
+#15 C:\xampp\htdocs\Yii\framework\web\actions\CInlineAction.php(49): PersonaController->actionAdmin()
+#16 C:\xampp\htdocs\Yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#17 C:\xampp\htdocs\Yii\framework\web\filters\CFilterChain.php(133): PersonaController->runAction()
+#18 C:\xampp\htdocs\Yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#19 C:\xampp\htdocs\Yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#20 C:\xampp\htdocs\Yii\framework\web\filters\CInlineFilter.php(58): PersonaController->filterAccessControl()
+#21 C:\xampp\htdocs\Yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#22 C:\xampp\htdocs\Yii\framework\web\CController.php(291): CFilterChain->run()
+#23 C:\xampp\htdocs\Yii\framework\web\CController.php(265): PersonaController->runActionWithFilters()
+#24 C:\xampp\htdocs\Yii\framework\web\CWebApplication.php(282): PersonaController->run()
+#25 C:\xampp\htdocs\Yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#26 C:\xampp\htdocs\Yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#27 C:\xampp\htdocs\voltmetro\index.php(13): CWebApplication->run()
+REQUEST_URI=/voltmetro/index.php?r=persona/admin
+in C:\xampp\htdocs\voltmetro\protected\views\persona\admin.php (73)
+in C:\xampp\htdocs\voltmetro\protected\controllers\PersonaController.php (226)
+in C:\xampp\htdocs\voltmetro\index.php (13)
+2015/05/27 19:15:05 [error] [php] Trying to get property of non-object (C:\xampp\htdocs\Yii\framework\base\CComponent.php(606) : eval()'d code:1)
+Stack trace:
+#0 C:\xampp\htdocs\Yii\framework\zii\widgets\grid\CGridColumn.php(144): CDataColumn->renderDataCellContent()
+#1 C:\xampp\htdocs\Yii\framework\zii\widgets\grid\CGridView.php(589): CDataColumn->renderDataCell()
+#2 C:\xampp\htdocs\Yii\framework\zii\widgets\grid\CGridView.php(545): CGridView->renderTableRow()
+#3 C:\xampp\htdocs\Yii\framework\zii\widgets\grid\CGridView.php(455): CGridView->renderTableBody()
+#4 C:\xampp\htdocs\Yii\framework\zii\widgets\CBaseListView.php(160): CGridView->renderItems()
+#5 unknown(0): CGridView->renderSection()
+#6 C:\xampp\htdocs\Yii\framework\zii\widgets\CBaseListView.php(143): preg_replace_callback()
+#7 C:\xampp\htdocs\Yii\framework\zii\widgets\CBaseListView.php(128): CGridView->renderContent()
+#8 C:\xampp\htdocs\Yii\framework\web\CBaseController.php(173): CGridView->run()
+#9 C:\xampp\htdocs\voltmetro\protected\views\persona\admin.php(73): PersonaController->widget()
+#10 C:\xampp\htdocs\Yii\framework\web\CBaseController.php(126): require()
+#11 C:\xampp\htdocs\Yii\framework\web\CBaseController.php(95): PersonaController->renderInternal()
+#12 C:\xampp\htdocs\Yii\framework\web\CController.php(869): PersonaController->renderFile()
+#13 C:\xampp\htdocs\Yii\framework\web\CController.php(782): PersonaController->renderPartial()
+#14 C:\xampp\htdocs\voltmetro\protected\controllers\PersonaController.php(226): PersonaController->render()
+#15 C:\xampp\htdocs\Yii\framework\web\actions\CInlineAction.php(49): PersonaController->actionAdmin()
+#16 C:\xampp\htdocs\Yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#17 C:\xampp\htdocs\Yii\framework\web\filters\CFilterChain.php(133): PersonaController->runAction()
+#18 C:\xampp\htdocs\Yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#19 C:\xampp\htdocs\Yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#20 C:\xampp\htdocs\Yii\framework\web\filters\CInlineFilter.php(58): PersonaController->filterAccessControl()
+#21 C:\xampp\htdocs\Yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#22 C:\xampp\htdocs\Yii\framework\web\CController.php(291): CFilterChain->run()
+#23 C:\xampp\htdocs\Yii\framework\web\CController.php(265): PersonaController->runActionWithFilters()
+#24 C:\xampp\htdocs\Yii\framework\web\CWebApplication.php(282): PersonaController->run()
+#25 C:\xampp\htdocs\Yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#26 C:\xampp\htdocs\Yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#27 C:\xampp\htdocs\voltmetro\index.php(13): CWebApplication->run()
+REQUEST_URI=/voltmetro/index.php?r=persona/admin
+in C:\xampp\htdocs\voltmetro\protected\views\persona\admin.php (73)
+in C:\xampp\htdocs\voltmetro\protected\controllers\PersonaController.php (226)
+in C:\xampp\htdocs\voltmetro\index.php (13)
+2015/05/27 19:16:36 [error] [php] Trying to get property of non-object (C:\xampp\htdocs\Yii\framework\base\CComponent.php(606) : eval()'d code:1)
+Stack trace:
+#0 C:\xampp\htdocs\Yii\framework\zii\widgets\grid\CGridColumn.php(144): CDataColumn->renderDataCellContent()
+#1 C:\xampp\htdocs\Yii\framework\zii\widgets\grid\CGridView.php(589): CDataColumn->renderDataCell()
+#2 C:\xampp\htdocs\Yii\framework\zii\widgets\grid\CGridView.php(545): CGridView->renderTableRow()
+#3 C:\xampp\htdocs\Yii\framework\zii\widgets\grid\CGridView.php(455): CGridView->renderTableBody()
+#4 C:\xampp\htdocs\Yii\framework\zii\widgets\CBaseListView.php(160): CGridView->renderItems()
+#5 unknown(0): CGridView->renderSection()
+#6 C:\xampp\htdocs\Yii\framework\zii\widgets\CBaseListView.php(143): preg_replace_callback()
+#7 C:\xampp\htdocs\Yii\framework\zii\widgets\CBaseListView.php(128): CGridView->renderContent()
+#8 C:\xampp\htdocs\Yii\framework\web\CBaseController.php(173): CGridView->run()
+#9 C:\xampp\htdocs\voltmetro\protected\views\persona\admin.php(73): PersonaController->widget()
+#10 C:\xampp\htdocs\Yii\framework\web\CBaseController.php(126): require()
+#11 C:\xampp\htdocs\Yii\framework\web\CBaseController.php(95): PersonaController->renderInternal()
+#12 C:\xampp\htdocs\Yii\framework\web\CController.php(869): PersonaController->renderFile()
+#13 C:\xampp\htdocs\Yii\framework\web\CController.php(782): PersonaController->renderPartial()
+#14 C:\xampp\htdocs\voltmetro\protected\controllers\PersonaController.php(226): PersonaController->render()
+#15 C:\xampp\htdocs\Yii\framework\web\actions\CInlineAction.php(49): PersonaController->actionAdmin()
+#16 C:\xampp\htdocs\Yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#17 C:\xampp\htdocs\Yii\framework\web\filters\CFilterChain.php(133): PersonaController->runAction()
+#18 C:\xampp\htdocs\Yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#19 C:\xampp\htdocs\Yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#20 C:\xampp\htdocs\Yii\framework\web\filters\CInlineFilter.php(58): PersonaController->filterAccessControl()
+#21 C:\xampp\htdocs\Yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#22 C:\xampp\htdocs\Yii\framework\web\CController.php(291): CFilterChain->run()
+#23 C:\xampp\htdocs\Yii\framework\web\CController.php(265): PersonaController->runActionWithFilters()
+#24 C:\xampp\htdocs\Yii\framework\web\CWebApplication.php(282): PersonaController->run()
+#25 C:\xampp\htdocs\Yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#26 C:\xampp\htdocs\Yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#27 C:\xampp\htdocs\voltmetro\index.php(13): CWebApplication->run()
+REQUEST_URI=/voltmetro/index.php?r=persona/admin
+in C:\xampp\htdocs\voltmetro\protected\views\persona\admin.php (73)
+in C:\xampp\htdocs\voltmetro\protected\controllers\PersonaController.php (226)
+in C:\xampp\htdocs\voltmetro\index.php (13)
+2015/05/27 20:01:50 [error] [system.db.CDbCommand] CDbCommand::execute() falló: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`voltmetro`.`aparato`, CONSTRAINT `aparato_ibfk_1` FOREIGN KEY (`rpe`) REFERENCES `persona` (`rpe`)). La sentencia SQL ejecutada fue: UPDATE `persona` SET `email`=:yp0, `password`=:yp1, `es_jefe`=:yp2, `rpe_jefe`=:yp3, `id_area`=:yp4, `rpe`=:yp5, `nombre`=:yp6 WHERE `persona`.`rpe`='K228J'.
+in C:\xampp\htdocs\voltmetro\protected\controllers\PersonaController.php (105)
+in C:\xampp\htdocs\voltmetro\index.php (13)
+2015/05/27 20:01:50 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand falló al ejecutar la sentencia SQL: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`voltmetro`.`aparato`, CONSTRAINT `aparato_ibfk_1` FOREIGN KEY (`rpe`) REFERENCES `persona` (`rpe`)). The SQL statement executed was: UPDATE `persona` SET `email`=:yp0, `password`=:yp1, `es_jefe`=:yp2, `rpe_jefe`=:yp3, `id_area`=:yp4, `rpe`=:yp5, `nombre`=:yp6 WHERE `persona`.`rpe`='K228J'' in C:\xampp\htdocs\Yii\framework\db\CDbCommand.php:357
+Stack trace:
+#0 C:\xampp\htdocs\Yii\framework\db\ar\CActiveRecord.php(1691): CDbCommand->execute()
+#1 C:\xampp\htdocs\Yii\framework\db\ar\CActiveRecord.php(1070): CActiveRecord->updateByPk('K228J', Array)
+#2 C:\xampp\htdocs\Yii\framework\db\ar\CActiveRecord.php(795): CActiveRecord->update(NULL)
+#3 C:\xampp\htdocs\voltmetro\protected\controllers\PersonaController.php(105): CActiveRecord->save()
+#4 [internal function]: PersonaController->actionUpdate('K228J')
+#5 C:\xampp\htdocs\Yii\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(PersonaController), Array)
+#6 C:\xampp\htdocs\Yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(PersonaController), Object(ReflectionMethod), Array)
+#7 C:\xampp\htdocs\Yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 C:\xampp\htdocs\Yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#9 C:\xampp\htdocs\Yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#10 C:\xampp\htdocs\Yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#11 C:\xampp\htdocs\Yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#12 C:\xampp\htdocs\Yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#13 C:\xampp\htdocs\Yii\framework\web\CController.php(291): CFilterChain->run()
+#14 C:\xampp\htdocs\Yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 C:\xampp\htdocs\Yii\framework\web\CWebApplication.php(282): CController->run('update')
+#16 C:\xampp\htdocs\Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('persona/update')
+#17 C:\xampp\htdocs\Yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#18 C:\xampp\htdocs\voltmetro\index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/voltmetro/index.php?r=persona/update&id=K228J
+HTTP_REFERER=http://localhost/voltmetro/index.php?r=persona/update&id=K228J
+---
+2015/05/27 20:05:34 [warning] [application] Error al definir unsafe el atributo "archivo" de "Aparato".
+in C:\xampp\htdocs\voltmetro\protected\controllers\AparatoController.php (73)
+in C:\xampp\htdocs\voltmetro\index.php (13)
+2015/05/27 20:07:46 [warning] [application] Error al definir unsafe el atributo "archivo" de "Aparato".
+in C:\xampp\htdocs\voltmetro\protected\controllers\AparatoController.php (73)
+in C:\xampp\htdocs\voltmetro\index.php (13)
+2015/05/27 20:09:16 [warning] [application] Error al definir unsafe el atributo "archivo" de "Aparato".
+in C:\xampp\htdocs\voltmetro\protected\controllers\AparatoController.php (73)
+in C:\xampp\htdocs\voltmetro\index.php (13)
+2015/05/27 20:11:20 [warning] [application] Error al definir unsafe el atributo "archivo" de "Aparato".
+in C:\xampp\htdocs\voltmetro\protected\controllers\AparatoController.php (73)
+in C:\xampp\htdocs\voltmetro\index.php (13)
+2015/05/27 20:13:39 [warning] [application] Error al definir unsafe el atributo "archivo" de "Aparato".
+in C:\xampp\htdocs\voltmetro\protected\controllers\AparatoController.php (73)
+in C:\xampp\htdocs\voltmetro\index.php (13)
+2015/05/27 20:15:00 [warning] [application] Error al definir unsafe el atributo "archivo" de "Aparato".
+in C:\xampp\htdocs\voltmetro\protected\controllers\AparatoController.php (73)
+in C:\xampp\htdocs\voltmetro\index.php (13)
+2015/05/27 20:16:32 [warning] [application] Error al definir unsafe el atributo "archivo" de "Aparato".
+in C:\xampp\htdocs\voltmetro\protected\controllers\AparatoController.php (73)
+in C:\xampp\htdocs\voltmetro\index.php (13)
+2015/05/27 20:21:31 [warning] [application] Error al definir unsafe el atributo "archivo" de "Aparato".
+in C:\xampp\htdocs\voltmetro\protected\controllers\AparatoController.php (73)
+in C:\xampp\htdocs\voltmetro\index.php (13)
+2015/05/27 21:07:08 [warning] [application] Error al definir unsafe el atributo "archivo" de "Aparato".
+in C:\xampp\htdocs\voltmetro\protected\controllers\AparatoController.php (73)
+in C:\xampp\htdocs\voltmetro\index.php (13)
+2015/05/27 21:08:09 [warning] [application] Error al definir unsafe el atributo "archivo" de "Aparato".
+in C:\xampp\htdocs\voltmetro\protected\controllers\AparatoController.php (112)
+in C:\xampp\htdocs\voltmetro\index.php (13)
+2015/05/27 21:09:47 [warning] [application] Error al definir unsafe el atributo "archivo" de "Aparato".
+in C:\xampp\htdocs\voltmetro\protected\controllers\AparatoController.php (112)
+in C:\xampp\htdocs\voltmetro\index.php (13)
+2015/05/27 21:13:04 [warning] [application] Error al definir unsafe el atributo "archivo" de "Aparato".
+in C:\xampp\htdocs\voltmetro\protected\controllers\AparatoController.php (73)
+in C:\xampp\htdocs\voltmetro\index.php (13)
+2015/05/27 21:15:05 [warning] [application] Error al definir unsafe el atributo "archivo" de "Aparato".
+in C:\xampp\htdocs\voltmetro\protected\controllers\AparatoController.php (112)
+in C:\xampp\htdocs\voltmetro\index.php (13)
+2015/05/27 21:21:46 [warning] [application] Error al definir unsafe el atributo "archivo" de "Aparato".
+in C:\xampp\htdocs\voltmetro\protected\controllers\AparatoController.php (112)
+in C:\xampp\htdocs\voltmetro\index.php (13)
+2015/05/27 21:25:53 [warning] [application] Error al definir unsafe el atributo "archivo" de "Aparato".
+in C:\xampp\htdocs\voltmetro\protected\controllers\AparatoController.php (112)
+in C:\xampp\htdocs\voltmetro\index.php (13)
+2015/05/27 21:27:52 [warning] [application] Error al definir unsafe el atributo "archivo" de "Aparato".
+in C:\xampp\htdocs\voltmetro\protected\controllers\AparatoController.php (112)
+in C:\xampp\htdocs\voltmetro\index.php (13)
+2015/05/27 21:28:58 [warning] [application] Error al definir unsafe el atributo "archivo" de "Aparato".
+in C:\xampp\htdocs\voltmetro\protected\controllers\AparatoController.php (112)
+in C:\xampp\htdocs\voltmetro\index.php (13)

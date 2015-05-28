@@ -40,15 +40,29 @@ $('.search-form form').submit(function(){
 		'email',
 		'password',
 		'rpe_jefe',
-		#'idArea.area', poner area del aparato y nombre del que lo tiene
-		#'idArea.tipo',
+		'idArea.area', 
+		'idArea.tipo',
 		/*
 		'es_jefe',
 		'id_area',
 		*/
 		array(
+			'name'=>'id_area',
+			'header'=>'Areas',
+			'filter'=>CHtml::listData(Area::model()->findAll(),'id_area','tipo','area'),
+		),
+		array(
 			'class'=>'CButtonColumn',
 			'header'=>'Ver,Editar,Eliminar',
 		),
+		/*array(
+			'class'=>'CLinkColumn',
+			'header'=>'Email',
+			'imageUrl'=>Yii::app()->baseUrl.'/img/email.png',
+			#'labelExpression'=>'$data->email',
+			'htmlOptions'=>array('style'=>'text-aling:center'),
+			#'urlExpression'=>
+			),
+		*/
 	),
 )); ?>
