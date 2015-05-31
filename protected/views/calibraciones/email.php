@@ -1,6 +1,5 @@
 <?php if ($aparato!==null) { ?>
 
-
 <div class="table-responsive"> 
 
 		<h3 class="panel-title" align="center">
@@ -41,15 +40,7 @@
 
 </table>
 
-<a href="?r=calibraciones/enviarcorreo" class="btn btn-primary btn-lg" role="button">Enviar correo</a>
-<!--
-<button type="button" class="btn btn-lg btn-primary" disabled="disabled">Primary button</button>
-<button class="btn btn-default" type="submit">Button</button>
--->
-
 <?php } else {
 echo "No hay aparatos pendientes en la base de datos";
 	}  ?>
 
-
-</div>

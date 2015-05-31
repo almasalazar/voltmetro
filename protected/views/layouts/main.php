@@ -112,7 +112,7 @@
                               <span class="text-muted">Registrar un nuevo usuario a la base de datos</span>
                             </a>
                         </div>
-                        
+                        <!--
                         <div class="col-xs-6 col-sm-3 placeholder">
                         <a href="">
                             <img src="img/img2.jpg" class="img-responsive" alt="Generic placeholder thumbnail">
@@ -120,6 +120,7 @@
                             <span class="text-muted">Enviar a los seleccionados</span>
                           </a>
                         </div>
+                      -->
 
                         <div class="col-xs-6 col-sm-3 placeholder">
                         <a href="?r=persona/admin">

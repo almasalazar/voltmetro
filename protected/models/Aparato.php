@@ -30,6 +30,7 @@ class Aparato extends CActiveRecord
 	public $tipo;
 	public $prox_calib;
 	public $estatus;
+	public $email;
 
 
 	/**
