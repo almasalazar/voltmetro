@@ -10,5 +10,11 @@ return array(
 	'username' => 'root',
 	'password' => '',
 	'charset' => 'utf8',
+
+	/*'connectionString' => 'mysql:host=10.12.71.220;dbname=voltmetro',
+	'emulatePrepare' => true,
+	'username' => 'uservolmetro',
+	'password' => 'passvolmetro',
+	'charset' => 'utf8',*/
 	
 );

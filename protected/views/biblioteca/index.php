@@ -28,8 +28,18 @@ $this->breadcrumbs=array(
     <div class="thumbnail">
       <img src="img/doc.png" alt="...">
       <div class="caption">
-        <h3>Formato</h3>
-        <p>Archivo de calibraciones etc..</p>
+        <h3>Ley federal</h3>
+        <p align="center">Sobre metrologia y normalizacion</p>
+        <p><a href="img/biblioteca/Doc1.pdf" class="btn btn-success" role="button">Ver Documento</a></p>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-6 col-md-4">
+    <div class="thumbnail">
+      <img src="img/doc.png" alt="...">
+      <div class="caption">
+        <h3>Programa de Patrones</h3>
+        <p align="center">Zona Celaya del presente año.</p>
         <p><a href="img/biblioteca/Doc2.pdf" class="btn btn-success" role="button">Ver Documento</a></p>
       </div>
     </div>
@@ -38,9 +48,9 @@ $this->breadcrumbs=array(
     <div class="thumbnail">
       <img src="img/doc.png" alt="...">
       <div class="caption">
-        <h3>Formato</h3>
-        <p>Contenido de audiotrias etc etc..</p>
-        <p><a href="img/biblioteca/Doc1.docx" class="btn btn-success" role="button">Ver Documento</a></p>
+         <h3>Programa de Voltmetros</h3>
+        <p align="center">Zona Celaya del presente año.</p>
+        <p><a href="img/biblioteca/Doc3.pdf" class="btn btn-success" role="button">Ver Documento</a></p>
       </div>
     </div>
   </div>

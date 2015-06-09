@@ -3,14 +3,14 @@
 <div class="table-responsive"> 
 
 		<h3 class="panel-title" align="center">
-		    		Lista de todos los aparatos proximos a calibrar en el periodo de 15 dias a partir de la fecha actual.
+		    		Lista de los aparatos proximos a calibrar, verifica equipo correspondiente y enviarlo 7 dias antes de la fecha a calibrar, Gracias!!!
+		    		Si no se cuenta con el equipo generar acta, o el reemplazo del mismo, Por favor confirma de enterado.
 		  </h3>
 <br>
 
 <table class="table table-striped">	
 	
 	<tr>
-		<th></th>
 		<th>No. serie</th>
 		<th>Proxima Calibracion</th>
 		<th>Rpe</th>
@@ -21,9 +21,7 @@
 	</tr>
 	<?php foreach ($aparato as $data ) {?>
 		
-	
 	<tr>
-		<td><?php echo '<input type="checkbox" name="your-group" value="unit-in-group" />'?></td>
 		<td><?php echo $data->no_serie;?></td>
 		<td><?php echo $data->prox_calib;?></td>
 		<td><?php echo $data->rpe;?></td>
@@ -33,8 +31,6 @@
 		<td><?php echo $data->tipo;?></td>
 
 	</tr>
-
-
 
 	<?php } ?>
 

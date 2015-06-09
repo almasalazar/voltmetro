@@ -11,7 +11,6 @@
 <table class="table table-striped">	
 	
 	<tr>
-		<th></th>
 		<th>No. serie</th>
 		<th>Proxima Calibracion</th>
 		<th>Rpe</th>
@@ -24,7 +23,6 @@
 		
 	
 	<tr>
-		<td><?php echo '<input type="checkbox" name="your-group" value="unit-in-group" />'?></td>
 		<td><?php echo $data->no_serie;?></td>
 		<td><?php echo $data->prox_calib;?></td>
 		<td><?php echo $data->rpe;?></td>
@@ -41,11 +39,8 @@
 
 </table>
 
-<a href="?r=calibraciones/enviarcorreo" class="btn btn-primary btn-lg" role="button">Enviar correo</a>
-<!--
-<button type="button" class="btn btn-lg btn-primary" disabled="disabled">Primary button</button>
-<button class="btn btn-default" type="submit">Button</button>
--->
+<a href="?r=calibraciones/enviarcorreo" class="btn btn-success btn-lg" role="button">Enviar correo</a>
+
 
 <?php } else {
 echo "No hay aparatos pendientes en la base de datos";

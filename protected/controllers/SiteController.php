@@ -89,6 +89,22 @@ class SiteController extends Controller
 		$this->redirect(Yii::app()->homeUrl);
 	}
 
+	public function actionConfiguracion()
+	{
+		$this->layout='//layouts/public/column1';
+		$model = new Configuracion;
+		$msg = '';
+
+		if (isset($_POST["Configuracion"]))
+			{
+				$model->attributes = $_POST['Configuracion'];
+				if(!$model->validate()) 
+					{
+						$msg= "<strong class='text-error'> Error al enviar el formulario </strong>";
+					}
+			}
+	}
+
 	
 	
 	public function actionRecuperarpassword(){
@@ -140,13 +156,13 @@ class SiteController extends Controller
 						$user = $model->rpe;
 					 	$subject = "Has solicitado recuperar tu password en ";
 					 	$subject .= Yii::app()->name;
-					 	$message = "Usuario con rpe   " .$model->rpe ." su password es:   ";
+					 	$message = "Usuario con rpe   " .$model->rpe ." su password es el siguiente :   ";
 					 	$message .= $password;
 					 	$message .= "<br /> <br />";
-					 	$message .= "<a href='http//localhost/voltmetro/'> Regresar al voltmetroWeb </a>";
+
 
 					 	$email->Enviar_Email
-					 	(
+					 		(
 					 		//array(Yii::app()->params['adminEmail'], Yii::app()->name),
 					 		//array($model->email, $model->rpe),
 					 		$user,
@@ -154,6 +170,11 @@ class SiteController extends Controller
 					 		$subject,
 					 		$message
 					 		);
+
+					 	$model->rpe = '';
+					 	$model->email = '';
+					 	$model->captcha = '';
+
 					 	$msg = "<strong class='text-info'>En hora buena, el password ha sido enviado a su correo electronico </strong>";
 					 }
 					 else{

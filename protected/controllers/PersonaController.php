@@ -134,10 +134,9 @@ class PersonaController extends Controller
 		//Yii::app()->authManager->createRole("editor");
 		//Yii::app()->authManager->createRole("invitado");
 		
-		
 		/*
 		Yii::app()->authManager->assign("admin", '9ERCB');
-		Yii::app()->authManager->assign("admin", '10030754');
+		
 		Yii::app()->authManager->assign("editor", '9L1AM');
 		Yii::app()->authManager->assign("invitado", '9AEYJ');
 		Yii::app()->authManager->assign("invitado", '9AF47');
@@ -162,8 +161,9 @@ class PersonaController extends Controller
 		Yii::app()->authManager->assign("invitado", '9M3AW');
 		Yii::app()->authManager->assign("invitado", '9M80N');
 		Yii::app()->authManager->assign("invitado", '9M8JD');
-		Yii::app()->authManager->assign("invitado", 'K228J');
 		Yii::app()->authManager->assign("invitado", 'K345J');
+
+		Yii::app()->authManager->assign("invitado", 'K193J');
 		
 		if(Yii::app()->user->checkAccess("admin")){
 			$dataProvider=new CActiveDataProvider('Persona');
@@ -174,7 +174,7 @@ class PersonaController extends Controller
 		else{
 			echo "no tiene permisos";
 		}
-		*/
+	*/
 		
 		//echo "hola";
 		if(Yii::app()->user->checkAccess("invitado")){
@@ -187,7 +187,7 @@ class PersonaController extends Controller
 			//echo Yii::app()->user->id;
 			//$sql="SELECT rpe,nombre,email from persona where rpe_jefe='9L1A8'";
 			$sql="SELECT p.rpe,p.nombre,a.no_serie,ar.area, ar.tipo from persona p join aparato a on p.rpe = a.rpe
-				  join area ar on ar.id_area = p.id_area where rpe_jefe='".Yii::app()->user->getId()."'";
+				  join area ar on ar.id_area = p.id_area where rpe_jefe='".Yii::app()->user->getId()."' group by p.rpe" ;
 			$persona=Persona::model()->findAllBySql($sql);
 			$this->render('index',array('persona'=>$persona));		
 

@@ -8,7 +8,6 @@ $this->breadcrumbs=array(
 );
 
 $this->menu=array(
-	array('label'=>'List Area', 'url'=>array('index')),
 	array('label'=>'Create Area', 'url'=>array('create')),
 );
 

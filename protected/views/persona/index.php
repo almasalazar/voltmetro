@@ -31,7 +31,7 @@ $this->breadcrumbs=array(
 <table class="table table-striped">	
 	
 	<tr>
-		<th></th>
+		
 		<th>Rpe</th>
 		<th>Nombre</th>
 		<th>Aparato</th>
@@ -42,7 +42,6 @@ $this->breadcrumbs=array(
 		
 	
 	<tr>
-		<td><?php echo '<input type="checkbox" name="your-group" value="unit-in-group" />'?></td>
 		<td><?php echo $data->rpe;?></td>
 		<td><?php echo $data->nombre;?></td>
 		<td><?php echo $data->no_serie;?></td>
@@ -65,4 +64,6 @@ echo "No hay aparatos pendientes en la base de datos";
 
 
 </div>
+
+
 

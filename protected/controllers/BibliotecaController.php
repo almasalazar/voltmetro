@@ -29,15 +29,18 @@ class BibliotecaController extends Controller
 		return array(
 			array('allow',  // allow all users to perform 'index' and 'view' actions
 				'actions'=>array('index','view'),
-				'users'=>array('@'),
+				//'users'=>array('@'),
+				'roles'=>array('admin','editor','invitado')
 			),
 			array('allow', // allow authenticated user to perform 'create' and 'update' actions
 				'actions'=>array('create','update'),
-				'users'=>array('9ERCB', '9L1AM'),
+				//'users'=>array('9ERCB', '9L1AM'),
+				'roles'=>array('admin', 'editor'),
 			),
 			array('allow', // allow admin user to perform 'admin' and 'delete' actions
 				'actions'=>array('admin','delete'),
-				'users'=>array('9ERCB'),
+				//'users'=>array('9ERCB'),
+				'roles'=>array('admin', 'editor'),
 			),
 			array('deny',  // deny all users
 				'users'=>array('*'),

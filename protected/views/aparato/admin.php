@@ -7,10 +7,6 @@ $this->breadcrumbs=array(
 	'Manage',
 );
 
-$this->menu=array(
-	array('label'=>'Listar Aparatos', 'url'=>array('index')),
-	array('label'=>'Crear Aparato', 'url'=>array('create')),
-);
 
 Yii::app()->clientScript->registerScript('search', "
 $('.search-button').click(function(){

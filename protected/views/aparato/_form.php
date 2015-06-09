@@ -29,25 +29,25 @@
 
 	<div class="form-group">
 		<?php echo $form->labelEx($model,'Descripcion *'); ?>
-		<?php echo $form->textArea($model,'descripcion',array("placeholder"=>"Voltmetro o Patron",'rows'=>6, 'cols'=>50,'class'=>'form-control')); ?>
+		<?php echo $form->textArea($model,'descripcion',array("placeholder"=>"Voltmetro o Patron",'size'=>60,'maxlength'=>100,'class'=>'form-control')); ?>
 		<?php echo $form->error($model,'descripcion'); ?>
 	</div>
 
 	<div class="form-group">
 		<?php echo $form->labelEx($model,'Marca *'); ?>
-		<?php echo $form->textArea($model,'marca',array('rows'=>6, 'cols'=>50,'class'=>'form-control')); ?>
+		<?php echo $form->textArea($model,'marca',array('size'=>60,'maxlength'=>100,'class'=>'form-control')); ?>
 		<?php echo $form->error($model,'marca'); ?>
 	</div>
 
 	<div class="form-group">
 		<?php echo $form->labelEx($model,'modelo *'); ?>
-		<?php echo $form->textArea($model,'modelo',array('rows'=>6, 'cols'=>50,'class'=>'form-control')); ?>
+		<?php echo $form->textArea($model,'modelo',array('size'=>60,'maxlength'=>100,'class'=>'form-control')); ?>
 		<?php echo $form->error($model,'modelo'); ?>
 	</div>
 
 	<div class="form-group">
 		<?php echo $form->labelEx($model,'tipo *'); ?>
-		<?php echo $form->textArea($model,'tipo',array("placeholder"=>"Digital o Analogico", 'rows'=>6, 'cols'=>50,'class'=>'form-control')); ?>
+		<?php echo $form->textArea($model,'tipo',array("placeholder"=>"Digital o Analogico", 'size'=>60,'maxlength'=>100,'class'=>'form-control')); ?>
 		<?php echo $form->error($model,'tipo'); ?>
 	</div>
 
