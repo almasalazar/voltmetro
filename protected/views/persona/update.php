@@ -16,6 +16,6 @@ $this->menu=array(
 );
 ?>
 
-<h1>Actualizar Persona <?php echo $model->rpe; ?></h1>
+<h1>Actualizar registro de: <?php echo $model->nombre; ?></h1>
 
 <?php echo $this->renderPartial('_form', array('model'=>$model)); ?>
