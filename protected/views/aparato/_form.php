@@ -101,7 +101,7 @@
         echo $form->error($model, 'archivo');
     ?>
  
-    <?php if(!$model->isNewRecord){ //mostramos la imagen?>
+   <?php if($model->isNewRecord!='1'){ ?>
     <div class="container">
             
             <?php echo CHtml::image('../../img/respaldos'.$model->archivo,"archivo",array("width"=>200, 'title'=>$model->archivo)); ?>

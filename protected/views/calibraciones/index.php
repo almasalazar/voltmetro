@@ -4,7 +4,7 @@
 <div class="table-responsive"> 
 
 		<h3 class="panel-title" align="center">
-		    		Lista de todos los aparatos proximos a calibrar en el periodo de 15 dias a partir de la fecha actual.
+		    		Lista de todos los aparatos proximos a calibrar en el periodo de 8 dias a partir de la fecha actual.
 		  </h3>
 <br>
 

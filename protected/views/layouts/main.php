@@ -73,8 +73,6 @@
   $this->widget('zii.widgets.CMenu',array(
     'htmlOptions'=>array('class'=>"nav nav-sidebar"),
     'items'=>array(
-    
-      array('label'=>'Inicio', 'url'=>array('/site/index')),
       array('label'=>'Personas', 'url'=>array('/persona/index')),
       array('label'=>'Aparatos', 'url'=>array('/aparato/index')),
       array('label'=>'Areas', 'url'=>array('/area/admin'), 'visible'=>!Yii::app()->user->checkAccess('invitado')),

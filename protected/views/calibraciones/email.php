@@ -3,7 +3,7 @@
 <div class="table-responsive"> 
 
 		<h3 class="panel-title" align="center">
-		    		Lista de los aparatos proximos a calibrar, verifica equipo correspondiente y enviarlo 7 dias antes de la fecha a calibrar, Gracias!!!
+		    		Lista de los aparatos proximos a calibrar, verifica equipo correspondiente y enviarlo 3 dias antes de la fecha a calibrar, Gracias!!!
 		    		Si no se cuenta con el equipo generar acta, o el reemplazo del mismo, Por favor confirma de enterado.
 		  </h3>
 <br>

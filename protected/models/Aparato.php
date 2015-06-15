@@ -60,12 +60,13 @@ class Aparato extends CActiveRecord
 		// will receive user inputs.
 		return array(
 			array('no_serie, descripcion, marca, modelo, tipo, rpe, id_estatus', 'required', 'message'=> 'El campo : {attribute} debes ingresarlo '),
-			array('archivo', 'file','types'=>'jpg, gif, png', 'allowEmpty'=>true),
+			array('archivo', 'file','types'=>'jpg, gif, png', 'allowEmpty'=>true, 'on'=>'update'),
 			array('no_serie','unique', 'attributeName'=>'no_serie','className'=>'Aparato','allowEmpty'=>false,'message'=> 'El No. Serie que usted ingreso ya fue asignado a otro aparato.'),
 			array('id_estatus', 'numerical', 'integerOnly'=>true),
 			array('no_serie', 'length', 'max'=>50),
 			array('rpe', 'length', 'max'=>100),
 			array('observaciones, archivo, ultima_calib, prox_calib','safe'),
+			array('archivo', 'length', 'max'=>255, 'on'=>'insert,update'), 
 			// The following rule is used by search().
 			// Please remove those attributes that should not be searched.
 			array('no_serie, descripcion, marca, modelo, tipo, ultima_calib, prox_calib, observaciones, archivo, rpe, id_estatus', 'safe', 'on'=>'search'),

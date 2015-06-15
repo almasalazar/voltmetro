@@ -101,23 +101,39 @@ class AparatoController extends Controller
 	 * @param integer $id the ID of the model to be updated
 	 */
 	public function actionUpdate($id)
-	{
-		$model=$this->loadModel($id);
-
-		// Uncomment the following line if AJAX validation is needed
-		// $this->performAjaxValidation($model);
-
-		if(isset($_POST['Aparato']))
-		{
-			$model->attributes=$_POST['Aparato'];
-			if($model->save())
-				$this->redirect(array('view','id'=>$model->no_serie));
-		}
-
-		$this->render('update',array(
+{
+   		$model=new Aparato;
+		$path_picture = realpath( Yii::app( )->getBasePath( )."/../img/respaldos" )."/";//ruta final de la imagen
+ 
+    // Uncomment the following line if AJAX validation is needed
+    // $this->performAjaxValidation($model);
+ 
+ 		if(isset($_POST['Aparato']))
+        {            
+            $model->attributes=$_POST['Aparato'];
+             
+        ////////////////////////////////////////////////////////////////////
+        $rnd = rand(0,9999);  // generate random number between 0-9999
+        $uploadedFile=CUploadedFile::getInstance($model,'archivo');
+ 
+        if($model->save())
+            {
+                if(!empty($uploadedFile))  // checkeamos si el archivo subido esta seteado o no
+                {
+                    $uploadedFile->saveAs($path_picture.$fileName);
+                	$model->archivo= $fileName;
+                }
+                $this->redirect(array('admin'));
+            }
+        ////////////////////////////////////////////////////////////////////
+        if($model->save())
+				 $this->redirect(array('admin'));
+				//$this->redirect(array('view','id'=>$model->no_serie));
+   		 }
+		   $this->render('update',array(
 			'model'=>$model,
 		));
-	}
+}
 
 	/**
 	 * Deletes a particular model.
